@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Arena - Team Building Experience</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Full Screen Game Arena -->
+    <div class="arena-container">
+        <!-- Corner Zone Labels -->
+        <div class="zone-label zone-label-analyser">
+            <div class="zone-title">ANALYSER</div>
+            <div class="zone-subtitle">Logic • Data • Systems</div>
+        </div>
+
+        <div class="zone-label zone-label-player">
+            <div class="zone-title">PLAYER</div>
+            <div class="zone-subtitle">Energy • Social • Creative</div>
+        </div>
+
+        <div class="zone-label zone-label-keeper">
+            <div class="zone-title">KEEPER</div>
+            <div class="zone-subtitle">Support • Harmony • Team</div>
+        </div>
+
+        <div class="zone-label zone-label-carer">
+            <div class="zone-title">CARER</div>
+            <div class="zone-subtitle">Results • Action • Drive</div>
+        </div>
+
+        <!-- Main Game Canvas -->
+        <canvas id="gameCanvas"></canvas>
+
+        <!-- Version Control Switch -->
+        <div class="version-control">
+            <button id="version-toggle" class="version-btn">
+                📱 Mobile Mode
+            </button>
+        </div>
+
+        <!-- HUD Overlay -->
+        <div class="hud-overlay" id="hud-overlay">
+            <div class="hud-top">
+                <div class="game-title">PERSONALITY ARENA</div>
+                <div class="current-zone" id="current-zone">NEUTRAL ZONE</div>
+            </div>
+
+            <div class="hud-bottom">
+                <div class="controls-hint" id="controls-hint">
+                    <span class="key">WASD</span> Move • <span class="key">ENTER</span> Collect • <span class="key">CLICK</span> Navigate
+                </div>
+                <div class="color-collection" id="color-collection">
+                    <div class="collection-title">COLLECTED TRAITS</div>
+                    <div class="color-slots" id="color-slots">
+                        <div class="color-slot empty"></div>
+                        <div class="color-slot empty"></div>
+                        <div class="color-slot empty"></div>
+                        <div class="color-slot empty"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Particle Effects Container -->
+        <div class="particles-container" id="particles-container"></div>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="moveSound" preload="auto">
+        <source src="sounds/move.mp3" type="audio/mpeg">
+        <source src="sounds/move.wav" type="audio/wav">
+    </audio>
+    <audio id="collectSound" preload="auto">
+        <source src="sounds/collect.mp3" type="audio/mpeg">
+        <source src="sounds/collect.wav" type="audio/wav">
+    </audio>
+    <audio id="clearSound" preload="auto">
+        <source src="sounds/clear.mp3" type="audio/mpeg">
+        <source src="sounds/clear.wav" type="audio/wav">
+    </audio>
+    <audio id="ambientSound" preload="auto" loop>
+        <source src="sounds/ambient.mp3" type="audio/mpeg">
+        <source src="sounds/ambient.wav" type="audio/wav">
+    </audio>
+
+    <script src="scripts/canvas.js"></script>
+    <script src="scripts/player.js"></script>
+    <script src="scripts/game.js"></script>
+    <script src="scripts/audio.js"></script>
+    <script src="scripts/particles.js"></script>
+</body>
+</html>

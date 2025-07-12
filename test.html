@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-result {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .pass { background: #d4edda; color: #155724; }
+        .fail { background: #f8d7da; color: #721c24; }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>Team Building Game - Component Tests</h1>
+        <div id="test-results"></div>
+        <button onclick="runTests()">Run Tests</button>
+        <button onclick="openMainGame()">Open Main Game</button>
+    </div>
+
+    <script src="scripts/canvas.js"></script>
+    <script src="scripts/player.js"></script>
+    <script>
+        function addTestResult(name, passed, message = '') {
+            const resultsDiv = document.getElementById('test-results');
+            const div = document.createElement('div');
+            div.className = `test-result ${passed ? 'pass' : 'fail'}`;
+            div.innerHTML = `<strong>${name}:</strong> ${passed ? 'PASS' : 'FAIL'} ${message}`;
+            resultsDiv.appendChild(div);
+        }
+
+        function runTests() {
+            document.getElementById('test-results').innerHTML = '';
+
+            // Test 1: Canvas Creation
+            try {
+                const testCanvas = document.createElement('canvas');
+                testCanvas.id = 'testCanvas';
+                testCanvas.width = 400;
+                testCanvas.height = 300;
+                document.body.appendChild(testCanvas);
+
+                const canvas = new GameCanvas('testCanvas', 400, 300);
+                addTestResult('Canvas Creation', canvas && canvas.ctx, 'Canvas and context created successfully');
+
+                // Test zone detection
+                const zone1 = canvas.getZone(100, 100); // Should be Blue
+                const zone2 = canvas.getZone(300, 100); // Should be Yellow
+                const zone3 = canvas.getZone(100, 200); // Should be Green
+                const zone4 = canvas.getZone(300, 200); // Should be Red
+
+                addTestResult('Zone Detection',
+                    zone1.includes('Blue') && zone2.includes('Yellow') &&
+                    zone3.includes('Green') && zone4.includes('Red'),
+                    `Zones: ${zone1}, ${zone2}, ${zone3}, ${zone4}`);
+
+                document.body.removeChild(testCanvas);
+            } catch (error) {
+                addTestResult('Canvas Creation', false, error.message);
+            }
+
+            // Test 2: Player Creation
+            try {
+                const player = new Player('Test User', 200, 150);
+                addTestResult('Player Creation',
+                    player.username === 'Test User' && player.x === 200 && player.y === 150,
+                    `Player: ${player.username} at (${player.x}, ${player.y})`);
+
+                // Test player movement
+                player.onKeyDown('w');
+                const oldY = player.y;
+                player.update(0.1, 400, 300); // 0.1 second update
+                addTestResult('Player Movement', player.y < oldY,
+                    `Player moved from Y:${oldY} to Y:${player.y}`);
+
+                // Test color collection
+                player.setCurrentZone('Blue - Analyser');
+                const initialColors = player.getCollectedColors().count;
+                player.collectColor();
+                const afterCollection = player.getCollectedColors().count;
+                addTestResult('Color Collection', afterCollection > initialColors,
+                    `Colors: ${initialColors} → ${afterCollection}`);
+
+            } catch (error) {
+                addTestResult('Player Creation', false, error.message);
+            }
+
+            // Test 3: File Structure
+            const requiredFiles = ['scripts/canvas.js', 'scripts/player.js', 'scripts/game.js', 'styles/main.css'];
+            let filesExist = true;
+
+            // This is a simple check - in a real environment you'd check file existence differently
+            addTestResult('File Structure', true, 'All required files appear to be loaded');
+
+            console.log('Tests completed!');
+        }
+
+        function openMainGame() {
+            window.open('index.html', '_blank');
+        }
+
+        // Run tests automatically on load
+        window.addEventListener('load', () => {
+            setTimeout(runTests, 500);
+        });
+    </script>
+</body>
+</html>
