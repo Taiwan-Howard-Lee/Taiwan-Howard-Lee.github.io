@@ -2,7 +2,7 @@
 
 ## 🚀 Live Demo
 
-**🌐 Play Online**: https://taiwan-howard-lee.github.io/MVP_click_colour/
+**🌐 Play Online**: https://taiwan-howard-lee.github.io/
 
 ## 🎯 Quick Start for Boss Demo
 
