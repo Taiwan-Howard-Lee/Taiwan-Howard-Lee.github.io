@@ -151,10 +151,10 @@ Visit: **https://taiwan-howard-lee.github.io**
 ### 📊 Continuous Data Collection (NEW!)
 ```bash
 # Run continuous collection for 8 hours (maximizes API usage)
-python run_continuous_collection.py --hours 8
+python3 run_continuous_collection.py --hours 8
 
 # Test mode (2 minutes)
-python test_continuous_collector.py
+python3 test_continuous_collector.py
 ```
 
 ### 🔌 Polygon.io API Integration

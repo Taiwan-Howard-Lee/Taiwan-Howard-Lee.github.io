@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Launcher for continuous data collection
-Usage: python run_continuous_collection.py --hours 4
+Usage: python3 run_continuous_collection.py --hours 4
 """
 
 import sys
