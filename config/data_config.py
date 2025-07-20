@@ -90,6 +90,31 @@ TRADING_ECONOMICS_CONFIG = {
     'cache_duration': 1800     # seconds (30 minutes)
 }
 
+# Polygon.io API Configuration
+POLYGON_CONFIG = {
+    'api_key': 'YpK43xQz3xo0hRVS2l6u8lqwJPSn_Tgf',
+    'base_url': 'https://api.polygon.io',
+    'rate_limit': 5,           # requests per minute (free tier)
+    'request_interval': 12,    # seconds between requests
+    'retry_attempts': 3,
+    'timeout': 30
+}
+
+# Continuous Collection Configuration
+CONTINUOUS_COLLECTION_CONFIG = {
+    'data_directory': 'data/continuous_collection',
+    'session_save_interval': 10,  # save every N requests
+    'default_collection_hours': 4,
+    'max_collection_hours': 24,
+    'priority_tickers': ['AAPL', 'SPY', 'QQQ', 'MSFT', 'GOOGL', 'TSLA', 'NVDA'],
+    'collection_strategy': {
+        'core_apple_data': 0.4,      # 40% of requests
+        'historical_data': 0.3,      # 30% of requests
+        'related_tickers': 0.2,      # 20% of requests
+        'general_news': 0.1          # 10% of requests
+    }
+}
+
 # Technical indicators configuration
 TECHNICAL_INDICATORS_CONFIG = {
     'moving_average_periods': [5, 10, 20, 50, 100, 200],

@@ -1,15 +1,16 @@
 # 🍎 Apple ML Trading System
 
-A comprehensive machine learning trading system for Apple (AAPL) stock with advanced features, risk management, and a user-friendly web dashboard.
+A comprehensive machine learning trading system for Apple (AAPL) stock with advanced features, dual-API data collection, technical analysis, and a professional web dashboard.
 
 ## 📋 Project Overview
 
 This project implements a complete ML-driven trading system that:
-- Collects and processes financial data from multiple sources
-- Generates 200+ technical and fundamental features
-- Uses ensemble ML models for price prediction
-- Implements advanced risk management
-- Provides a real-time web dashboard for monitoring
+- **Dual-API Data Collection**: Polygon.io (US market data) + Trading Economics (global economic data)
+- **Continuous Data Harvesting**: Maximizes API rate limits with intelligent 24/7 collection
+- **Advanced Technical Analysis**: RSI, MACD, Bollinger Bands, Stochastic Oscillator
+- **Real-time Dashboard**: Professional GitHub Pages interface with live data
+- **Cross-Data Validation**: Ensures data accuracy across multiple sources
+- **Comprehensive Storage**: JSON, CSV, and time-series database support
 
 ## 🏗️ Project Structure
 
@@ -140,7 +141,51 @@ The dashboard will be available at `http://localhost:8501`
 
 ## 📈 Usage Examples
 
-### Basic Data Collection
+### 🌐 Live Dashboard
+Visit: **https://taiwan-howard-lee.github.io**
+- Real-time Apple stock data from Polygon.io
+- Technical indicators (RSI, MACD, Bollinger Bands)
+- Global economic context from Trading Economics
+- Interactive charts and professional analysis
+
+### 📊 Continuous Data Collection (NEW!)
+```bash
+# Run continuous collection for 8 hours (maximizes API usage)
+python run_continuous_collection.py --hours 8
+
+# Test mode (2 minutes)
+python test_continuous_collector.py
+```
+
+### 🔌 Polygon.io API Integration
+```python
+from src.data_collection.polygon_collector import PolygonCollector
+
+polygon = PolygonCollector()
+# Get real-time Apple data
+aapl_data = polygon.get_market_summary('AAPL')
+print(f"Current AAPL price: ${aapl_data['current_data']['close']}")
+
+# Get historical data
+historical = polygon.get_aggregates('AAPL', days=30)
+print(f"Retrieved {len(historical)} days of OHLCV data")
+```
+
+### 🌍 Trading Economics API Integration
+```python
+from src.data_collection.trading_economics_collector import TradingEconomicsCollector
+
+te = TradingEconomicsCollector()
+# Get global economic indicators
+economic_data = te.get_market_summary()
+print(f"Economic indicators: {len(economic_data['economic_indicators'])}")
+
+# Get currency data
+currency_data = te.get_currency_data()
+print(f"Currency pairs: {len(currency_data)}")
+```
+
+### 📈 Basic Data Collection (Legacy)
 ```python
 from src.data_collection.apple_collector import AppleDataCollector
 
@@ -149,18 +194,13 @@ data = collector.fetch_daily_data(period="1y")
 print(f"Collected {len(data)} days of data")
 ```
 
-### Technical Indicators
+### 🔧 Technical Indicators
 ```python
 from src.feature_engineering.technical_indicators import TechnicalIndicators
 
 indicators = TechnicalIndicators(data)
 all_indicators = indicators.calculate_all_indicators()
 print(f"Generated {len(all_indicators.columns)} indicators")
-```
-
-### Dashboard Launch
-```bash
-streamlit run dashboard/app.py
 ```
 
 ## 🛠️ Development Workflow

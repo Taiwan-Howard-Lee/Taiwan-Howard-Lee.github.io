@@ -1,0 +1,3493 @@
+{
+  "metadata": {
+    "session_id": "20250720_140510",
+    "collection_start": "2025-07-20T14:05:10.297129",
+    "last_update": "2025-07-20T14:07:14.144749",
+    "total_requests_made": 9,
+    "data_summary": {
+      "ticker_details": 2,
+      "daily_data_points": 1,
+      "news_articles": 30,
+      "dividends": 10,
+      "economic_indicators": 135,
+      "currency_pairs": 4
+    }
+  },
+  "data": {
+    "ticker_details": {
+      "QQQ": {
+        "ticker": "QQQ",
+        "name": "Invesco QQQ Trust, Series 1",
+        "market": "stocks",
+        "locale": "us",
+        "primary_exchange": "XNAS",
+        "type": "ETF",
+        "active": true,
+        "currency_name": "usd",
+        "cik": "0001067839",
+        "composite_figi": "BBG000BSWKH7",
+        "share_class_figi": "BBG001S9GN63",
+        "ticker_root": "QQQ",
+        "list_date": "1999-03-10",
+        "share_class_shares_outstanding": 640450000,
+        "round_lot": 100
+      },
+      "AAPL": {
+        "ticker": "AAPL",
+        "name": "Apple Inc.",
+        "market": "stocks",
+        "locale": "us",
+        "primary_exchange": "XNAS",
+        "type": "CS",
+        "active": true,
+        "currency_name": "usd",
+        "cik": "0000320193",
+        "composite_figi": "BBG000B9XRY4",
+        "share_class_figi": "BBG001S5N8V8",
+        "market_cap": 3153849018160.0,
+        "phone_number": "(408) 996-1010",
+        "address": {
+          "address1": "ONE APPLE PARK WAY",
+          "city": "CUPERTINO",
+          "state": "CA",
+          "postal_code": "95014"
+        },
+        "description": "Apple is among the largest companies in the world, with a broad portfolio of hardware and software products targeted at consumers and businesses. Apple's iPhone makes up a majority of the firm sales, and Apple's other products like Mac, iPad, and Watch are designed around the iPhone as the focal point of an expansive software ecosystem. Apple has progressively worked to add new applications, like streaming video, subscription bundles, and augmented reality. The firm designs its own software and semiconductors while working with subcontractors like Foxconn and TSMC to build its products and chips. Slightly less than half of Apple's sales come directly through its flagship stores, with a majority of sales coming indirectly through partnerships and distribution.",
+        "sic_code": "3571",
+        "sic_description": "ELECTRONIC COMPUTERS",
+        "ticker_root": "AAPL",
+        "homepage_url": "https://www.apple.com",
+        "total_employees": 164000,
+        "list_date": "1980-12-12",
+        "branding": {
+          "logo_url": "https://api.polygon.io/v1/reference/company-branding/YXBwbGUuY29t/images/2025-04-04_logo.svg",
+          "icon_url": "https://api.polygon.io/v1/reference/company-branding/YXBwbGUuY29t/images/2025-04-04_icon.png"
+        },
+        "share_class_shares_outstanding": 14935826000,
+        "weighted_shares_outstanding": 14935826000,
+        "round_lot": 100
+      }
+    },
+    "daily_data": [
+      {
+        "T": "AAPL",
+        "v": 48974591.0,
+        "vw": 210.8567,
+        "o": 210.87,
+        "c": 211.18,
+        "h": 211.79,
+        "l": 209.7045,
+        "t": 1752868800000,
+        "n": 478858,
+        "date": "2025-07-19",
+        "ticker": "AAPL"
+      }
+    ],
+    "news_articles": [
+      {
+        "id": "7a4dbde13926f969e7a4ad60083be7eb5dfbef144cc8a2603fcda1f99a01de43",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "MP Materials Stock: Bull vs. Bear",
+        "author": "Lee Samaha And Scott Levine",
+        "published_utc": "2025-07-20T05:32:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/20/mp-materials-stock-bull-vs-bear/?source=iedfolrf0000001",
+        "tickers": [
+          "MP",
+          "AAPL"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825461/invesor-stares-at-screen-with-dollar-bags-and-questinon-marks.jpg",
+        "description": "MP Materials has seen a significant stock rise of over 270% in 2025, driven by a Department of Defense deal and an agreement with Apple in the rare earth materials sector. Analysts suggest potential execution risks but also highlight the company's competitive advantages in domestic rare earth production.",
+        "keywords": [
+          "rare earth metals",
+          "Department of Defense",
+          "Apple",
+          "investment",
+          "stock performance"
+        ],
+        "insights": [
+          {
+            "ticker": "MP",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Strong year-to-date performance, strategic government and corporate partnerships, unique position as fully integrated US rare earth materials producer"
+          },
+          {
+            "ticker": "AAPL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Mentioned as a strategic partner in rare earth materials supply chain, no specific performance details provided"
+          }
+        ],
+        "published_date": "2025-07-20",
+        "title_short": "MP Materials Stock: Bull vs. Bear"
+      },
+      {
+        "id": "ccbfbf72bf3a49069426deac9d032aec9aacf022cee4144d444641cc5da1e02f",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Could Apple Soon Lose Its Top Position in Warren Buffett's Portfolio?",
+        "author": "Ryan Vanzo",
+        "published_utc": "2025-07-20T05:23:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/20/apple-warren-buffett-berkshire-aapl-brk-buy/?source=iedfolrf0000001",
+        "tickers": [
+          "AAPL",
+          "BRK.A",
+          "BRK.B"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825336/gettyimages-2045262936-1201x633-65d4be6.jpg",
+        "description": "As Warren Buffett prepares to step down as Berkshire Hathaway's CEO by 2025, the company's significant Apple investment, initially driven by Ted Weschler and Todd Combs, may see strategic adjustments based on valuation rather than leadership change.",
+        "keywords": [
+          "Berkshire Hathaway",
+          "Apple",
+          "Warren Buffett",
+          "investment strategy",
+          "tech stocks"
+        ],
+        "insights": [
+          {
+            "ticker": "AAPL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "While Apple remains Berkshire's largest portfolio position, the company has been gradually reducing its stake due to valuation concerns and slower expected earnings growth"
+          },
+          {
+            "ticker": "BRK.A",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Preparing for leadership transition with a strategic approach to portfolio management, maintaining investment continuity through existing team members"
+          },
+          {
+            "ticker": "BRK.B",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Preparing for leadership transition with a strategic approach to portfolio management, maintaining investment continuity through existing team members"
+          }
+        ],
+        "published_date": "2025-07-20",
+        "title_short": "Could Apple Soon Lose Its Top Position in Warren Buffett's Portfolio?"
+      },
+      {
+        "id": "08b6200ccc0878b5e02f033ebb3de3fa352b5405e554c27f47e7caedd436bc3a",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Is Lucid Stock a Screaming Buy After Uber's $300 Million Robotaxi Bet?",
+        "author": "Adam Spatacco",
+        "published_utc": "2025-07-20T05:14:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/20/is-lucid-stock-a-screaming-buy-after-ubers-300-mil/?source=iedfolrf0000001",
+        "tickers": [
+          "UBER",
+          "LCID",
+          "TSLA"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825656/gettyimages-1356289055.jpg",
+        "description": "Uber is investing $300 million in Lucid to develop a fleet of 20,000 autonomous vehicles over six years, with Nuro providing the autonomous driving technology. Despite the partnership, the deal appears more like a PR move due to Lucid's inconsistent production and financial challenges.",
+        "keywords": [
+          "robotaxi",
+          "autonomous vehicles",
+          "electric vehicles",
+          "investment",
+          "partnership"
+        ],
+        "insights": [
+          {
+            "ticker": "UBER",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Pursuing strategic partnerships in autonomous vehicle market, but deal seems more tactical than transformative"
+          },
+          {
+            "ticker": "LCID",
+            "sentiment": "negative",
+            "sentiment_reasoning": "Inconsistent production, burning cash, uncertain roadmap, and limited autonomous vehicle development capabilities"
+          },
+          {
+            "ticker": "TSLA",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Viewed as technologically sophisticated competitor in autonomous vehicle space"
+          }
+        ],
+        "published_date": "2025-07-20",
+        "title_short": "Is Lucid Stock a Screaming Buy After Uber's $300 Million Robotaxi Bet?"
+      },
+      {
+        "id": "89bcd525d8562914c2061726fd1f27004943e6b26f622ee42c38a70b5bf3ea97",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Could Buying Lockheed Martin Stock Today Set You Up for Life?",
+        "author": "Lee Samaha",
+        "published_utc": "2025-07-20T05:05:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/20/could-buying-lockheed-martin-stock-today-set-you-u/?source=iedfolrf0000001",
+        "tickers": [
+          "LMT",
+          "BA",
+          "BApA",
+          "RTX"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825500/gettyimages-1190582403-1200x675-128554e.jpg",
+        "description": "Lockheed Martin faces execution challenges with its F-35 program, despite a positive medium-term outlook for defense spending. The company's stock valuation appears attractive, but concerns exist about future margin growth and contract performance.",
+        "keywords": [
+          "defense spending",
+          "F-35",
+          "military contracts",
+          "government procurement",
+          "aerospace"
+        ],
+        "insights": [
+          {
+            "ticker": "LMT",
+            "sentiment": "negative",
+            "sentiment_reasoning": "Execution issues with F-35 program, reduced procurement, mission-capability problems, loss of next-generation air dominance contract, and questions about future margin expansion"
+          },
+          {
+            "ticker": "BA",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Won the next-generation air dominance contract, potentially benefiting from Lockheed Martin's challenges"
+          },
+          {
+            "ticker": "BApA",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Won the next-generation air dominance contract, potentially benefiting from Lockheed Martin's challenges"
+          },
+          {
+            "ticker": "RTX",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Mentioned as facing similar margin pressures in defense contracting, but no specific negative or positive details provided"
+          }
+        ],
+        "published_date": "2025-07-20",
+        "title_short": "Could Buying Lockheed Martin Stock Today Set You Up for Life?"
+      },
+      {
+        "id": "9228170488bffc9ac314f9e809e89829ae67841b58a0e3f2169a2008419e6db0",
+        "publisher": {
+          "name": "GlobeNewswire Inc.",
+          "homepage_url": "https://www.globenewswire.com",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/globenewswire.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/globenewswire.ico"
+        },
+        "title": "AIXA Miner Launches AI-Powered Cloud Mining Ecosystem Amid Surge in Blockchain Adoption",
+        "author": "Arjun Lim",
+        "published_utc": "2025-07-20T00:30:00Z",
+        "article_url": "https://www.globenewswire.com/news-release/2025/07/20/3118295/0/en/AIXA-Miner-Launches-AI-Powered-Cloud-Mining-Ecosystem-Amid-Surge-in-Blockchain-Adoption.html",
+        "tickers": [
+          "AGRO"
+        ],
+        "image_url": "https://ml.globenewswire.com/Resource/Download/00d66718-8e42-45cf-9cf5-b2a11c197954",
+        "description": "AIXA Miner launches an advanced AI-powered cloud mining platform with Gemini 2.5 Pro and Deep Search technologies, focusing on efficiency, sustainability, and real-time market adaptation in cryptocurrency mining.",
+        "keywords": [
+          "AI mining",
+          "blockchain",
+          "cloud mining",
+          "cryptocurrency",
+          "green energy"
+        ],
+        "insights": [
+          {
+            "ticker": "AGRO",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Briefly mentioned in context of green energy blockchain project with no specific performance details"
+          }
+        ],
+        "published_date": "2025-07-20",
+        "title_short": "AIXA Miner Launches AI-Powered Cloud Mining Ecosystem Amid Surge in Blockchain Adoption"
+      },
+      {
+        "id": "9c07aa7efe38a02f55898a7d9b7a4c756bf8f6b775106541f58ff72d15cdf77b",
+        "publisher": {
+          "name": "GlobeNewswire Inc.",
+          "homepage_url": "https://www.globenewswire.com",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/globenewswire.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/globenewswire.ico"
+        },
+        "title": "FTRE DEADLINE ALERT: ROSEN, TOP RANKED GLOBAL COUNSEL, Encourages Fortrea Holdings, Inc. Investors to Secure Counsel Before Important August 1 Deadline in Securities Class Action \u2013 FTRE",
+        "author": "Rosen Law Firm",
+        "published_utc": "2025-07-19T23:05:00Z",
+        "article_url": "https://www.globenewswire.com/news-release/2025/07/19/3118293/673/en/FTRE-DEADLINE-ALERT-ROSEN-TOP-RANKED-GLOBAL-COUNSEL-Encourages-Fortrea-Holdings-Inc-Investors-to-Secure-Counsel-Before-Important-August-1-Deadline-in-Securities-Class-Action-FTRE.html",
+        "tickers": [
+          "FTRE"
+        ],
+        "image_url": "https://ml.globenewswire.com/Resource/Download/745335af-3a3a-4fb5-84c0-fdedc9adf092",
+        "description": "Rosen Law Firm alerts Fortrea Holdings investors about a securities class action lawsuit alleging false financial statements and misleading disclosures during the period of July 3, 2023 to February 28, 2025.",
+        "keywords": [
+          "securities lawsuit",
+          "class action",
+          "financial disclosure",
+          "investor rights"
+        ],
+        "insights": [
+          {
+            "ticker": "FTRE",
+            "sentiment": "negative",
+            "sentiment_reasoning": "The lawsuit alleges the company made false and misleading statements about revenue estimates, cost savings, earnings targets, and overall business prospects, which suggests potential financial misrepresentation"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "FTRE DEADLINE ALERT: ROSEN, TOP RANKED GLOBAL COUNSEL, Encourages Fortrea Holdings, Inc. Investor..."
+      },
+      {
+        "id": "a6a7bb2740d1f55756ac9b240b267a2d21ae750342b4fff5fe9c908811920014",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "The Sneaky Way General Motors Is Catching Tesla",
+        "author": "Daniel Miller",
+        "published_utc": "2025-07-19T22:32:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/the-sneaky-way-general-motors-is-catching-tesla/?source=iedfolrf0000001",
+        "tickers": [
+          "TSLA",
+          "GM"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825455/2024-chevrolet-equinox-ev-3rs-130.jpg",
+        "description": "General Motors' Chevrolet and Cadillac brands are making significant strides in the electric vehicle market, with impressive sales growth and market share expansion, potentially challenging Tesla's long-standing market leadership.",
+        "keywords": [
+          "electric vehicles",
+          "EV market",
+          "automotive sales",
+          "market share",
+          "Tesla competition"
+        ],
+        "insights": [
+          {
+            "ticker": "TSLA",
+            "sentiment": "negative",
+            "sentiment_reasoning": "Losing market share and experiencing customer migration to competitors like Cadillac"
+          },
+          {
+            "ticker": "GM",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Strong EV sales growth, expanding market share, successful luxury brand strategy with Cadillac"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "The Sneaky Way General Motors Is Catching Tesla"
+      },
+      {
+        "id": "2fabcfb81c4c2f1b134e28dc84b6886d124d1a48cf76ba2c64d4f8783bd19412",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "4 Reasons to Buy Interactive Brokers Stock Like There's No Tomorrow",
+        "author": "Courtney Carlsen",
+        "published_utc": "2025-07-19T22:23:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/4-reasons-to-buy-interactive-brokers-stock-like-th/?source=iedfolrf0000001",
+        "tickers": [
+          "IBKR"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825470/person-looks-at-stock-chart-on-phone-getty.jpg",
+        "description": "Interactive Brokers is a global electronic brokerage platform operating across 160 market centers in 36 countries, known for its highly automated, low-cost trading services and impressive profit margins.",
+        "keywords": [
+          "brokerage",
+          "investing",
+          "technology",
+          "global markets",
+          "automation"
+        ],
+        "insights": [
+          {
+            "ticker": "IBKR",
+            "sentiment": "positive",
+            "sentiment_reasoning": "The company demonstrates strong financial performance with 491% revenue growth since 2018, 74% pre-tax profit margin, global market presence, technological innovation, low-cost structure, and no long-term debt"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "4 Reasons to Buy Interactive Brokers Stock Like There's No Tomorrow"
+      },
+      {
+        "id": "386c6b723a71db76c49af10f8ca15f9593981c82dc5081ca6eb8ca3b413f5971",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Buy Microsoft Stock Now, or Wait for a Pullback?",
+        "author": "Daniel Sparks",
+        "published_utc": "2025-07-19T22:15:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/buy-microsoft-stock-now-or-wait-for-a-pullback/?source=iedfolrf0000001",
+        "tickers": [
+          "MSFT"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825706/msft-stock.jpg",
+        "description": "Microsoft demonstrates strong financial performance with double-digit revenue and profit growth, driven by cloud and AI services. However, the stock's high valuation and price-to-earnings ratio suggest potential overvaluation, leading to a cautious 'hold' recommendation.",
+        "keywords": [
+          "Microsoft",
+          "earnings",
+          "cloud computing",
+          "AI",
+          "stock valuation"
+        ],
+        "insights": [
+          {
+            "ticker": "MSFT",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Strong business performance with 13% revenue growth and impressive cloud/AI segment results, but high valuation (P/E ratio of 40) suggests potential overvaluation and limited near-term upside"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "Buy Microsoft Stock Now, or Wait for a Pullback?"
+      },
+      {
+        "id": "48a43278e6709477ed208b394080c491f02e155ad557cd6c17b3bfabed0da4bc",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Should You Buy This EV Metals Stock That's Up 576% This Year?",
+        "author": "Josh Cable",
+        "published_utc": "2025-07-19T22:14:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/should-you-buy-this-ev-metals-stock-thats-up-460-t/?source=iedfolrf0000001",
+        "tickers": [
+          "TMC",
+          "TMCWW"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/824545/gettyimages-525894241.jpg",
+        "description": "TMC aims to mine critical minerals from ocean floor polymetallic nodules in the Pacific, targeting metals essential for manufacturing, defense, and clean energy. Despite a 576% stock surge, the company faces significant regulatory, environmental, and commercial uncertainties.",
+        "keywords": [
+          "deep-sea mining",
+          "critical minerals",
+          "electric vehicles",
+          "ocean exploration",
+          "seabed mining"
+        ],
+        "insights": [
+          {
+            "ticker": "TMC",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "The company shows potential with innovative deep-sea mining concept, but faces substantial risks including no current revenue, unproven business model, regulatory uncertainties, and environmental concerns"
+          },
+          {
+            "ticker": "TMCWW",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "The company shows potential with innovative deep-sea mining concept, but faces substantial risks including no current revenue, unproven business model, regulatory uncertainties, and environmental concerns"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "Should You Buy This EV Metals Stock That's Up 576% This Year?"
+      },
+      {
+        "id": "845acaeee13a12ca7279032905057d278860466f2967735ffa8db8f505a4272e",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Meet the AI Stock That's Greatly Outperformed Every Member of the \"Magnificent Seven\" This Year and Billionaire Philippe Laffont is Buying Hand Over Fist",
+        "author": "Not Specified",
+        "published_utc": "2025-07-19T22:10:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/meet-the-ai-stock-thats-greatly-outperformed-every/?source=iedfolrf0000001",
+        "tickers": [
+          "CRWV",
+          "NVDA"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825602/gettyimages-171351254.jpg",
+        "description": "CoreWeave, an AI compute platform, has outperformed the Magnificent Seven stocks this year, with a 250% stock surge and 400% revenue growth. Billionaire Philippe Laffont has invested significantly in the company, attracted by its GPU rental services and AI workload expertise.",
+        "keywords": [
+          "AI",
+          "CoreWeave",
+          "Magnificent Seven",
+          "GPU",
+          "tech stocks",
+          "investment"
+        ],
+        "insights": [
+          {
+            "ticker": "CRWV",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Experienced massive revenue growth (400%), stock price surge (250%), and attracted investment from a prominent tech investor"
+          },
+          {
+            "ticker": "NVDA",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Provides GPUs for CoreWeave's AI platform and is mentioned as supporting the company"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "Meet the AI Stock That's Greatly Outperformed Every Member of the \"Magnificent Seven\" This Year a..."
+      },
+      {
+        "id": "b287c3fdc4188188a1e18d9095857bee83d7cb26153a6e2a587ca58326fc01b4",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "U.S. Bancorp Posts 14% Q2 EPS Growth",
+        "author": "Jesterai",
+        "published_utc": "2025-07-19T22:09:22Z",
+        "article_url": "https://www.fool.com/data-news/2025/07/19/us-bancorp-posts-14-q2-eps-growth/?source=iedfolrf0000001",
+        "tickers": [
+          "USB",
+          "USBpA",
+          "USBpH",
+          "USBpP",
+          "USBpQ",
+          "USBpR",
+          "USBpS"
+        ],
+        "image_url": "https://cdn.content.foolcdn.com/images/1umn9qeh/production/2e67fde4d458002cf59f26acf09dd58f97b62ce0-1024x1024.png",
+        "description": "U.S. Bancorp reported Q2 2025 earnings of $1.11 per share, beating analyst estimates. The bank showed positive year-over-year operating leverage, increased fee income, and maintained steady credit quality, with a focus on digital banking and operational efficiency.",
+        "keywords": [
+          "banking",
+          "earnings",
+          "financial services",
+          "digital transformation",
+          "fee income"
+        ],
+        "insights": [
+          {
+            "ticker": "USB",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Exceeded earnings expectations, demonstrated growth in fee-based income (+42% of revenue), maintained cost discipline, showed investment in digital technologies, and maintained strong capital ratios"
+          },
+          {
+            "ticker": "USBpA",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Exceeded earnings expectations, demonstrated growth in fee-based income (+42% of revenue), maintained cost discipline, showed investment in digital technologies, and maintained strong capital ratios"
+          },
+          {
+            "ticker": "USBpH",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Exceeded earnings expectations, demonstrated growth in fee-based income (+42% of revenue), maintained cost discipline, showed investment in digital technologies, and maintained strong capital ratios"
+          },
+          {
+            "ticker": "USBpP",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Exceeded earnings expectations, demonstrated growth in fee-based income (+42% of revenue), maintained cost discipline, showed investment in digital technologies, and maintained strong capital ratios"
+          },
+          {
+            "ticker": "USBpQ",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Exceeded earnings expectations, demonstrated growth in fee-based income (+42% of revenue), maintained cost discipline, showed investment in digital technologies, and maintained strong capital ratios"
+          },
+          {
+            "ticker": "USBpR",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Exceeded earnings expectations, demonstrated growth in fee-based income (+42% of revenue), maintained cost discipline, showed investment in digital technologies, and maintained strong capital ratios"
+          },
+          {
+            "ticker": "USBpS",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Exceeded earnings expectations, demonstrated growth in fee-based income (+42% of revenue), maintained cost discipline, showed investment in digital technologies, and maintained strong capital ratios"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "U.S. Bancorp Posts 14% Q2 EPS Growth"
+      },
+      {
+        "id": "3a59de144147c766cd129f6547f093994e469d2b1f06cc6c0efd36af20181950",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "If You Buy Amazon With $10,000 in 2025, Will You Become a Millionaire in 10 Years?",
+        "author": "Neil Patel",
+        "published_utc": "2025-07-19T22:05:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/buy-amazon-10000-2025-become-millionaire-10-years/?source=iedfolrf0000001",
+        "tickers": [
+          "AMZN"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/824998/sitting-in-chair-throwing-money-in-air.jpg",
+        "description": "Amazon remains a dominant technology company with strong growth potential across e-commerce, cloud computing, and digital advertising. While past astronomical returns are unlikely to repeat, the company still presents a compelling investment opportunity with projected significant operating income growth and a reasonable valuation.",
+        "keywords": [
+          "Amazon",
+          "AWS",
+          "technology",
+          "investment",
+          "e-commerce",
+          "cloud computing"
+        ],
+        "insights": [
+          {
+            "ticker": "AMZN",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Strong market position, multiple growth drivers, wide economic moat, efficient organizational strategy, projected 100% increase in operating income, and potential to outperform broader market"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "If You Buy Amazon With $10,000 in 2025, Will You Become a Millionaire in 10 Years?"
+      },
+      {
+        "id": "41ba15d43036f77cc4093b09458f5a35a308922d60f33718afc5f3d383183800",
+        "publisher": {
+          "name": "GlobeNewswire Inc.",
+          "homepage_url": "https://www.globenewswire.com",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/globenewswire.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/globenewswire.ico"
+        },
+        "title": "DV DEADLINE NOTICE: ROSEN, LEADING INVESTOR COUNSEL, Encourages DoubleVerify Holdings, Inc. Investors to Secure Counsel Before Important July 21 Deadline in Securities Class Action \u2013 DV",
+        "author": "Rosen Law Firm",
+        "published_utc": "2025-07-19T21:34:00Z",
+        "article_url": "https://www.globenewswire.com/news-release/2025/07/19/3118290/673/en/DV-DEADLINE-NOTICE-ROSEN-LEADING-INVESTOR-COUNSEL-Encourages-DoubleVerify-Holdings-Inc-Investors-to-Secure-Counsel-Before-Important-July-21-Deadline-in-Securities-Class-Action-DV.html",
+        "tickers": [
+          "DV",
+          "META",
+          "AMZN"
+        ],
+        "image_url": "https://ml.globenewswire.com/Resource/Download/745335af-3a3a-4fb5-84c0-fdedc9adf092",
+        "description": "Rosen Law Firm alerts DoubleVerify Holdings investors about a potential securities class action lawsuit alleging false statements and misleading disclosures during the period of November 10, 2023 to February 27, 2025.",
+        "keywords": [
+          "securities lawsuit",
+          "class action",
+          "investor rights",
+          "ad spending",
+          "platform competition"
+        ],
+        "insights": [
+          {
+            "ticker": "DV",
+            "sentiment": "negative",
+            "sentiment_reasoning": "The lawsuit alleges multiple issues including limited technological capabilities, challenges in monetizing services, potential overbilling, and false risk disclosures that negatively impacted investor confidence"
+          },
+          {
+            "ticker": "META",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Mentioned as a competitive platform in the context of ad spending shifts, without direct negative implications"
+          },
+          {
+            "ticker": "AMZN",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Referenced as another platform where DoubleVerify faced technological limitations, without specific negative allegations"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "DV DEADLINE NOTICE: ROSEN, LEADING INVESTOR COUNSEL, Encourages DoubleVerify Holdings, Inc. Inves..."
+      },
+      {
+        "id": "4a58f04168585248eb9eeb217710ddbd33693ecdd98b84fa36b9f6ce9be7a70e",
+        "publisher": {
+          "name": "GlobeNewswire Inc.",
+          "homepage_url": "https://www.globenewswire.com",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/globenewswire.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/globenewswire.ico"
+        },
+        "title": "ROSEN, LEADING TRIAL ATTORNEYS, Encourages Hims & Hers Health, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action \u2013 HIMS",
+        "author": "Rosen Law Firm",
+        "published_utc": "2025-07-19T21:19:00Z",
+        "article_url": "https://www.globenewswire.com/news-release/2025/07/19/3118287/673/en/ROSEN-LEADING-TRIAL-ATTORNEYS-Encourages-Hims-Hers-Health-Inc-Investors-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-HIMS.html",
+        "tickers": [
+          "HIMS",
+          "NVO"
+        ],
+        "image_url": "https://ml.globenewswire.com/Resource/Download/745335af-3a3a-4fb5-84c0-fdedc9adf092",
+        "description": "Rosen Law Firm is notifying investors of a securities class action lawsuit against Hims & Hers Health, Inc. for allegedly making false and misleading statements about its partnership with Novo Nordisk and weight-loss drug access during the period of April 29, 2025 to June 23, 2025.",
+        "keywords": [
+          "securities lawsuit",
+          "class action",
+          "pharmaceutical partnership",
+          "investor rights"
+        ],
+        "insights": [
+          {
+            "ticker": "HIMS",
+            "sentiment": "negative",
+            "sentiment_reasoning": "Facing a securities class action lawsuit alleging false statements about pharmaceutical partnership and product offerings, which suggests potential legal and financial risks"
+          },
+          {
+            "ticker": "NVO",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Mentioned in lawsuit context but no direct allegations of wrongdoing, merely referenced in partnership discussion"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "ROSEN, LEADING TRIAL ATTORNEYS, Encourages Hims & Hers Health, Inc. Investors to Secure Counsel B..."
+      },
+      {
+        "id": "5b916b906417aed1c6384352d37a1eca4c60d6da4a8a6bc4f0d2912b931980b6",
+        "publisher": {
+          "name": "GlobeNewswire Inc.",
+          "homepage_url": "https://www.globenewswire.com",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/globenewswire.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/globenewswire.ico"
+        },
+        "title": "RCAT DEADLINE ALERT: ROSEN, A HIGHLY RECOGNIZED LAW FIRM, Encourages Red Cat Holdings, Inc. Investors to Secure Counsel Before Important July 22 Deadline in Securities Class Action \u2013 RCAT",
+        "author": "Rosen Law Firm",
+        "published_utc": "2025-07-19T21:18:00Z",
+        "article_url": "https://www.globenewswire.com/news-release/2025/07/19/3118286/673/en/RCAT-DEADLINE-ALERT-ROSEN-A-HIGHLY-RECOGNIZED-LAW-FIRM-Encourages-Red-Cat-Holdings-Inc-Investors-to-Secure-Counsel-Before-Important-July-22-Deadline-in-Securities-Class-Action-RCAT.html",
+        "tickers": [
+          "RCAT"
+        ],
+        "image_url": "https://ml.globenewswire.com/Resource/Download/745335af-3a3a-4fb5-84c0-fdedc9adf092",
+        "description": "Rosen Law Firm alerts Red Cat Holdings investors about a securities class action lawsuit involving alleged false statements about production capacity and contract value during the period of March 18, 2022 to January 15, 2025.",
+        "keywords": [
+          "securities",
+          "class action",
+          "lawsuit",
+          "investor rights"
+        ],
+        "insights": [
+          {
+            "ticker": "RCAT",
+            "sentiment": "negative",
+            "sentiment_reasoning": "The lawsuit alleges the company made false and misleading statements about its production capacity and contract value, suggesting potential financial misrepresentation and potential investor damages"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "RCAT DEADLINE ALERT: ROSEN, A HIGHLY RECOGNIZED LAW FIRM, Encourages Red Cat Holdings, Inc. Inves..."
+      },
+      {
+        "id": "3aaa9f17b9bf700aa2f9f2c001c7e376a86dce55037e702e8d6849368533bae7",
+        "publisher": {
+          "name": "GlobeNewswire Inc.",
+          "homepage_url": "https://www.globenewswire.com",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/globenewswire.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/globenewswire.ico"
+        },
+        "title": "OGN DEADLINE NOTICE: ROSEN, A LONGSTANDING LAW FIRM, Encourages Organon & Co. Investors to Secure Counsel Before Important July 22 Deadline in Securities Class Action \u2013 OGN",
+        "author": "Rosen Law Firm",
+        "published_utc": "2025-07-19T20:45:00Z",
+        "article_url": "https://www.globenewswire.com/news-release/2025/07/19/3118282/673/en/OGN-DEADLINE-NOTICE-ROSEN-A-LONGSTANDING-LAW-FIRM-Encourages-Organon-Co-Investors-to-Secure-Counsel-Before-Important-July-22-Deadline-in-Securities-Class-Action-OGN.html",
+        "tickers": [
+          "OGN"
+        ],
+        "image_url": "https://ml.globenewswire.com/Resource/Download/745335af-3a3a-4fb5-84c0-fdedc9adf092",
+        "description": "Rosen Law Firm alerts Organon & Co. investors about a securities class action lawsuit alleging false statements regarding Nexplanon sales projections and financial metrics, with a July 22, 2025 lead plaintiff deadline.",
+        "keywords": [
+          "securities",
+          "class action",
+          "lawsuit",
+          "investor rights",
+          "financial disclosure"
+        ],
+        "insights": [
+          {
+            "ticker": "OGN",
+            "sentiment": "negative",
+            "sentiment_reasoning": "The lawsuit alleges the company made misleading statements about Nexplanon sales growth, potential milestone payments, dividend sustainability, debt leverage, and corporate debt ratings, suggesting significant financial misrepresentation"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "OGN DEADLINE NOTICE: ROSEN, A LONGSTANDING LAW FIRM, Encourages Organon & Co. Investors to Secure..."
+      },
+      {
+        "id": "3460b83885bafc0d62bf19130881507be82dcf5af9089cf38a750d88989f6250",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Could an Investment in SCHD Help Supplement Social Security Income in Retirement?",
+        "author": "James Brumley",
+        "published_utc": "2025-07-19T20:11:00Z",
+        "article_url": "https://www.fool.com/retirement/2025/07/19/could-an-investment-in-schd-help-supplement-social/?source=iedfolrf0000001",
+        "tickers": [
+          "SCHD",
+          "TXN",
+          "CVX",
+          "COP",
+          "MRK",
+          "PEP"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/824399/retired-woman-investing-laptop-401k-ira.jpg",
+        "description": "The Schwab U.S. Dividend Equity ETF offers retirees a potential income supplement with a 4% dividend yield, focusing on high-quality dividend stocks that provide steady income and lower market volatility.",
+        "keywords": [
+          "retirement",
+          "dividend",
+          "ETF",
+          "Social Security",
+          "income",
+          "value stocks"
+        ],
+        "insights": [
+          {
+            "ticker": "SCHD",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "While currently underperforming the S&P 500, the ETF offers stable dividend income and potential value in an uncertain market"
+          },
+          {
+            "ticker": "TXN",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Mentioned as a top holding in a high-quality dividend ETF"
+          },
+          {
+            "ticker": "CVX",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Mentioned as a top holding in a high-quality dividend ETF"
+          },
+          {
+            "ticker": "COP",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Mentioned as a top holding in a high-quality dividend ETF"
+          },
+          {
+            "ticker": "MRK",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Mentioned as a top holding in a high-quality dividend ETF"
+          },
+          {
+            "ticker": "PEP",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Mentioned as a top holding in a high-quality dividend ETF"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "Could an Investment in SCHD Help Supplement Social Security Income in Retirement?"
+      },
+      {
+        "id": "5e0ced61895574c140ba021492ba74b00213a5cbceeee5facd9117614c99f290",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Is Quantum Computing Stock a Buy for Less Than $20?",
+        "author": "Adam Spatacco",
+        "published_utc": "2025-07-19T19:30:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/is-quantum-computing-stock-a-buy-for-less-than-20/?source=iedfolrf0000001",
+        "tickers": [
+          "QUBT",
+          "NVDA"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825496/gettyimages-507269810.jpg",
+        "description": "The article critically examines Quantum Computing's stock, highlighting its astronomical valuation despite minimal revenue, suggesting the stock is trading more on AI and quantum computing narrative than fundamental financial metrics.",
+        "keywords": [
+          "quantum computing",
+          "AI",
+          "stock valuation",
+          "technology investment"
+        ],
+        "insights": [
+          {
+            "ticker": "QUBT",
+            "sentiment": "negative",
+            "sentiment_reasoning": "The stock has an extremely high price-to-sales ratio over 5,200, generates minimal revenue ($385,000 in 12 months), and appears to be trading purely on speculative technology narratives rather than solid financial performance"
+          },
+          {
+            "ticker": "NVDA",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "CEO Jensen Huang speaks positively about quantum computing, but the article does not directly analyze Nvidia's stock performance"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "Is Quantum Computing Stock a Buy for Less Than $20?"
+      },
+      {
+        "id": "4f7bdc1b946962e1485fbb1814d2195981f902c065dd75270efe5cf5eb89ac39",
+        "publisher": {
+          "name": "GlobeNewswire Inc.",
+          "homepage_url": "https://www.globenewswire.com",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/globenewswire.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/globenewswire.ico"
+        },
+        "title": "AIXA Miner, Cloud Mining Platform Emerges as Key Trend Amid 2025 Blockchain Infrastructure Investments",
+        "author": "Chae Woo Tan (Cto)",
+        "published_utc": "2025-07-19T19:30:00Z",
+        "article_url": "https://www.globenewswire.com/news-release/2025/07/19/3118278/0/en/AIXA-Miner-Cloud-Mining-Platform-Emerges-as-Key-Trend-Amid-2025-Blockchain-Infrastructure-Investments.html",
+        "tickers": [
+          "AGRO"
+        ],
+        "image_url": "https://ml.globenewswire.com/Resource/Download/8335f5bd-5cf8-4862-83af-dc13d3f7f1ae",
+        "description": "AIXA Miner, a cloud mining platform, is gaining traction by offering AI-powered, renewable energy-based blockchain mining solutions with enhanced security and performance optimization.",
+        "keywords": [
+          "cloud mining",
+          "blockchain",
+          "AI integration",
+          "renewable energy",
+          "cryptocurrency"
+        ],
+        "insights": [
+          {
+            "ticker": "AGRO",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Briefly mentioned in context of blockchain-enabled sustainability ventures with no specific details about performance"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "AIXA Miner, Cloud Mining Platform Emerges as Key Trend Amid 2025 Blockchain Infrastructure Invest..."
+      },
+      {
+        "id": "7a4dbde13926f969e7a4ad60083be7eb5dfbef144cc8a2603fcda1f99a01de43",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "MP Materials Stock: Bull vs. Bear",
+        "author": "Lee Samaha And Scott Levine",
+        "published_utc": "2025-07-20T05:32:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/20/mp-materials-stock-bull-vs-bear/?source=iedfolrf0000001",
+        "tickers": [
+          "MP",
+          "AAPL"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825461/invesor-stares-at-screen-with-dollar-bags-and-questinon-marks.jpg",
+        "description": "MP Materials has seen a significant stock rise of over 270% in 2025, driven by a Department of Defense deal and an agreement with Apple in the rare earth materials sector. Analysts suggest potential execution risks but also highlight the company's competitive advantages in domestic rare earth production.",
+        "keywords": [
+          "rare earth metals",
+          "Department of Defense",
+          "Apple",
+          "investment",
+          "stock performance"
+        ],
+        "insights": [
+          {
+            "ticker": "MP",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Strong year-to-date performance, strategic government and corporate partnerships, unique position as fully integrated US rare earth materials producer"
+          },
+          {
+            "ticker": "AAPL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Mentioned as a strategic partner in rare earth materials supply chain, no specific performance details provided"
+          }
+        ],
+        "published_date": "2025-07-20",
+        "title_short": "MP Materials Stock: Bull vs. Bear",
+        "ticker": "AAPL"
+      },
+      {
+        "id": "ccbfbf72bf3a49069426deac9d032aec9aacf022cee4144d444641cc5da1e02f",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Could Apple Soon Lose Its Top Position in Warren Buffett's Portfolio?",
+        "author": "Ryan Vanzo",
+        "published_utc": "2025-07-20T05:23:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/20/apple-warren-buffett-berkshire-aapl-brk-buy/?source=iedfolrf0000001",
+        "tickers": [
+          "AAPL",
+          "BRK.A",
+          "BRK.B"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825336/gettyimages-2045262936-1201x633-65d4be6.jpg",
+        "description": "As Warren Buffett prepares to step down as Berkshire Hathaway's CEO by 2025, the company's significant Apple investment, initially driven by Ted Weschler and Todd Combs, may see strategic adjustments based on valuation rather than leadership change.",
+        "keywords": [
+          "Berkshire Hathaway",
+          "Apple",
+          "Warren Buffett",
+          "investment strategy",
+          "tech stocks"
+        ],
+        "insights": [
+          {
+            "ticker": "AAPL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "While Apple remains Berkshire's largest portfolio position, the company has been gradually reducing its stake due to valuation concerns and slower expected earnings growth"
+          },
+          {
+            "ticker": "BRK.A",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Preparing for leadership transition with a strategic approach to portfolio management, maintaining investment continuity through existing team members"
+          },
+          {
+            "ticker": "BRK.B",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Preparing for leadership transition with a strategic approach to portfolio management, maintaining investment continuity through existing team members"
+          }
+        ],
+        "published_date": "2025-07-20",
+        "title_short": "Could Apple Soon Lose Its Top Position in Warren Buffett's Portfolio?",
+        "ticker": "AAPL"
+      },
+      {
+        "id": "097fa074574dbef57b6b0de4c97e3d7685464250c70d9e4207b671deb7c1140b",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Think It's Too Late to Buy This Leading Tech Stock? Here's the Biggest Reason Why There's Still Time",
+        "author": "Will Healy",
+        "published_utc": "2025-07-19T16:20:03Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/think-its-too-late-to-buy-this-leading-tech-stock/?source=iedfolrf0000001",
+        "tickers": [
+          "META",
+          "GOOG",
+          "GOOGL",
+          "AAPL"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825533/meta.jpg",
+        "description": "Despite Meta's massive user base and significant stock price increase, the company remains well-positioned for growth through its AI potential and competitive data advantages, with reasonable valuation and strong financial metrics.",
+        "keywords": [
+          "Meta",
+          "social media",
+          "artificial intelligence",
+          "advertising",
+          "stock valuation"
+        ],
+        "insights": [
+          {
+            "ticker": "META",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Strong user growth (6% increase), expanding AI capabilities, substantial free cash flow ($50B), reasonable P/E ratio, and strategic capital expenditure plans for AI development"
+          },
+          {
+            "ticker": "GOOG",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Mentioned as having a lower P/E ratio, but no specific growth or performance details provided"
+          },
+          {
+            "ticker": "GOOGL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Mentioned as having a lower P/E ratio, but no specific growth or performance details provided"
+          },
+          {
+            "ticker": "AAPL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Briefly mentioned in context of data collection capabilities, with no specific performance analysis"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "Think It's Too Late to Buy This Leading Tech Stock? Here's the Biggest Reason Why There's Still Time",
+        "ticker": "AAPL"
+      },
+      {
+        "id": "7d17f38d6fb540511c12150c89168a1a17d9c10623e924386f874b493f1eb9de",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Forget About Share Buybacks and Dividends: Here Is How Apple Can Win Growth Investors Back",
+        "author": "Adam Spatacco",
+        "published_utc": "2025-07-19T12:15:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/forget-about-share-buybacks-and-dividends-here-is/?source=iedfolrf0000001",
+        "tickers": [
+          "AAPL"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/824990/mergers-and-acquisitions-graphic-calculator-9.jpg",
+        "description": "Apple is struggling to maintain investor excitement in the AI era, relying on share buybacks and dividends. The article suggests potential AI acquisitions like Perplexity or exploring robotics to reignite growth and innovation.",
+        "keywords": [
+          "Apple",
+          "AI",
+          "innovation",
+          "investment",
+          "technology"
+        ],
+        "insights": [
+          {
+            "ticker": "AAPL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stagnating innovation, late to AI market, but potential for strategic acquisitions and growth"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "Forget About Share Buybacks and Dividends: Here Is How Apple Can Win Growth Investors Back",
+        "ticker": "AAPL"
+      },
+      {
+        "id": "dff08d88ff291262e96bb8b3c7324475025f328ddc43bf785ea13e59349db5f1",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Meta CEO Mark Zuckerberg Just Assembled a \"Super Intelligence Avengers\" Team That Could Totally Change the Game in Artificial Intelligence (AI). Here's Why That Makes Meta a \"Must-Own\" AI Stock.",
+        "author": "Billy Duberstein",
+        "published_utc": "2025-07-19T10:17:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/meta-ceo-mark-zuckerberg-just-assembled-a-super-in/?source=iedfolrf0000001",
+        "tickers": [
+          "META",
+          "MSFT",
+          "AAPL"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825560/gettyimages-2084953049.jpg",
+        "description": "Meta CEO Mark Zuckerberg is investing heavily in AI talent and infrastructure, assembling a 'Super Intelligence Team' of about 50 researchers and planning massive AI superclusters to pursue 'super intelligence' within the next few years.",
+        "keywords": [
+          "AI",
+          "artificial intelligence",
+          "super intelligence",
+          "tech talent",
+          "investment"
+        ],
+        "insights": [
+          {
+            "ticker": "META",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Aggressive investment in AI talent, infrastructure, and ambitious goal of achieving 'super intelligence' with a strategic approach to recruiting top researchers"
+          },
+          {
+            "ticker": "MSFT",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Part of the competitive AI landscape, but not the primary focus of this article's developments"
+          },
+          {
+            "ticker": "AAPL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Lost an AI talent (Ruoming Pang) to Meta, but no significant strategic implications discussed"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "Meta CEO Mark Zuckerberg Just Assembled a \"Super Intelligence Avengers\" Team That Could Totally C...",
+        "ticker": "AAPL"
+      },
+      {
+        "id": "f9f7faae5379d544b3a035470295afc82a8609778f3db6b0aaab5d702913d96d",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Will Nvidia Reach a $5 Trillion Market Cap in 2025?",
+        "author": "Adria Cimino",
+        "published_utc": "2025-07-19T08:10:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/will-nvidia-reach-5-trillion-in-2025/?source=iedfolrf0000001",
+        "tickers": [
+          "NVDA",
+          "AAPL",
+          "MSFT"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825599/gettyimages-two-people_smile_computer.jpg",
+        "description": "Nvidia has become the world's most valuable company by reaching a $4 trillion market capitalization, driven by its dominance in AI chip technology. The company's rapid growth and strong AI product offerings suggest potential to reach $5 trillion in market value in 2025.",
+        "keywords": [
+          "Nvidia",
+          "AI",
+          "market capitalization",
+          "technology",
+          "GPUs"
+        ],
+        "insights": [
+          {
+            "ticker": "NVDA",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Achieved unprecedented $4 trillion market cap, experiencing triple-digit revenue growth, leading in AI chip technology, and showing strong potential for continued expansion"
+          },
+          {
+            "ticker": "AAPL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Mentioned as previously leading in market cap, now surpassed by Nvidia in the AI technology race"
+          },
+          {
+            "ticker": "MSFT",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Also mentioned as previously leading in market cap, now surpassed by Nvidia in the AI technology race"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "Will Nvidia Reach a $5 Trillion Market Cap in 2025?",
+        "ticker": "AAPL"
+      },
+      {
+        "id": "895288999c5ceb8f35ff0417432f82ec0477940ab7e0212c7f6eddb325875bbc",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Warren Buffett Sold Apple and Bank of America in Favor of This Boring Investment Offering a 4.3% Yield",
+        "author": "Not Specified",
+        "published_utc": "2025-07-19T08:05:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/warren-buffett-sold-apple-and-bank-of-america-in-f/?source=iedfolrf0000001",
+        "tickers": [
+          "AAPL",
+          "BAC",
+          "BACpB",
+          "BACpE",
+          "BACpK",
+          "BACpL",
+          "BACpM",
+          "BACpN",
+          "BACpO",
+          "BACpP",
+          "BACpQ",
+          "BACpS",
+          "BMLpG",
+          "BMLpH",
+          "BMLpJ",
+          "BMLpL",
+          "MERpK"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/824986/buffett17-tmf.jpg",
+        "description": "Warren Buffett's Berkshire Hathaway has sold significant stakes in Apple and Bank of America, reducing holdings by 67% and 39% respectively, and redirecting funds into U.S. Treasury bills offering a 4.3% yield due to high stock market valuations.",
+        "keywords": [
+          "Warren Buffett",
+          "Berkshire Hathaway",
+          "stock sales",
+          "Treasury bills",
+          "investment strategy"
+        ],
+        "insights": [
+          {
+            "ticker": "AAPL",
+            "sentiment": "negative",
+            "sentiment_reasoning": "Buffett reduced stake by 67% due to high P/E ratio (over 30) and slow earnings growth, indicating overvaluation"
+          },
+          {
+            "ticker": "BAC",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BACpB",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BACpE",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BACpK",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BACpL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BACpM",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BACpN",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BACpO",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BACpP",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BACpQ",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BACpS",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BMLpG",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BMLpH",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BMLpJ",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "BMLpL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          },
+          {
+            "ticker": "MERpK",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "Warren Buffett Sold Apple and Bank of America in Favor of This Boring Investment Offering a 4.3% ...",
+        "ticker": "AAPL"
+      },
+      {
+        "id": "f34782a8b99bcd971320e3c3b99b88d4c45b86a95bde0dcf28f64caf943cf20a",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "1 Unstoppable Stock Has Quietly Outperformed Every Single Member of the \"Magnificent Seven,\" and It's Still a Buy Right Now, According to Wall Street.",
+        "author": "Not Specified",
+        "published_utc": "2025-07-19T08:04:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/19/1-unstoppable-stock-has-quietly-outperformed-every/?source=iedfolrf0000001",
+        "tickers": [
+          "NFLX",
+          "META",
+          "AAPL",
+          "AMZN",
+          "GOOG",
+          "GOOGL",
+          "MSFT",
+          "NVDA",
+          "TSLA"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/825707/a-couple-sitting-on-a-loveseat-laughing-while-watching-television.jpg",
+        "description": "Netflix has outperformed the 'Magnificent Seven' tech stocks, delivering a 94% return over the past year. The company reported strong Q2 results, beating expectations with 13% revenue growth and 47% earnings per share increase, driven by subscriber gains and digital ad revenue.",
+        "keywords": [
+          "Netflix",
+          "streaming",
+          "AI",
+          "tech stocks",
+          "earnings",
+          "subscriber growth"
+        ],
+        "insights": [
+          {
+            "ticker": "NFLX",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Exceeded financial expectations, strong subscriber growth, expanding ad revenue, increased guidance, and positive analyst ratings"
+          },
+          {
+            "ticker": "META",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+          },
+          {
+            "ticker": "AAPL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+          },
+          {
+            "ticker": "AMZN",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+          },
+          {
+            "ticker": "GOOG",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+          },
+          {
+            "ticker": "GOOGL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+          },
+          {
+            "ticker": "MSFT",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+          },
+          {
+            "ticker": "NVDA",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+          },
+          {
+            "ticker": "TSLA",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "1 Unstoppable Stock Has Quietly Outperformed Every Single Member of the \"Magnificent Seven,\" and ...",
+        "ticker": "AAPL"
+      },
+      {
+        "id": "376f20e6fa356aa9d6a2d0b21a50572371cb8d8def851bd80b69a4ed2e7863a7",
+        "publisher": {
+          "name": "Investing.com",
+          "homepage_url": "https://www.investing.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/investing.png",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/investing.ico"
+        },
+        "title": "Investing.com Shows You How to Spot High-Conviction Setups During Earnings Season",
+        "author": "Investing.Com",
+        "published_utc": "2025-07-19T05:42:00Z",
+        "article_url": "https://www.investing.com/analysis/investingcom-shows-you-how-to-spot-highconviction-setups-during-earnings-season-200663949",
+        "tickers": [
+          "AAPL",
+          "TSLA",
+          "NFLX",
+          "NVDA"
+        ],
+        "amp_url": "https://m.investing.com/analysis/investingcom-shows-you-how-to-spot-highconviction-setups-during-earnings-season-200663949?ampMode=1",
+        "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+        "description": "Investing.com provides guidance on identifying promising investment opportunities during the current earnings season, highlighting tools and strategies for investors to analyze potential stock performance.",
+        "keywords": [
+          "earnings season",
+          "investment strategy",
+          "stock analysis",
+          "market opportunities"
+        ],
+        "insights": [
+          {
+            "ticker": "AAPL",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Mentioned in market movers list with a slight positive price movement (+0.55%)"
+          },
+          {
+            "ticker": "TSLA",
+            "sentiment": "positive",
+            "sentiment_reasoning": "Showed significant price gain of 3.21% and high trading volume"
+          },
+          {
+            "ticker": "NFLX",
+            "sentiment": "negative",
+            "sentiment_reasoning": "Experienced a notable price drop of 5.10%"
+          },
+          {
+            "ticker": "NVDA",
+            "sentiment": "neutral",
+            "sentiment_reasoning": "Slight price decrease of 0.34% with high trading volume"
+          }
+        ],
+        "published_date": "2025-07-19",
+        "title_short": "Investing.com Shows You How to Spot High-Conviction Setups During Earnings Season",
+        "ticker": "AAPL"
+      },
+      {
+        "id": "2f6ef458803652a368d84f14b9800a930dce170f97afeb12a9175fb5d5920e60",
+        "publisher": {
+          "name": "The Motley Fool",
+          "homepage_url": "https://www.fool.com/",
+          "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+          "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+        },
+        "title": "Should You Sell Apple's Stock Before July 31?",
+        "author": "Keithen Drury",
+        "published_utc": "2025-07-18T21:18:00Z",
+        "article_url": "https://www.fool.com/investing/2025/07/18/should-you-sell-apples-stock-before-july-31/?source=iedfolrf0000001",
+        "tickers": [
+          "AAPL"
+        ],
+        "image_url": "https://g.foolcdn.com/editorial/images/824849/person-in-a-white-shirt-wondering-about-a-question.jpg",
+        "description": "Apple's stock appears stagnant with limited innovation, slow growth, and potential challenges in its upcoming earnings report, suggesting investors might want to reconsider their position.",
+        "keywords": [
+          "Apple",
+          "earnings",
+          "technology",
+          "stock performance",
+          "AI",
+          "innovation"
+        ],
+        "insights": [
+          {
+            "ticker": "AAPL",
+            "sentiment": "negative",
+            "sentiment_reasoning": "Stock is down 15% year-to-date, lacks significant innovation, shows slow earnings growth, trades at a premium valuation, and faces potential margin pressures from tariffs. Limited product innovation and AI development further contribute to negative outlook."
+          }
+        ],
+        "published_date": "2025-07-18",
+        "title_short": "Should You Sell Apple's Stock Before July 31?",
+        "ticker": "AAPL"
+      }
+    ],
+    "dividends": [
+      {
+        "cash_amount": 0.26,
+        "currency": "USD",
+        "declaration_date": "2025-05-01",
+        "dividend_type": "CD",
+        "ex_dividend_date": "2025-05-12",
+        "frequency": 4,
+        "id": "E508c0a63699951e57b51c4cf746a7f3b4101c39232372228d68585046c0b4a67",
+        "pay_date": "2025-05-15",
+        "record_date": "2025-05-12",
+        "ticker": "AAPL"
+      },
+      {
+        "cash_amount": 0.25,
+        "currency": "USD",
+        "declaration_date": "2025-01-30",
+        "dividend_type": "CD",
+        "ex_dividend_date": "2025-02-10",
+        "frequency": 4,
+        "id": "Ecc0fc5473a63ec503030d7aff356e1c4f467301d08791ac000e10ef831b58a71",
+        "pay_date": "2025-02-13",
+        "record_date": "2025-02-10",
+        "ticker": "AAPL"
+      },
+      {
+        "cash_amount": 0.25,
+        "currency": "USD",
+        "declaration_date": "2024-10-31",
+        "dividend_type": "CD",
+        "ex_dividend_date": "2024-11-08",
+        "frequency": 4,
+        "id": "E416a068758f85277196150c3eb73a3331d04698856c141e883ad95710dd0b189",
+        "pay_date": "2024-11-14",
+        "record_date": "2024-11-11",
+        "ticker": "AAPL"
+      },
+      {
+        "cash_amount": 0.25,
+        "currency": "USD",
+        "declaration_date": "2024-08-01",
+        "dividend_type": "CD",
+        "ex_dividend_date": "2024-08-12",
+        "frequency": 4,
+        "id": "E47fd49ef418c51f7d2415b66030f735adaccf72d85f6b86eea12f96aa1d1c535",
+        "pay_date": "2024-08-15",
+        "record_date": "2024-08-12",
+        "ticker": "AAPL"
+      },
+      {
+        "cash_amount": 0.25,
+        "currency": "USD",
+        "declaration_date": "2024-05-02",
+        "dividend_type": "CD",
+        "ex_dividend_date": "2024-05-10",
+        "frequency": 4,
+        "id": "E495b1d61b65ddc1eb3abd60eaacf33c1313433df83f5fd63f1971612ff684f79",
+        "pay_date": "2024-05-16",
+        "record_date": "2024-05-13",
+        "ticker": "AAPL"
+      },
+      {
+        "cash_amount": 0.24,
+        "currency": "USD",
+        "declaration_date": "2024-02-01",
+        "dividend_type": "CD",
+        "ex_dividend_date": "2024-02-09",
+        "frequency": 4,
+        "id": "E8e4edd3b27095b7e918c127648feb5c4c256b8650b7f5c36d8ac260d8ec08086",
+        "pay_date": "2024-02-15",
+        "record_date": "2024-02-12",
+        "ticker": "AAPL"
+      },
+      {
+        "cash_amount": 0.24,
+        "currency": "USD",
+        "declaration_date": "2023-11-02",
+        "dividend_type": "CD",
+        "ex_dividend_date": "2023-11-10",
+        "frequency": 4,
+        "id": "E4851913b4ca383b7bf0ed6a597e4fc12d8b88c92a152b9c918f4354c8572cd8d",
+        "pay_date": "2023-11-16",
+        "record_date": "2023-11-13",
+        "ticker": "AAPL"
+      },
+      {
+        "cash_amount": 0.24,
+        "currency": "USD",
+        "declaration_date": "2023-08-03",
+        "dividend_type": "CD",
+        "ex_dividend_date": "2023-08-11",
+        "frequency": 4,
+        "id": "Ed2b8a80dc190d1c53e410f566b3e72b06f3c2b640730b476bebe4fcb29ccaa6c",
+        "pay_date": "2023-08-17",
+        "record_date": "2023-08-14",
+        "ticker": "AAPL"
+      },
+      {
+        "cash_amount": 0.24,
+        "currency": "USD",
+        "declaration_date": "2023-05-04",
+        "dividend_type": "CD",
+        "ex_dividend_date": "2023-05-12",
+        "frequency": 4,
+        "id": "E40523b0f8cdfef5de834c3d3e27d3c40267dacba8d726d6938a0a322fdcfe880",
+        "pay_date": "2023-05-18",
+        "record_date": "2023-05-15",
+        "ticker": "AAPL"
+      },
+      {
+        "cash_amount": 0.23,
+        "currency": "USD",
+        "declaration_date": "2023-02-02",
+        "dividend_type": "CD",
+        "ex_dividend_date": "2023-02-10",
+        "frequency": 4,
+        "id": "E9d8d2564c86b61f9713e2fd11fd4f429f8aebad02002d7dd405deddce672d645",
+        "pay_date": "2023-02-16",
+        "record_date": "2023-02-13",
+        "ticker": "AAPL"
+      }
+    ],
+    "economic_indicators": [
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "Thousand Units",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOAUTEXP",
+        "HistoricalDataSymbol": "MEXICOAUTEXP",
+        "Category": "Auto Exports",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "USD Million",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MXTBBAL",
+        "HistoricalDataSymbol": "MXTBBAL             ",
+        "Category": "Balance of Trade",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "http://www.banxico.org.mx",
+        "Unit": "MXN Million",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOBANBALSHE",
+        "HistoricalDataSymbol": "MEXICOBANBALSHE",
+        "Category": "Banks Balance Sheet",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://en.www.inegi.org.mx/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOBC",
+        "HistoricalDataSymbol": "MexicoBC",
+        "Category": "Business Confidence",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCAPUTI",
+        "HistoricalDataSymbol": "MEXICOCAPUTI",
+        "Category": "Capacity Utilization",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "USD Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCAPFLO",
+        "HistoricalDataSymbol": "MEXICOCAPFLO",
+        "Category": "Capital Flows",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx",
+        "Unit": "Thousand Units",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCARPRO",
+        "HistoricalDataSymbol": "MEXICOCARPRO",
+        "Category": "Car Production",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "",
+        "Unit": "Units",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCARREG",
+        "HistoricalDataSymbol": "MEXICOCARREG",
+        "Category": "Car Registrations",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "MXN Thousand",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCENBANBALSHE",
+        "HistoricalDataSymbol": "MEXICOCENBANBALSHE",
+        "Category": "Central Bank Balance Sheet",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCHAININV",
+        "HistoricalDataSymbol": "MEXICOCHAININV",
+        "Category": "Changes in Inventories",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2022-12-31 00:00:00",
+        "Source": "Emissions Database for Global Atmospheric Research",
+        "SourceURL": "https://edgar.jrc.ec.europa.eu/",
+        "Unit": "KT",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEX.EN.ATM.CO2E.KT",
+        "HistoricalDataSymbol": "MEX.EN.ATM.CO2E.KT",
+        "Category": "CO2 Emissions",
+        "CategoryGroup": "Climate"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "OECD",
+        "SourceURL": "https://stats.oecd.org/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXCLI",
+        "HistoricalDataSymbol": "MEXCLI",
+        "Category": "Composite Leading Indicator",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCONOUT",
+        "HistoricalDataSymbol": "MEXICOCONOUT",
+        "Category": "Construction Output",
+        "CategoryGroup": "Housing"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MXCFCONF",
+        "HistoricalDataSymbol": "MXCFCONF            ",
+        "Category": "Consumer Confidence",
+        "CategoryGroup": "Consumer"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCONCRE",
+        "HistoricalDataSymbol": "MEXICOCONCRE",
+        "Category": "Consumer Credit",
+        "CategoryGroup": "Consumer"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCONPRIINDCPI",
+        "HistoricalDataSymbol": "MEXICOCONPRIINDCPI",
+        "Category": "Consumer Price Index CPI",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCONSPE",
+        "HistoricalDataSymbol": "MEXICOCONSPE",
+        "Category": "Consumer Spending",
+        "CategoryGroup": "Consumer"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCORCONPRI",
+        "HistoricalDataSymbol": "MEXICOCORCONPRI",
+        "Category": "Core Consumer Prices",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXCORECPIRATE",
+        "HistoricalDataSymbol": "MEXCORECPIRATE",
+        "Category": "Core Inflation Rate",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXCIRM",
+        "HistoricalDataSymbol": "MEXCIRM",
+        "Category": "Core Inflation Rate MoM",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-12-31 00:00:00",
+        "Source": "Servicio de Administraci\u00f3n Tributaria, SHCP",
+        "SourceURL": "",
+        "Unit": "percent",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXCORPTAX",
+        "HistoricalDataSymbol": "MEXCORPTAX",
+        "Category": "Corporate Tax Rate",
+        "CategoryGroup": "Taxes"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Transparency International",
+        "SourceURL": "",
+        "Unit": "Points",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MexicoCorInd",
+        "HistoricalDataSymbol": "MexicoCorInd",
+        "Category": "Corruption Index",
+        "CategoryGroup": "Government"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Transparency International",
+        "SourceURL": "",
+        "Unit": "",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MexicoCorRan",
+        "HistoricalDataSymbol": "MexicoCorRan",
+        "Category": "Corruption Rank",
+        "CategoryGroup": "Government"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCPIHOUUTI",
+        "HistoricalDataSymbol": "MEXICOCPIHOUUTI",
+        "Category": "CPI Housing Utilities",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCPITRA",
+        "HistoricalDataSymbol": "MEXICOCPITRA",
+        "Category": "CPI Transportation",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-07-19 00:00:00",
+        "Source": "",
+        "SourceURL": "",
+        "Unit": "",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "RATMEXICO",
+        "HistoricalDataSymbol": "",
+        "Category": "Credit Rating",
+        "CategoryGroup": "Government"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "U.S. Energy Information Administration",
+        "SourceURL": "https://www.eia.gov/",
+        "Unit": "BBL/D/1K",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCRUOILPRO",
+        "HistoricalDataSymbol": "MEXICOCRUOILPRO",
+        "Category": "Crude Oil Production",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Baker Hughes Company",
+        "SourceURL": "https://www.bakerhughes.com/",
+        "Unit": "",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOCRUOILRIG",
+        "HistoricalDataSymbol": "MEXICOCRUOILRIG",
+        "Category": "Crude Oil Rigs",
+        "CategoryGroup": "Energy"
+      },
+      {
+        "LatestValueDate": "2025-07-18 00:00:00",
+        "Source": "OTC Interbank",
+        "SourceURL": "",
+        "Unit": "",
+        "Frequency": "Daily",
+        "Country": "Mexico",
+        "Ticker": "MXN",
+        "HistoricalDataSymbol": "USDMXN",
+        "Category": "Currency",
+        "CategoryGroup": "Markets"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "http://www.banxico.org.mx/",
+        "Unit": "USD Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "OEMXB039",
+        "HistoricalDataSymbol": "OEMXB039            ",
+        "Category": "Current Account",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "http://www.banxico.org.mx/",
+        "Unit": "percent of GDP",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXCA2GDP",
+        "HistoricalDataSymbol": "MEXCA2GDP           ",
+        "Category": "Current Account to GDP",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "IMF",
+        "SourceURL": "https://www.imf.org",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXFRINRDPST",
+        "HistoricalDataSymbol": "MEXFRINRDPST",
+        "Category": "Deposit Interest Rate",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOEMPPER",
+        "HistoricalDataSymbol": "MEXICOEMPPER",
+        "Category": "Employed Persons",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOEMPRAT",
+        "HistoricalDataSymbol": "MEXICOEMPRAT",
+        "Category": "Employment Rate",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "http://www.banxico.org.mx/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOEXPPRI",
+        "HistoricalDataSymbol": "MEXICOEXPPRI",
+        "Category": "Export Prices",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "USD Million",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MXTBBEXP",
+        "HistoricalDataSymbol": "MXTBBEXP            ",
+        "Category": "Exports",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "USD Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOEXTDEB",
+        "HistoricalDataSymbol": "MEXICOEXTDEB",
+        "Category": "External Debt",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2023-12-31 00:00:00",
+        "Source": "Inter-American Development Bank",
+        "SourceURL": "https://www.iadb.org/en",
+        "Unit": "percent of GDP",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXEDTG",
+        "HistoricalDataSymbol": "MEXEDTG",
+        "Category": "External Debt to GDP",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Secretar\u00eda de Hacienda Y Cr\u00e9dito P\u00fablico",
+        "SourceURL": "https://www.gob.mx/hacienda",
+        "Unit": "MXN Million",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOFISEXP",
+        "HistoricalDataSymbol": "MEXICOFISEXP",
+        "Category": "Fiscal Expenditure",
+        "CategoryGroup": "Government"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOFOOINF",
+        "HistoricalDataSymbol": "MEXICOFOOINF",
+        "Category": "Food Inflation",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "USD Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOFORDIRINV",
+        "HistoricalDataSymbol": "MEXICOFORDIRINV",
+        "Category": "Foreign Direct Investment",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "USD Million",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOFOREXCRES",
+        "HistoricalDataSymbol": "MEXICOFOREXCRES",
+        "Category": "Foreign Exchange Reserves",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx",
+        "Unit": "percent",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXFYGG",
+        "HistoricalDataSymbol": "MEXFYGG",
+        "Category": "Full Year GDP Growth",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "PETROIntelligence",
+        "SourceURL": "https://petrointelligence.com/precios-de-la-gasolina-y-diesel-hoy.php",
+        "Unit": "USD/Liter",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MexicoGasPri",
+        "HistoricalDataSymbol": "MexicoGasPri",
+        "Category": "Gasoline Prices",
+        "CategoryGroup": "Consumer"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "World Bank",
+        "SourceURL": "https://www.worldbank.org/",
+        "Unit": "USD Billion",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "WGDPMEXI",
+        "HistoricalDataSymbol": "WGDPMEXI            ",
+        "Category": "GDP",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx",
+        "Unit": "percent",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXGADQ",
+        "HistoricalDataSymbol": "MEXGADQ",
+        "Category": "GDP Aggregate Demand QoQ",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx",
+        "Unit": "percent",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXGADY",
+        "HistoricalDataSymbol": "MEXGADY",
+        "Category": "GDP Aggregate Demand YoY",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx",
+        "Unit": "percent",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MXGCTOT",
+        "HistoricalDataSymbol": "MXGCTOT             ",
+        "Category": "GDP Annual Growth Rate",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGDPCONPRI",
+        "HistoricalDataSymbol": "MEXICOGDPCONPRI",
+        "Category": "GDP Constant Prices",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "points",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGDPDEF",
+        "HistoricalDataSymbol": "MEXICOGDPDEF",
+        "Category": "GDP Deflator",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGDPFROAGR",
+        "HistoricalDataSymbol": "MEXICOGDPFROAGR",
+        "Category": "GDP from Agriculture",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGDPFROCON",
+        "HistoricalDataSymbol": "MEXICOGDPFROCON",
+        "Category": "GDP from Construction",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGDPFROMAN",
+        "HistoricalDataSymbol": "MEXICOGDPFROMAN",
+        "Category": "GDP from Manufacturing",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGDPFROMIN",
+        "HistoricalDataSymbol": "MEXICOGDPFROMIN",
+        "Category": "GDP from Mining",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGFPA",
+        "HistoricalDataSymbol": "MEXICOGFPA",
+        "Category": "GDP from Public Administration",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGDPFROSER",
+        "HistoricalDataSymbol": "MEXICOGDPFROSER",
+        "Category": "GDP from Services",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGDPFROTRA",
+        "HistoricalDataSymbol": "MEXICOGDPFROTRA",
+        "Category": "GDP from Transport",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGDPFROUTI",
+        "HistoricalDataSymbol": "MEXICOGDPFROUTI",
+        "Category": "GDP from Utilities",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx",
+        "Unit": "percent",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MXGPQTR",
+        "HistoricalDataSymbol": "MXGPQTR             ",
+        "Category": "GDP Growth Rate",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "World Bank",
+        "SourceURL": "https://www.worldbank.org/",
+        "Unit": "USD",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXNYGDPPCAPKD",
+        "HistoricalDataSymbol": "MEXNYGDPPCAPKD      ",
+        "Category": "GDP per Capita",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "World Bank",
+        "SourceURL": "https://www.worldbank.org/",
+        "Unit": "USD",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXNYGDPPCAPPPCD",
+        "HistoricalDataSymbol": "MEXNYGDPPCAPPPCD    ",
+        "Category": "GDP per Capita PPP",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-04-30 00:00:00",
+        "Source": "INEGI, Mexico",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "Kg",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGOLPRO",
+        "HistoricalDataSymbol": "MEXICOGOLPRO",
+        "Category": "Gold Production",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "World Gold Council",
+        "SourceURL": "http://www.gold.org",
+        "Unit": "Tonnes",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGOLRES",
+        "HistoricalDataSymbol": "MEXICOGOLRES",
+        "Category": "Gold Reserves",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-07-15 00:00:00",
+        "Source": "Secretaria de Hacienda y Credito Publico",
+        "SourceURL": "",
+        "Unit": "percent",
+        "Frequency": "Daily",
+        "Country": "Mexico",
+        "Ticker": "GMXN10YR",
+        "HistoricalDataSymbol": "GMXN10YR            ",
+        "Category": "Government Bond 10Y",
+        "CategoryGroup": "Markets"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Secretaria de Hacienda y Credito Publico",
+        "SourceURL": "https://www.gob.mx/shcp",
+        "Unit": "percent of GDP",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "2738A38",
+        "HistoricalDataSymbol": "2738A38             ",
+        "Category": "Government Budget",
+        "CategoryGroup": "Government"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Secretar\u00eda de Hacienda Y Cr\u00e9dito P\u00fablico",
+        "SourceURL": "https://www.gob.mx/shcp",
+        "Unit": "MXN Million",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGOVBUDVAL",
+        "HistoricalDataSymbol": "MEXICOGOVBUDVAL",
+        "Category": "Government Budget Value",
+        "CategoryGroup": "Government"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Secretaria de Hacienda y Credito Publico",
+        "SourceURL": "https://www.gob.mx",
+        "Unit": "percent of GDP",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXDEBT2GDP",
+        "HistoricalDataSymbol": "MEXDebt2GDP         ",
+        "Category": "Government Debt to GDP",
+        "CategoryGroup": "Government"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Secretar\u00eda de Hacienda Y Cr\u00e9dito P\u00fablico",
+        "SourceURL": "http://www.shcp.gob.mx",
+        "Unit": "MXN Million",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGOVREV",
+        "HistoricalDataSymbol": "MEXICOGOVREV",
+        "Category": "Government Revenues",
+        "CategoryGroup": "Government"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGOVSPE",
+        "HistoricalDataSymbol": "MEXICOGOVSPE",
+        "Category": "Government Spending",
+        "CategoryGroup": "Government"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://en.www.inegi.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOGROFIXCAPFOR",
+        "HistoricalDataSymbol": "MEXICOGROFIXCAPFOR",
+        "Category": "Gross Fixed Capital Formation",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2023-12-31 00:00:00",
+        "Source": "OECD                                                                                                ",
+        "SourceURL": "",
+        "Unit": "per 1000 people                                                                                     ",
+        "Frequency": "Yearly                                            ",
+        "Country": "Mexico",
+        "Ticker": "MXBEDS              ",
+        "HistoricalDataSymbol": "MXBEDS              ",
+        "Category": "Hospital Beds                                                                                       ",
+        "CategoryGroup": "Health"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "OECD                                                                                                ",
+        "SourceURL": "",
+        "Unit": "per one million people                                                                              ",
+        "Frequency": "Yearly                                            ",
+        "Country": "Mexico",
+        "Ticker": "MXHOSP              ",
+        "HistoricalDataSymbol": "MXHOSP              ",
+        "Category": "Hospitals                                                                                           ",
+        "CategoryGroup": "Health"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Bank for International Settlements",
+        "SourceURL": "https://www.bis.org/",
+        "Unit": "percent of GDP",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOHDTG",
+        "HistoricalDataSymbol": "MEXICOHDTG",
+        "Category": "Households Debt to GDP",
+        "CategoryGroup": "Consumer"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOIMPPRI",
+        "HistoricalDataSymbol": "MEXICOIMPPRI",
+        "Category": "Import Prices",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "USD Million",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MXTBBIMP",
+        "HistoricalDataSymbol": "MXTBBIMP            ",
+        "Category": "Imports",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MXIPTYOY",
+        "HistoricalDataSymbol": "MXIPTYOY            ",
+        "Category": "Industrial Production",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOINDPROMOM",
+        "HistoricalDataSymbol": "MEXICOINDPROMOM",
+        "Category": "Industrial Production Mom",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Bank of Mexico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOINFEXP",
+        "HistoricalDataSymbol": "MEXICOINFEXP",
+        "Category": "Inflation Expectations",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MXCPYOY",
+        "HistoricalDataSymbol": "MXCPYOY             ",
+        "Category": "Inflation Rate",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOINFRATMOM",
+        "HistoricalDataSymbol": "MEXICOINFRATMOM",
+        "Category": "Inflation Rate MoM",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOINTRAT",
+        "HistoricalDataSymbol": "MEXICOINTRAT",
+        "Category": "Interbank Rate",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2025-06-26 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "http://www.banxico.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Daily",
+        "Country": "Mexico",
+        "Ticker": "MXONBR",
+        "HistoricalDataSymbol": "MXONBR              ",
+        "Category": "Interest Rate",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOLFPR",
+        "HistoricalDataSymbol": "MEXICOLFPR",
+        "Category": "Labor Force Participation Rate",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOLABCOS",
+        "HistoricalDataSymbol": "MEXICOLABCOS",
+        "Category": "Labour Costs",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "MXN Thousand",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOLOATOPRISEC",
+        "HistoricalDataSymbol": "MEXICOLOATOPRISEC",
+        "Category": "Loans to Private Sector",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOMANPRO",
+        "HistoricalDataSymbol": "MEXICOMANPRO",
+        "Category": "Manufacturing Production",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXMMCIRM",
+        "HistoricalDataSymbol": "MEXMMCIRM",
+        "Category": "Mid-month Core Inflation Rate MoM",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXMMCIRY",
+        "HistoricalDataSymbol": "MEXMMCIRY",
+        "Category": "Mid-month Core Inflation Rate YoY",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXMMIRM",
+        "HistoricalDataSymbol": "MEXMMIRM",
+        "Category": "Mid-month Inflation Rate MoM",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXMMIRY",
+        "HistoricalDataSymbol": "MEXMMIRY",
+        "Category": "Mid-month Inflation Rate YoY",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "SIPRI",
+        "SourceURL": "https://www.sipri.org",
+        "Unit": "USD Million",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MexicoMil",
+        "HistoricalDataSymbol": "MexicoMil",
+        "Category": "Military Expenditure",
+        "CategoryGroup": "Government"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de Mexico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "MXN/Day",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOMINWAG",
+        "HistoricalDataSymbol": "MEXICOMINWAG",
+        "Category": "Minimum Wages",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "INEGI - Instituto Nacional de Estadistica, Geografia e Informatica, Mexico",
+        "SourceURL": "http://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOMINPRO",
+        "HistoricalDataSymbol": "MEXICOMINPRO",
+        "Category": "Mining Production",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "MXN Million",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOMONSUPM0",
+        "HistoricalDataSymbol": "MEXICOMONSUPM0",
+        "Category": "Money Supply M0",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "MXN Thousand",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOMONSUPM1",
+        "HistoricalDataSymbol": "MEXICOMONSUPM1",
+        "Category": "Money Supply M1",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "MXN Thousand",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOMONSUPM2",
+        "HistoricalDataSymbol": "MEXICOMONSUPM2",
+        "Category": "Money Supply M2",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "MXN Thousand",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOMONSUPM3",
+        "HistoricalDataSymbol": "MEXICOMONSUPM3",
+        "Category": "Money Supply M3",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2025-04-30 00:00:00",
+        "Source": "Instituto Nacional de Estadistica, Geografia e Informatica, Mexico",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXMGM",
+        "HistoricalDataSymbol": "MEXMGM",
+        "Category": "Monthly GDP MoM",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-04-30 00:00:00",
+        "Source": "Instituto Nacional de Estadistica, Geografia e Informatica, Mexico",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXMGY",
+        "HistoricalDataSymbol": "MEXMGY",
+        "Category": "Monthly GDP YoY",
+        "CategoryGroup": "GDP"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "http://www.banxico.org.mx/",
+        "Unit": "USD Million",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICONONOILEXP",
+        "HistoricalDataSymbol": "MEXICONONOILEXP",
+        "Category": "Non Oil Exports",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "http://www.banxico.org.mx/",
+        "Unit": "USD Million",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOOILEXP",
+        "HistoricalDataSymbol": "MEXICOOILEXP",
+        "Category": "Oil Exports",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-12-31 00:00:00",
+        "Source": "Servicio de Administraci\u00f3n Tributaria, SHCP",
+        "SourceURL": "",
+        "Unit": "percent",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXIRSTAX",
+        "HistoricalDataSymbol": "MEXIRSTAX",
+        "Category": "Personal Income Tax Rate",
+        "CategoryGroup": "Taxes"
+      },
+      {
+        "LatestValueDate": "2023-12-31 00:00:00",
+        "Source": "World Bank ",
+        "SourceURL": "https://www.worldbank.org/",
+        "Unit": "percent of GDP",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOPERSAV",
+        "HistoricalDataSymbol": "MEXICOPERSAV",
+        "Category": "Personal Savings",
+        "CategoryGroup": "Consumer"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "World Bank",
+        "SourceURL": "https://www.worldbank.org/ext/en/home",
+        "Unit": "Million",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEX SP.POP.TOTL",
+        "HistoricalDataSymbol": "MEX SP.POP.TOTL     ",
+        "Category": "Population",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Worldbank",
+        "SourceURL": "",
+        "Unit": "mm",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXPREC",
+        "HistoricalDataSymbol": "MEXPREC",
+        "Category": "Precipitation",
+        "CategoryGroup": "Climate"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "OECD",
+        "SourceURL": "https://www.oecd.org/",
+        "Unit": "",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MXPRR",
+        "HistoricalDataSymbol": "MXPRR",
+        "Category": "Price to Rent Ratio",
+        "CategoryGroup": "Housing"
+      },
+      {
+        "LatestValueDate": "2023-12-31 00:00:00",
+        "Source": "OECD                                                                                                ",
+        "SourceURL": "http://www.oecd.org/",
+        "Unit": "percent",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOPDTG",
+        "HistoricalDataSymbol": "MEXICOPDTG",
+        "Category": "Private Debt to GDP",
+        "CategoryGroup": "Money"
+      },
+      {
+        "LatestValueDate": "2025-04-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOPRIINV",
+        "HistoricalDataSymbol": "MEXICOPRIINV",
+        "Category": "Private Investment",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": " MXN Thousand",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOPRISECCRE",
+        "HistoricalDataSymbol": "MEXICOPRISECCRE",
+        "Category": "Private Sector Credit",
+        "CategoryGroup": "Consumer"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXPPIM",
+        "HistoricalDataSymbol": "MEXPPIM",
+        "Category": "Producer Price Inflation MoM",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOPROPRI",
+        "HistoricalDataSymbol": "MEXICOPROPRI",
+        "Category": "Producer Prices",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOPROPRICHA",
+        "HistoricalDataSymbol": "MEXICOPROPRICHA",
+        "Category": "Producer Prices Change",
+        "CategoryGroup": "Prices"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOPRO",
+        "HistoricalDataSymbol": "MEXICOPRO",
+        "Category": "Productivity",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "http://www.banxico.org.mx/",
+        "Unit": "USD Million ",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOREM",
+        "HistoricalDataSymbol": "MEXICOREM",
+        "Category": "Remittances",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Bank for International Settlements",
+        "SourceURL": "https://www.bis.org/",
+        "Unit": "Percent",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MXRPP",
+        "HistoricalDataSymbol": "MXRPP",
+        "Category": "Residential Property Prices",
+        "CategoryGroup": "Housing"
+      },
+      {
+        "LatestValueDate": "2025-04-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXRETAILSALESMOM",
+        "HistoricalDataSymbol": "MEXRetailSalesMoM   ",
+        "Category": "Retail Sales MoM",
+        "CategoryGroup": "Consumer"
+      },
+      {
+        "LatestValueDate": "2025-04-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXRETAILSALESYOY",
+        "HistoricalDataSymbol": "MEXRetailSalesYoY   ",
+        "Category": "Retail Sales YoY",
+        "CategoryGroup": "Consumer"
+      },
+      {
+        "LatestValueDate": "2025-12-31 00:00:00",
+        "Source": "Mexican Social Security Institute",
+        "SourceURL": "http://www.imss.gob.mx/",
+        "Unit": "Years",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MexicoRetAgeMen",
+        "HistoricalDataSymbol": "MexicoRetAgeMen",
+        "Category": "Retirement Age Men",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2025-12-31 00:00:00",
+        "Source": "Mexican Social Security Institute",
+        "SourceURL": "http://www.imss.gob.mx/",
+        "Unit": "Years",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MexicoRetAgeWom",
+        "HistoricalDataSymbol": "MexicoRetAgeWom",
+        "Category": "Retirement Age Women",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2025-12-31 00:00:00",
+        "Source": "Servicio de Administraci\u00f3n Tributaria, SHCP",
+        "SourceURL": "",
+        "Unit": "percent",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXSALESTAX",
+        "HistoricalDataSymbol": "MEXSALESTAX",
+        "Category": "Sales Tax Rate",
+        "CategoryGroup": "Taxes"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Mexican Social Security Institute",
+        "SourceURL": "",
+        "Unit": "percent",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXSSR",
+        "HistoricalDataSymbol": "MEXSSR",
+        "Category": "Social Security Rate",
+        "CategoryGroup": "Taxes"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Mexican Social Security Institute",
+        "SourceURL": "",
+        "Unit": "percent",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXSSRC",
+        "HistoricalDataSymbol": "MEXSSRC",
+        "Category": "Social Security Rate For Companies",
+        "CategoryGroup": "Taxes"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Mexican Social Security Institute",
+        "SourceURL": "",
+        "Unit": "percent",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXSSRE",
+        "HistoricalDataSymbol": "MEXSSRE",
+        "Category": "Social Security Rate For Employees",
+        "CategoryGroup": "Taxes"
+      },
+      {
+        "LatestValueDate": "2025-07-18 00:00:00",
+        "Source": "OTC/CFD",
+        "SourceURL": "",
+        "Unit": "points",
+        "Frequency": "Daily",
+        "Country": "Mexico",
+        "Ticker": "MEXBOL",
+        "HistoricalDataSymbol": "MEXBOL",
+        "Category": "Stock Market",
+        "CategoryGroup": "Markets"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Worldbank",
+        "SourceURL": "",
+        "Unit": "celsius",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXTEMP",
+        "HistoricalDataSymbol": "MEXTEMP",
+        "Category": "Temperature",
+        "CategoryGroup": "Climate"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de M\u00e9xico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "points",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOTEROFTRA",
+        "HistoricalDataSymbol": "MEXICOTEROFTRA",
+        "Category": "Terms of Trade",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Institute for Economics and Peace",
+        "SourceURL": "http://economicsandpeace.org",
+        "Unit": "Points",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MexicoTerInd",
+        "HistoricalDataSymbol": "MexicoTerInd",
+        "Category": "Terrorism Index",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "Units",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOTOTVEHSAL",
+        "HistoricalDataSymbol": "MEXICOTOTVEHSAL",
+        "Category": "Total Vehicle Sales",
+        "CategoryGroup": "Business"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de Mexico",
+        "SourceURL": "http://www.banxico.org.mx/",
+        "Unit": "USD Thousand",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOTOUREV",
+        "HistoricalDataSymbol": "MEXICOTOUREV",
+        "Category": "Tourism Revenues",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Banco de Mexico",
+        "SourceURL": "https://www.banxico.org.mx/",
+        "Unit": "Thousand",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOTOUARR",
+        "HistoricalDataSymbol": "MEXICOTOUARR",
+        "Category": "Tourist Arrivals",
+        "CategoryGroup": "Trade"
+      },
+      {
+        "LatestValueDate": "2025-03-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "",
+        "Frequency": "Quarterly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOUNEPER",
+        "HistoricalDataSymbol": "MEXICOUNEPER",
+        "Category": "Unemployed Persons",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "http://www.inegi.org.mx/",
+        "Unit": "percent",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MXUEUNSA",
+        "HistoricalDataSymbol": "MXUEUNSA            ",
+        "Category": "Unemployment Rate",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2025-06-30 00:00:00",
+        "Source": "Secretariat of Labor & Soc Welf, Mexico",
+        "SourceURL": "https://www.gob.mx",
+        "Unit": "MXN/Day",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOWAG",
+        "HistoricalDataSymbol": "MEXICOWAG",
+        "Category": "Wages",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2025-05-31 00:00:00",
+        "Source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)",
+        "SourceURL": "https://www.inegi.org.mx/",
+        "Unit": "USD/Hour",
+        "Frequency": "Monthly",
+        "Country": "Mexico",
+        "Ticker": "MEXICOWAGINMAN",
+        "HistoricalDataSymbol": "MEXICOWAGINMAN",
+        "Category": "Wages in Manufacturing",
+        "CategoryGroup": "Labour"
+      },
+      {
+        "LatestValueDate": "2024-12-31 00:00:00",
+        "Source": "Servicio de Administraci\u00f3n Tributaria, SHCP",
+        "SourceURL": "",
+        "Unit": "percent",
+        "Frequency": "Yearly",
+        "Country": "Mexico",
+        "Ticker": "MEXWTR",
+        "HistoricalDataSymbol": "MEXWTR",
+        "Category": "Withholding Tax Rate",
+        "CategoryGroup": "Taxes"
+      }
+    ],
+    "currency_data": [
+      {
+        "Symbol": "NZDUSD:CUR",
+        "Ticker": "NZD",
+        "Name": "NZDUSD",
+        "Country": "New Zealand",
+        "Date": "2025-07-18T20:59:25.517",
+        "State": "CLOSED",
+        "Last": 0.59581,
+        "Close": 0.59581,
+        "CloseDate": "2025-07-18T00:00:00",
+        "Group": "Australia Major  NZD Cross",
+        "URL": "/new-zealand/currency",
+        "Importance": 4.0,
+        "DailyChange": 0.0015,
+        "DailyPercentualChange": 0.2524,
+        "WeeklyChange": -0.00457,
+        "WeeklyPercentualChange": -0.7612,
+        "MonthlyChange": -0.00277,
+        "MonthlyPercentualChange": -0.4628,
+        "YearlyChange": -0.00505,
+        "YearlyPercentualChange": -0.8405,
+        "YTDChange": 0.03651,
+        "YTDPercentualChange": 6.5278,
+        "day_high": 0.5991,
+        "day_low": 0.59424,
+        "yesterday": 0.59431,
+        "lastWeek": 0.60038,
+        "lastMonth": 0.59858,
+        "lastYear": 0.60086,
+        "startYear": 0.5593,
+        "decimals": 5.0,
+        "unit": "",
+        "frequency": "Live",
+        "StartDate": "1971-01-04T00:00:00",
+        "LastUpdate": "2025-07-19T17:19:00"
+      },
+      {
+        "Symbol": "USDMXN:CUR",
+        "Ticker": "MXN",
+        "Name": "USDMXN",
+        "Country": "Mexico",
+        "Date": "2025-07-18T20:59:04.083",
+        "State": "CLOSED",
+        "Last": 18.7369,
+        "Close": 18.7369,
+        "CloseDate": "2025-07-18T00:00:00",
+        "Group": "America G20 Major",
+        "URL": "/mexico/currency",
+        "Importance": 9.0,
+        "DailyChange": -0.0173,
+        "DailyPercentualChange": -0.0922,
+        "WeeklyChange": 0.1043,
+        "WeeklyPercentualChange": 0.5598,
+        "MonthlyChange": -0.30226,
+        "MonthlyPercentualChange": -1.5876,
+        "YearlyChange": 0.6957,
+        "YearlyPercentualChange": 3.8562,
+        "YTDChange": -2.113,
+        "YTDPercentualChange": -10.1343,
+        "day_high": 18.7686,
+        "day_low": 18.69,
+        "yesterday": 18.7542,
+        "lastWeek": 18.6326,
+        "lastMonth": 19.03916,
+        "lastYear": 18.0412,
+        "startYear": 20.8499,
+        "decimals": 4.0,
+        "unit": "",
+        "frequency": "Live",
+        "StartDate": "1972-04-17T00:00:00",
+        "LastUpdate": "2025-07-19T00:15:00"
+      },
+      {
+        "Symbol": "USDSEK:CUR",
+        "Ticker": "SEK",
+        "Name": "USDSEK",
+        "Country": "Sweden",
+        "Date": "2025-07-18T20:59:37.337",
+        "State": "CLOSED",
+        "Last": 9.6498,
+        "Close": 9.6498,
+        "CloseDate": "2025-07-18T00:00:00",
+        "Group": "Europe  Major",
+        "URL": "/sweden/currency",
+        "Importance": 23.0,
+        "DailyChange": -0.0752,
+        "DailyPercentualChange": -0.7733,
+        "WeeklyChange": 0.09731,
+        "WeeklyPercentualChange": 1.0187,
+        "MonthlyChange": 0.013,
+        "MonthlyPercentualChange": 0.1349,
+        "YearlyChange": -1.0226,
+        "YearlyPercentualChange": -9.5817,
+        "YTDChange": -1.4138,
+        "YTDPercentualChange": -12.7788,
+        "day_high": 9.73279,
+        "day_low": 9.61833,
+        "yesterday": 9.725,
+        "lastWeek": 9.55249,
+        "lastMonth": 9.6368,
+        "lastYear": 10.6724,
+        "startYear": 11.0636,
+        "decimals": 5.0,
+        "unit": "",
+        "frequency": "Live",
+        "StartDate": "1992-05-18T00:00:00",
+        "LastUpdate": "2025-07-19T00:16:00"
+      },
+      {
+        "Symbol": "USDTHB:CUR",
+        "Ticker": "THB",
+        "Name": "USDTHB",
+        "Country": "Thailand",
+        "Date": "2025-07-18T20:58:37",
+        "State": "CLOSED",
+        "Last": 32.38,
+        "Close": 32.38,
+        "CloseDate": "2025-07-18T00:00:00",
+        "Group": "Asia",
+        "URL": "/thailand/currency",
+        "Importance": 35.0,
+        "DailyChange": -0.12,
+        "DailyPercentualChange": -0.3692,
+        "WeeklyChange": -0.06,
+        "WeeklyPercentualChange": -0.185,
+        "MonthlyChange": -0.39,
+        "MonthlyPercentualChange": -1.1901,
+        "YearlyChange": -3.82,
+        "YearlyPercentualChange": -10.5525,
+        "YTDChange": -1.95,
+        "YTDPercentualChange": -5.6802,
+        "day_high": 32.52,
+        "day_low": 32.31,
+        "yesterday": 32.5,
+        "lastWeek": 32.44,
+        "lastMonth": 32.77,
+        "lastYear": 36.2,
+        "startYear": 34.33,
+        "decimals": 4.0,
+        "unit": "",
+        "frequency": "Delayed",
+        "StartDate": "1994-01-12T00:00:00",
+        "LastUpdate": "2025-07-20T01:15:00"
+      }
+    ],
+    "collection_log": [
+      {
+        "timestamp": "2025-07-20T14:05:13.430658",
+        "request_number": 1,
+        "request": {
+          "type": "aggregates",
+          "ticker": "AAPL",
+          "days": 14
+        },
+        "success": true,
+        "duration": 1.2214717864990234,
+        "result_size": 0
+      },
+      {
+        "timestamp": "2025-07-20T14:05:26.653342",
+        "request_number": 2,
+        "request": {
+          "type": "general_news",
+          "limit": 20
+        },
+        "success": true,
+        "duration": 1.0035147666931152,
+        "result_size": 20
+      },
+      {
+        "timestamp": "2025-07-20T14:05:39.663466",
+        "request_number": 3,
+        "request": {
+          "type": "aggregates",
+          "ticker": "AAPL",
+          "days": 30
+        },
+        "success": true,
+        "duration": 0.9419958591461182,
+        "result_size": 0
+      },
+      {
+        "timestamp": "2025-07-20T14:05:52.607652",
+        "request_number": 4,
+        "request": {
+          "type": "dividends",
+          "ticker": "AAPL"
+        },
+        "success": true,
+        "duration": 0.9235661029815674,
+        "result_size": 10
+      },
+      {
+        "timestamp": "2025-07-20T14:06:05.536726",
+        "request_number": 5,
+        "request": {
+          "type": "ticker_details",
+          "ticker": "QQQ"
+        },
+        "success": true,
+        "duration": 3.92566180229187,
+        "result_size": 15
+      },
+      {
+        "timestamp": "2025-07-20T14:06:21.468735",
+        "request_number": 6,
+        "request": {
+          "type": "previous_close",
+          "ticker": "AAPL"
+        },
+        "success": true,
+        "duration": 0.9285628795623779,
+        "result_size": 11
+      },
+      {
+        "timestamp": "2025-07-20T14:06:34.404342",
+        "request_number": 7,
+        "request": {
+          "type": "news",
+          "ticker": "AAPL",
+          "limit": 10
+        },
+        "success": true,
+        "duration": 1.2222180366516113,
+        "result_size": 10
+      },
+      {
+        "timestamp": "2025-07-20T14:06:47.634406",
+        "request_number": 8,
+        "request": {
+          "type": "ticker_details",
+          "ticker": "AAPL"
+        },
+        "success": true,
+        "duration": 0.9227457046508789,
+        "result_size": 25
+      },
+      {
+        "timestamp": "2025-07-20T14:07:00.567549",
+        "request_number": 9,
+        "request": {
+          "type": "aggregates",
+          "ticker": "AAPL",
+          "days": 7
+        },
+        "success": true,
+        "duration": 1.5296120643615723,
+        "result_size": 0
+      }
+    ]
+  }
+}
