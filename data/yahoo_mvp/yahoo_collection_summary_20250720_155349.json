@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-07-20T15:53:33.616020",
+  "period": "1y",
+  "symbols_processed": 19,
+  "symbols_failed": 12,
+  "data_files": [
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/AAPL_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/MSFT_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/GOOGL_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/AMZN_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/TSLA_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/NVDA_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/META_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/JPM_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/BAC_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/WFC_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/GS_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/JNJ_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/PFE_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/UNH_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/XOM_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/CVX_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/HD_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/MCD_yahoo_data_20250720.csv",
+    "/Users/howard/Desktop/VS code file/Quant_finance/data/yahoo_mvp/NKE_yahoo_data_20250720.csv"
+  ],
+  "summary": {
+    "total_symbols": 31,
+    "success_rate": 0.6129032258064516,
+    "stocks": 19,
+    "etfs": 11,
+    "benchmark": 1
+  }
+}

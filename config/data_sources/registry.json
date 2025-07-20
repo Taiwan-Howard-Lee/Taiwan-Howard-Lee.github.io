@@ -2,7 +2,7 @@
   "data_sources": {
     "eodhd": {
       "type": "freemium",
-      "rate_limit": "1_per_second",
+      "rate_limit": "1_per_second_per_key",
       "data_types": [
         "eod",
         "fundamentals",
@@ -25,7 +25,29 @@
         "earnings_calendar"
       ],
       "collector_class": "EODHDCollector",
-      "api_key": "687c985a3deee0.98552733",
+      "api_keys": [
+        {
+          "key": "687c985a3deee0.98552733",
+          "status": "active",
+          "tier": "free",
+          "requests_per_day": 20000,
+          "description": "Primary EODHD API key"
+        },
+        {
+          "key": "SLOT_2_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_day": 20000,
+          "description": "Secondary EODHD API key slot"
+        },
+        {
+          "key": "SLOT_3_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_day": 20000,
+          "description": "Tertiary EODHD API key slot"
+        }
+      ],
       "api_key_required": true,
       "enabled": true,
       "priority": 1,
@@ -33,7 +55,7 @@
     },
     "yahoo_finance": {
       "type": "free",
-      "rate_limit": "unlimited",
+      "rate_limit": "unlimited_per_key",
       "data_types": [
         "daily",
         "intraday",
@@ -46,11 +68,34 @@
         "splits"
       ],
       "collector_class": "YahooFinanceCollector",
+      "api_keys": [
+        {
+          "key": "NO_KEY_REQUIRED_1",
+          "status": "active",
+          "tier": "free",
+          "requests_per_day": "unlimited",
+          "description": "Primary Yahoo Finance connection"
+        },
+        {
+          "key": "NO_KEY_REQUIRED_2",
+          "status": "active",
+          "tier": "free",
+          "requests_per_day": "unlimited",
+          "description": "Secondary Yahoo Finance connection"
+        },
+        {
+          "key": "NO_KEY_REQUIRED_3",
+          "status": "active",
+          "tier": "free",
+          "requests_per_day": "unlimited",
+          "description": "Tertiary Yahoo Finance connection"
+        }
+      ],
       "enabled": true
     },
     "alpha_vantage": {
       "type": "freemium",
-      "rate_limit": "500_per_day",
+      "rate_limit": "500_per_day_per_key",
       "data_types": [
         "daily",
         "intraday",
@@ -63,12 +108,35 @@
         "fundamental"
       ],
       "collector_class": "AlphaVantageCollector",
+      "api_keys": [
+        {
+          "key": "4Y8CDGOF82KMK3R7",
+          "status": "active",
+          "tier": "free",
+          "requests_per_day": 500,
+          "description": "Primary Alpha Vantage API key"
+        },
+        {
+          "key": "SLOT_2_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_day": 500,
+          "description": "Secondary Alpha Vantage API key slot"
+        },
+        {
+          "key": "SLOT_3_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_day": 500,
+          "description": "Tertiary Alpha Vantage API key slot"
+        }
+      ],
       "api_key_required": true,
       "enabled": true
     },
     "polygon": {
       "type": "freemium",
-      "rate_limit": "5_per_minute",
+      "rate_limit": "5_per_minute_per_key",
       "data_types": [
         "daily",
         "intraday",
@@ -81,12 +149,35 @@
         "news"
       ],
       "collector_class": "PolygonCollector",
+      "api_keys": [
+        {
+          "key": "SLOT_1_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_minute": 5,
+          "description": "Primary Polygon.io API key slot"
+        },
+        {
+          "key": "SLOT_2_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_minute": 5,
+          "description": "Secondary Polygon.io API key slot"
+        },
+        {
+          "key": "SLOT_3_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_minute": 5,
+          "description": "Tertiary Polygon.io API key slot"
+        }
+      ],
       "api_key_required": true,
       "enabled": true
     },
     "trading_economics": {
       "type": "premium",
-      "rate_limit": "varies",
+      "rate_limit": "varies_per_key",
       "data_types": [
         "economic",
         "calendar",
@@ -98,12 +189,138 @@
         "calendar_events"
       ],
       "collector_class": "TradingEconomicsCollector",
+      "api_keys": [
+        {
+          "key": "SLOT_1_AVAILABLE",
+          "status": "available",
+          "tier": "premium",
+          "requests_per_day": 10000,
+          "description": "Primary Trading Economics API key slot"
+        },
+        {
+          "key": "SLOT_2_AVAILABLE",
+          "status": "available",
+          "tier": "premium",
+          "requests_per_day": 10000,
+          "description": "Secondary Trading Economics API key slot"
+        },
+        {
+          "key": "SLOT_3_AVAILABLE",
+          "status": "available",
+          "tier": "premium",
+          "requests_per_day": 10000,
+          "description": "Tertiary Trading Economics API key slot"
+        }
+      ],
       "api_key_required": true,
       "enabled": false
     },
+    "finnhub": {
+      "type": "freemium",
+      "rate_limit": "60_per_minute_per_key",
+      "data_types": [
+        "real_time",
+        "fundamentals",
+        "news",
+        "earnings",
+        "insider_trading",
+        "social_sentiment",
+        "technical_indicators"
+      ],
+      "symbols_supported": "global_stocks_forex_crypto",
+      "features": [
+        "real_time_quotes",
+        "company_fundamentals",
+        "financial_news",
+        "earnings_calendar",
+        "insider_transactions",
+        "social_sentiment",
+        "technical_indicators",
+        "market_data"
+      ],
+      "collector_class": "FinnhubCollector",
+      "api_keys": [
+        {
+          "key": "d1u9j09r01qp7ee2e240d1u9j09r01qp7ee2e24g",
+          "status": "active",
+          "tier": "free",
+          "requests_per_minute": 60,
+          "description": "Primary Finnhub API key"
+        },
+        {
+          "key": "SLOT_2_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_minute": 60,
+          "description": "Secondary Finnhub API key slot"
+        },
+        {
+          "key": "SLOT_3_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_minute": 60,
+          "description": "Tertiary Finnhub API key slot"
+        }
+      ],
+      "api_key_required": true,
+      "enabled": true,
+      "priority": 2
+    },
+    "financial_modeling_prep": {
+      "type": "freemium",
+      "rate_limit": "250_per_day_per_key",
+      "data_types": [
+        "fundamentals",
+        "financial_statements",
+        "ratios",
+        "dcf_valuation",
+        "earnings",
+        "insider_trading",
+        "institutional_holdings",
+        "market_data"
+      ],
+      "symbols_supported": "global_stocks_etfs_mutual_funds",
+      "features": [
+        "comprehensive_fundamentals",
+        "financial_statements",
+        "financial_ratios",
+        "dcf_valuation",
+        "earnings_data",
+        "insider_trading",
+        "institutional_holdings",
+        "market_performance"
+      ],
+      "collector_class": "FinancialModelingPrepCollector",
+      "api_keys": [
+        {
+          "key": "6Ohb7GA5XxISuo5jSTAd2tUyrAqnCxVt",
+          "status": "active",
+          "tier": "free",
+          "requests_per_day": 250,
+          "description": "Primary Financial Modeling Prep API key"
+        },
+        {
+          "key": "SLOT_2_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_day": 250,
+          "description": "Secondary Financial Modeling Prep API key slot"
+        },
+        {
+          "key": "SLOT_3_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_day": 250,
+          "description": "Tertiary Financial Modeling Prep API key slot"
+        }
+      ],
+      "api_key_required": true,
+      "enabled": true,
+      "priority": 3
+    },
     "fred": {
       "type": "free",
-      "rate_limit": "120_per_minute",
+      "rate_limit": "120_per_minute_per_key",
       "data_types": [
         "economic",
         "monetary"
@@ -114,12 +331,37 @@
         "economic_indicators"
       ],
       "collector_class": "FREDCollector",
+      "api_keys": [
+        {
+          "key": "SLOT_1_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_minute": 120,
+          "description": "Primary FRED API key slot"
+        },
+        {
+          "key": "SLOT_2_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_minute": 120,
+          "description": "Secondary FRED API key slot"
+        },
+        {
+          "key": "SLOT_3_AVAILABLE",
+          "status": "available",
+          "tier": "free",
+          "requests_per_minute": 120,
+          "description": "Tertiary FRED API key slot"
+        }
+      ],
       "api_key_required": true,
       "enabled": false
     }
   },
   "integration_priority": [
     "eodhd",
+    "finnhub",
+    "financial_modeling_prep",
     "yahoo_finance",
     "alpha_vantage",
     "polygon",

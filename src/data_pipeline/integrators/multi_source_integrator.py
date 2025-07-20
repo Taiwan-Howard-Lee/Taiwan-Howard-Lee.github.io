@@ -112,7 +112,25 @@ class MultiSourceDataIntegrator:
                 self.logger.info("✅ Polygon collector initialized")
         except Exception as e:
             self.logger.warning(f"⚠️ Polygon collector failed: {str(e)}")
-        
+
+        try:
+            # Finnhub Collector
+            if self.config['data_sources'].get('finnhub', {}).get('enabled', False):
+                from src.data_pipeline.collectors.finnhub_collector import FinnhubCollector
+                self.collectors['finnhub'] = FinnhubCollector()
+                self.logger.info("✅ Finnhub collector initialized")
+        except Exception as e:
+            self.logger.warning(f"⚠️ Finnhub collector failed: {str(e)}")
+
+        try:
+            # Financial Modeling Prep Collector
+            if self.config['data_sources'].get('financial_modeling_prep', {}).get('enabled', False):
+                from src.data_pipeline.collectors.financial_modeling_prep_collector import FinancialModelingPrepCollector
+                self.collectors['financial_modeling_prep'] = FinancialModelingPrepCollector()
+                self.logger.info("✅ Financial Modeling Prep collector initialized")
+        except Exception as e:
+            self.logger.warning(f"⚠️ Financial Modeling Prep collector failed: {str(e)}")
+
         self.logger.info(f"🔧 Initialized {len(self.collectors)} data collectors")
     
     def register_new_source(self, source_name: str, collector_class, config: Dict = None):
@@ -190,9 +208,67 @@ class MultiSourceDataIntegrator:
                         if symbol_data is not None:
                             symbol_data['symbol'] = symbol
                             polygon_data.append(symbol_data)
-                    
+
                     if polygon_data:
                         combined_data = pd.concat(polygon_data, ignore_index=False)
+                        collected_data[source_name] = combined_data
+
+                elif source_name == 'finnhub':
+                    # Collect comprehensive data from Finnhub
+                    finnhub_data = []
+                    for symbol in symbols[:10]:  # Limit for rate limits (60/minute)
+                        # Convert symbol format (remove .US suffix for Finnhub)
+                        finnhub_symbol = symbol.replace('.US', '')
+                        comprehensive_data = collector.collect_comprehensive_data(finnhub_symbol)
+
+                        if comprehensive_data.get('data'):
+                            # Extract quote data for price information
+                            quote_data = comprehensive_data['data'].get('quote', {})
+                            if quote_data:
+                                price_record = {
+                                    'symbol': symbol,
+                                    'date': pd.Timestamp.now(),
+                                    'Open': quote_data.get('o', 0),
+                                    'High': quote_data.get('h', 0),
+                                    'Low': quote_data.get('l', 0),
+                                    'Close': quote_data.get('c', 0),
+                                    'Volume': quote_data.get('v', 0),
+                                    'data_source': 'finnhub'
+                                }
+                                finnhub_data.append(price_record)
+
+                    if finnhub_data:
+                        combined_data = pd.DataFrame(finnhub_data)
+                        combined_data.set_index('date', inplace=True)
+                        collected_data[source_name] = combined_data
+
+                elif source_name == 'financial_modeling_prep':
+                    # Collect comprehensive data from Financial Modeling Prep
+                    fmp_data = []
+                    for symbol in symbols[:5]:  # Limit for rate limits (250/day)
+                        # Convert symbol format (remove .US suffix for FMP)
+                        fmp_symbol = symbol.replace('.US', '')
+                        comprehensive_data = collector.collect_comprehensive_data(fmp_symbol)
+
+                        if comprehensive_data.get('data'):
+                            # Extract profile data for basic information
+                            profile_data = comprehensive_data['data'].get('profile', [])
+                            if profile_data and len(profile_data) > 0:
+                                profile = profile_data[0]
+                                price_record = {
+                                    'symbol': symbol,
+                                    'date': pd.Timestamp.now(),
+                                    'Close': profile.get('price', 0),
+                                    'market_cap': profile.get('mktCap', 0),
+                                    'beta': profile.get('beta', 1.0),
+                                    'pe_ratio': profile.get('pe', 0),
+                                    'data_source': 'financial_modeling_prep'
+                                }
+                                fmp_data.append(price_record)
+
+                    if fmp_data:
+                        combined_data = pd.DataFrame(fmp_data)
+                        combined_data.set_index('date', inplace=True)
                         collected_data[source_name] = combined_data
                 
                 self.integration_results['sources_processed'][source_name] = {

@@ -26,12 +26,18 @@ class EODHDCollector:
     Extracts maximum data from all available EODHD APIs
     """
     
-    def __init__(self, api_key: str = "687c985a3deee0.98552733"):
+    def __init__(self, api_key: str = None):
         """Initialize the EODHD collector"""
-        self.api_key = api_key
         self.base_url = "https://eodhd.com/api"
         self.logger = self._setup_logger()
-        
+
+        # Initialize multi-API key manager
+        from src.data_pipeline.utils.multi_api_key_manager import MultiAPIKeyManager
+        self.key_manager = MultiAPIKeyManager()
+
+        # Use provided key or get from key manager
+        self.api_key = api_key or self.key_manager.get_next_key('eodhd')
+
         # Request tracking
         self.requests_made = 0
         self.request_delay = 1  # 1 second between requests to be respectful
@@ -105,26 +111,52 @@ class EODHDCollector:
         """Make API request with rate limiting and error handling"""
         if params is None:
             params = {}
-        
-        params['api_token'] = self.api_key
+
+        # Get current API key (may rotate if previous failed)
+        current_key = self.api_key or self.key_manager.get_next_key('eodhd')
+        if not current_key:
+            self.logger.error("❌ No available API keys for EODHD")
+            return None
+
+        params['api_token'] = current_key
         params['fmt'] = 'json'
-        
+
         # Rate limiting
         if self.requests_made > 0:
             time.sleep(self.request_delay)
-        
+
         try:
             url = f"{self.base_url}{endpoint}"
             response = requests.get(url, params=params)
             self.requests_made += 1
-            
+
             if response.status_code == 200:
+                # Report successful key usage
+                self.key_manager.report_key_success('eodhd', current_key)
                 return response.json()
+            elif response.status_code == 403:
+                # API key issue - report error and try next key
+                self.key_manager.report_key_error('eodhd', current_key, 'forbidden')
+                self.logger.warning(f"⚠️ API key issue (403), trying next key...")
+
+                # Try with next available key
+                next_key = self.key_manager.get_next_key('eodhd')
+                if next_key and next_key != current_key:
+                    params['api_token'] = next_key
+                    response = requests.get(url, params=params)
+                    if response.status_code == 200:
+                        self.api_key = next_key  # Update current key
+                        self.key_manager.report_key_success('eodhd', next_key)
+                        return response.json()
+
+                self.logger.error(f"API request failed: {response.status_code} - {url}")
+                return None
             else:
                 self.logger.error(f"API request failed: {response.status_code} - {url}")
                 return None
-                
+
         except Exception as e:
+            self.key_manager.report_key_error('eodhd', current_key, 'exception')
             self.logger.error(f"Request error: {str(e)}")
             return None
     
