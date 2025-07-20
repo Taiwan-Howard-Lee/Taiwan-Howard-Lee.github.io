@@ -80,6 +80,16 @@ FRED_INDICATORS = {
     'DEXJPUS': 'Japan / US Foreign Exchange Rate'
 }
 
+# Trading Economics API Configuration
+TRADING_ECONOMICS_CONFIG = {
+    'api_key': '50439e96184c4b1:7008dwvh5w03yxa',
+    'base_url': 'https://api.tradingeconomics.com',
+    'available_countries': ['mexico', 'sweden', 'new-zealand', 'thailand'],
+    'default_country': 'mexico',
+    'update_frequency': 3600,  # seconds (1 hour)
+    'cache_duration': 1800     # seconds (30 minutes)
+}
+
 # Technical indicators configuration
 TECHNICAL_INDICATORS_CONFIG = {
     'moving_average_periods': [5, 10, 20, 50, 100, 200],

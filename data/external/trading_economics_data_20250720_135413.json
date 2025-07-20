@@ -1,0 +1,840 @@
+{
+  "timestamp": "2025-07-20T13:54:13.562550",
+  "economic_indicators": {
+    "Auto Exports": {
+      "ticker": "MEXICOAUTEXP",
+      "date": "2025-06-30T00:00:00",
+      "unit": "Thousand Units",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Balance of Trade": {
+      "ticker": "MXTBBAL",
+      "date": "2025-05-31T00:00:00",
+      "unit": "USD Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Banks Balance Sheet": {
+      "ticker": "MEXICOBANBALSHE",
+      "date": "2025-05-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Business Confidence": {
+      "ticker": "MEXICOBC",
+      "date": "2025-06-30T00:00:00",
+      "unit": "points",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Capacity Utilization": {
+      "ticker": "MEXICOCAPUTI",
+      "date": "2025-05-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Capital Flows": {
+      "ticker": "MEXICOCAPFLO",
+      "date": "2025-03-31T00:00:00",
+      "unit": "USD Million",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Car Production": {
+      "ticker": "MEXICOCARPRO",
+      "date": "2025-06-30T00:00:00",
+      "unit": "Thousand Units",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Car Registrations": {
+      "ticker": "MEXICOCARREG",
+      "date": "2025-06-30T00:00:00",
+      "unit": "Units",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Central Bank Balance Sheet": {
+      "ticker": "MEXICOCENBANBALSHE",
+      "date": "2025-06-30T00:00:00",
+      "unit": "MXN Thousand",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Changes in Inventories": {
+      "ticker": "MEXICOCHAININV",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "CO2 Emissions": {
+      "ticker": "MEX.EN.ATM.CO2E.KT",
+      "date": "2022-12-31T00:00:00",
+      "unit": "KT",
+      "source": "Emissions Database for Global Atmospheric Research"
+    },
+    "Composite Leading Indicator": {
+      "ticker": "MEXCLI",
+      "date": "2025-06-30T00:00:00",
+      "unit": "points",
+      "source": "OECD"
+    },
+    "Construction Output": {
+      "ticker": "MEXICOCONOUT",
+      "date": "2025-05-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Consumer Confidence": {
+      "ticker": "MXCFCONF",
+      "date": "2025-06-30T00:00:00",
+      "unit": "points",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Consumer Credit": {
+      "ticker": "MEXICOCONCRE",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Consumer Price Index CPI": {
+      "ticker": "MEXICOCONPRIINDCPI",
+      "date": "2025-06-30T00:00:00",
+      "unit": "points",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Consumer Spending": {
+      "ticker": "MEXICOCONSPE",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Core Consumer Prices": {
+      "ticker": "MEXICOCORCONPRI",
+      "date": "2025-06-30T00:00:00",
+      "unit": "points",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Core Inflation Rate": {
+      "ticker": "MEXCORECPIRATE",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Core Inflation Rate MoM": {
+      "ticker": "MEXCIRM",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Corporate Tax Rate": {
+      "ticker": "MEXCORPTAX",
+      "date": "2025-12-31T00:00:00",
+      "unit": "percent",
+      "source": "Servicio de Administraci\u00f3n Tributaria, SHCP"
+    },
+    "Corruption Index": {
+      "ticker": "MexicoCorInd",
+      "date": "2024-12-31T00:00:00",
+      "unit": "Points",
+      "source": "Transparency International"
+    },
+    "Corruption Rank": {
+      "ticker": "MexicoCorRan",
+      "date": "2024-12-31T00:00:00",
+      "unit": "",
+      "source": "Transparency International"
+    },
+    "CPI Housing Utilities": {
+      "ticker": "MEXICOCPIHOUUTI",
+      "date": "2025-06-30T00:00:00",
+      "unit": "points",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "CPI Transportation": {
+      "ticker": "MEXICOCPITRA",
+      "date": "2025-06-30T00:00:00",
+      "unit": "points",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Credit Rating": {
+      "ticker": "RATMEXICO",
+      "date": "2025-07-19T00:00:00",
+      "unit": "",
+      "source": ""
+    },
+    "Crude Oil Production": {
+      "ticker": "MEXICOCRUOILPRO",
+      "date": "2025-03-31T00:00:00",
+      "unit": "BBL/D/1K",
+      "source": "U.S. Energy Information Administration"
+    },
+    "Crude Oil Rigs": {
+      "ticker": "MEXICOCRUOILRIG",
+      "date": "2025-06-30T00:00:00",
+      "unit": "",
+      "source": "Baker Hughes Company"
+    },
+    "Currency": {
+      "ticker": "MXN",
+      "date": "2025-07-18T00:00:00",
+      "unit": "",
+      "source": "OTC Interbank"
+    },
+    "Current Account": {
+      "ticker": "OEMXB039",
+      "date": "2025-03-31T00:00:00",
+      "unit": "USD Million",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Current Account to GDP": {
+      "ticker": "MEXCA2GDP",
+      "date": "2024-12-31T00:00:00",
+      "unit": "percent of GDP",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Deposit Interest Rate": {
+      "ticker": "MEXFRINRDPST",
+      "date": "2025-05-31T00:00:00",
+      "unit": "percent",
+      "source": "IMF"
+    },
+    "Employed Persons": {
+      "ticker": "MEXICOEMPPER",
+      "date": "2025-03-31T00:00:00",
+      "unit": "",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Employment Rate": {
+      "ticker": "MEXICOEMPRAT",
+      "date": "2025-05-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Export Prices": {
+      "ticker": "MEXICOEXPPRI",
+      "date": "2025-05-31T00:00:00",
+      "unit": "points",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Exports": {
+      "ticker": "MXTBBEXP",
+      "date": "2025-05-31T00:00:00",
+      "unit": "USD Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "External Debt": {
+      "ticker": "MEXICOEXTDEB",
+      "date": "2025-03-31T00:00:00",
+      "unit": "USD Million",
+      "source": "Banco de M\u00e9xico"
+    },
+    "External Debt to GDP": {
+      "ticker": "MEXEDTG",
+      "date": "2023-12-31T00:00:00",
+      "unit": "percent of GDP",
+      "source": "Inter-American Development Bank"
+    },
+    "Fiscal Expenditure": {
+      "ticker": "MEXICOFISEXP",
+      "date": "2025-05-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Secretar\u00eda de Hacienda Y Cr\u00e9dito P\u00fablico"
+    },
+    "Food Inflation": {
+      "ticker": "MEXICOFOOINF",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Foreign Direct Investment": {
+      "ticker": "MEXICOFORDIRINV",
+      "date": "2025-03-31T00:00:00",
+      "unit": "USD Million",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Foreign Exchange Reserves": {
+      "ticker": "MEXICOFOREXCRES",
+      "date": "2025-06-30T00:00:00",
+      "unit": "USD Million",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Full Year GDP Growth": {
+      "ticker": "MEXFYGG",
+      "date": "2024-12-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Gasoline Prices": {
+      "ticker": "MexicoGasPri",
+      "date": "2025-06-30T00:00:00",
+      "unit": "USD/Liter",
+      "source": "PETROIntelligence"
+    },
+    "GDP": {
+      "ticker": "WGDPMEXI",
+      "date": "2024-12-31T00:00:00",
+      "unit": "USD Billion",
+      "source": "World Bank"
+    },
+    "GDP Aggregate Demand QoQ": {
+      "ticker": "MEXGADQ",
+      "date": "2025-03-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP Aggregate Demand YoY": {
+      "ticker": "MEXGADY",
+      "date": "2025-03-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP Annual Growth Rate": {
+      "ticker": "MXGCTOT",
+      "date": "2025-03-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP Constant Prices": {
+      "ticker": "MEXICOGDPCONPRI",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP Deflator": {
+      "ticker": "MEXICOGDPDEF",
+      "date": "2025-03-31T00:00:00",
+      "unit": "points",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP from Agriculture": {
+      "ticker": "MEXICOGDPFROAGR",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP from Construction": {
+      "ticker": "MEXICOGDPFROCON",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP from Manufacturing": {
+      "ticker": "MEXICOGDPFROMAN",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP from Mining": {
+      "ticker": "MEXICOGDPFROMIN",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP from Public Administration": {
+      "ticker": "MEXICOGFPA",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP from Services": {
+      "ticker": "MEXICOGDPFROSER",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP from Transport": {
+      "ticker": "MEXICOGDPFROTRA",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP from Utilities": {
+      "ticker": "MEXICOGDPFROUTI",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP Growth Rate": {
+      "ticker": "MXGPQTR",
+      "date": "2025-03-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "GDP per Capita": {
+      "ticker": "MEXNYGDPPCAPKD",
+      "date": "2024-12-31T00:00:00",
+      "unit": "USD",
+      "source": "World Bank"
+    },
+    "GDP per Capita PPP": {
+      "ticker": "MEXNYGDPPCAPPPCD",
+      "date": "2024-12-31T00:00:00",
+      "unit": "USD",
+      "source": "World Bank"
+    },
+    "Gold Production": {
+      "ticker": "MEXICOGOLPRO",
+      "date": "2025-04-30T00:00:00",
+      "unit": "Kg",
+      "source": "INEGI, Mexico"
+    },
+    "Gold Reserves": {
+      "ticker": "MEXICOGOLRES",
+      "date": "2025-03-31T00:00:00",
+      "unit": "Tonnes",
+      "source": "World Gold Council"
+    },
+    "Government Bond 10Y": {
+      "ticker": "GMXN10YR",
+      "date": "2025-07-15T00:00:00",
+      "unit": "percent",
+      "source": "Secretaria de Hacienda y Credito Publico"
+    },
+    "Government Budget": {
+      "ticker": "2738A38",
+      "date": "2024-12-31T00:00:00",
+      "unit": "percent of GDP",
+      "source": "Secretaria de Hacienda y Credito Publico"
+    },
+    "Government Budget Value": {
+      "ticker": "MEXICOGOVBUDVAL",
+      "date": "2025-05-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Secretar\u00eda de Hacienda Y Cr\u00e9dito P\u00fablico"
+    },
+    "Government Debt to GDP": {
+      "ticker": "MEXDEBT2GDP",
+      "date": "2024-12-31T00:00:00",
+      "unit": "percent of GDP",
+      "source": "Secretaria de Hacienda y Credito Publico"
+    },
+    "Government Revenues": {
+      "ticker": "MEXICOGOVREV",
+      "date": "2025-05-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Secretar\u00eda de Hacienda Y Cr\u00e9dito P\u00fablico"
+    },
+    "Government Spending": {
+      "ticker": "MEXICOGOVSPE",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Gross Fixed Capital Formation": {
+      "ticker": "MEXICOGROFIXCAPFOR",
+      "date": "2025-03-31T00:00:00",
+      "unit": "MXN Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Hospital Beds                                                                                       ": {
+      "ticker": "MXBEDS              ",
+      "date": "2023-12-31T00:00:00",
+      "unit": "per 1000 people                                                                                     ",
+      "source": "OECD                                                                                                "
+    },
+    "Hospitals                                                                                           ": {
+      "ticker": "MXHOSP              ",
+      "date": "2024-12-31T00:00:00",
+      "unit": "per one million people                                                                              ",
+      "source": "OECD                                                                                                "
+    },
+    "Households Debt to GDP": {
+      "ticker": "MEXICOHDTG",
+      "date": "2024-12-31T00:00:00",
+      "unit": "percent of GDP",
+      "source": "Bank for International Settlements"
+    },
+    "Import Prices": {
+      "ticker": "MEXICOIMPPRI",
+      "date": "2025-05-31T00:00:00",
+      "unit": "points",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Imports": {
+      "ticker": "MXTBBIMP",
+      "date": "2025-05-31T00:00:00",
+      "unit": "USD Million",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Industrial Production": {
+      "ticker": "MXIPTYOY",
+      "date": "2025-05-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Industrial Production Mom": {
+      "ticker": "MEXICOINDPROMOM",
+      "date": "2025-05-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Inflation Expectations": {
+      "ticker": "MEXICOINFEXP",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Bank of Mexico"
+    },
+    "Inflation Rate": {
+      "ticker": "MXCPYOY",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Inflation Rate MoM": {
+      "ticker": "MEXICOINFRATMOM",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Interbank Rate": {
+      "ticker": "MEXICOINTRAT",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Interest Rate": {
+      "ticker": "MXONBR",
+      "date": "2025-06-26T00:00:00",
+      "unit": "percent",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Labor Force Participation Rate": {
+      "ticker": "MEXICOLFPR",
+      "date": "2025-05-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Labour Costs": {
+      "ticker": "MEXICOLABCOS",
+      "date": "2025-05-31T00:00:00",
+      "unit": "points",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Loans to Private Sector": {
+      "ticker": "MEXICOLOATOPRISEC",
+      "date": "2025-05-31T00:00:00",
+      "unit": "MXN Thousand",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Manufacturing Production": {
+      "ticker": "MEXICOMANPRO",
+      "date": "2025-05-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Mid-month Core Inflation Rate MoM": {
+      "ticker": "MEXMMCIRM",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Mid-month Core Inflation Rate YoY": {
+      "ticker": "MEXMMCIRY",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Mid-month Inflation Rate MoM": {
+      "ticker": "MEXMMIRM",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Mid-month Inflation Rate YoY": {
+      "ticker": "MEXMMIRY",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Military Expenditure": {
+      "ticker": "MexicoMil",
+      "date": "2024-12-31T00:00:00",
+      "unit": "USD Million",
+      "source": "SIPRI"
+    },
+    "Minimum Wages": {
+      "ticker": "MEXICOMINWAG",
+      "date": "2025-05-31T00:00:00",
+      "unit": "MXN/Day",
+      "source": "Banco de Mexico"
+    },
+    "Mining Production": {
+      "ticker": "MEXICOMINPRO",
+      "date": "2025-05-31T00:00:00",
+      "unit": "percent",
+      "source": "INEGI - Instituto Nacional de Estadistica, Geografia e Informatica, Mexico"
+    },
+    "Money Supply M0": {
+      "ticker": "MEXICOMONSUPM0",
+      "date": "2025-06-30T00:00:00",
+      "unit": "MXN Million",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Money Supply M1": {
+      "ticker": "MEXICOMONSUPM1",
+      "date": "2025-05-31T00:00:00",
+      "unit": "MXN Thousand",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Money Supply M2": {
+      "ticker": "MEXICOMONSUPM2",
+      "date": "2025-05-31T00:00:00",
+      "unit": "MXN Thousand",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Money Supply M3": {
+      "ticker": "MEXICOMONSUPM3",
+      "date": "2025-05-31T00:00:00",
+      "unit": "MXN Thousand",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Monthly GDP MoM": {
+      "ticker": "MEXMGM",
+      "date": "2025-04-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estadistica, Geografia e Informatica, Mexico"
+    },
+    "Monthly GDP YoY": {
+      "ticker": "MEXMGY",
+      "date": "2025-04-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estadistica, Geografia e Informatica, Mexico"
+    },
+    "Non Oil Exports": {
+      "ticker": "MEXICONONOILEXP",
+      "date": "2025-05-31T00:00:00",
+      "unit": "USD Million",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Oil Exports": {
+      "ticker": "MEXICOOILEXP",
+      "date": "2025-05-31T00:00:00",
+      "unit": "USD Million",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Personal Income Tax Rate": {
+      "ticker": "MEXIRSTAX",
+      "date": "2025-12-31T00:00:00",
+      "unit": "percent",
+      "source": "Servicio de Administraci\u00f3n Tributaria, SHCP"
+    },
+    "Personal Savings": {
+      "ticker": "MEXICOPERSAV",
+      "date": "2023-12-31T00:00:00",
+      "unit": "percent of GDP",
+      "source": "World Bank "
+    },
+    "Population": {
+      "ticker": "MEX SP.POP.TOTL",
+      "date": "2024-12-31T00:00:00",
+      "unit": "Million",
+      "source": "World Bank"
+    },
+    "Precipitation": {
+      "ticker": "MEXPREC",
+      "date": "2024-12-31T00:00:00",
+      "unit": "mm",
+      "source": "Worldbank"
+    },
+    "Price to Rent Ratio": {
+      "ticker": "MXPRR",
+      "date": "2025-03-31T00:00:00",
+      "unit": "",
+      "source": "OECD"
+    },
+    "Private Debt to GDP": {
+      "ticker": "MEXICOPDTG",
+      "date": "2023-12-31T00:00:00",
+      "unit": "percent",
+      "source": "OECD                                                                                                "
+    },
+    "Private Investment": {
+      "ticker": "MEXICOPRIINV",
+      "date": "2025-04-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Private Sector Credit": {
+      "ticker": "MEXICOPRISECCRE",
+      "date": "2025-05-31T00:00:00",
+      "unit": " MXN Thousand",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Producer Price Inflation MoM": {
+      "ticker": "MEXPPIM",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Producer Prices": {
+      "ticker": "MEXICOPROPRI",
+      "date": "2025-06-30T00:00:00",
+      "unit": "points",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Producer Prices Change": {
+      "ticker": "MEXICOPROPRICHA",
+      "date": "2025-06-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Productivity": {
+      "ticker": "MEXICOPRO",
+      "date": "2025-05-31T00:00:00",
+      "unit": "points",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Remittances": {
+      "ticker": "MEXICOREM",
+      "date": "2025-03-31T00:00:00",
+      "unit": "USD Million ",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Residential Property Prices": {
+      "ticker": "MXRPP",
+      "date": "2024-12-31T00:00:00",
+      "unit": "Percent",
+      "source": "Bank for International Settlements"
+    },
+    "Retail Sales MoM": {
+      "ticker": "MEXRETAILSALESMOM",
+      "date": "2025-04-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Retail Sales YoY": {
+      "ticker": "MEXRETAILSALESYOY",
+      "date": "2025-04-30T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Retirement Age Men": {
+      "ticker": "MexicoRetAgeMen",
+      "date": "2025-12-31T00:00:00",
+      "unit": "Years",
+      "source": "Mexican Social Security Institute"
+    },
+    "Retirement Age Women": {
+      "ticker": "MexicoRetAgeWom",
+      "date": "2025-12-31T00:00:00",
+      "unit": "Years",
+      "source": "Mexican Social Security Institute"
+    },
+    "Sales Tax Rate": {
+      "ticker": "MEXSALESTAX",
+      "date": "2025-12-31T00:00:00",
+      "unit": "percent",
+      "source": "Servicio de Administraci\u00f3n Tributaria, SHCP"
+    },
+    "Social Security Rate": {
+      "ticker": "MEXSSR",
+      "date": "2024-12-31T00:00:00",
+      "unit": "percent",
+      "source": "Mexican Social Security Institute"
+    },
+    "Social Security Rate For Companies": {
+      "ticker": "MEXSSRC",
+      "date": "2024-12-31T00:00:00",
+      "unit": "percent",
+      "source": "Mexican Social Security Institute"
+    },
+    "Social Security Rate For Employees": {
+      "ticker": "MEXSSRE",
+      "date": "2024-12-31T00:00:00",
+      "unit": "percent",
+      "source": "Mexican Social Security Institute"
+    },
+    "Stock Market": {
+      "ticker": "MEXBOL",
+      "date": "2025-07-18T00:00:00",
+      "unit": "points",
+      "source": "OTC/CFD"
+    },
+    "Temperature": {
+      "ticker": "MEXTEMP",
+      "date": "2024-12-31T00:00:00",
+      "unit": "celsius",
+      "source": "Worldbank"
+    },
+    "Terms of Trade": {
+      "ticker": "MEXICOTEROFTRA",
+      "date": "2025-05-31T00:00:00",
+      "unit": "points",
+      "source": "Banco de M\u00e9xico"
+    },
+    "Terrorism Index": {
+      "ticker": "MexicoTerInd",
+      "date": "2024-12-31T00:00:00",
+      "unit": "Points",
+      "source": "Institute for Economics and Peace"
+    },
+    "Total Vehicle Sales": {
+      "ticker": "MEXICOTOTVEHSAL",
+      "date": "2025-06-30T00:00:00",
+      "unit": "Units",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Tourism Revenues": {
+      "ticker": "MEXICOTOUREV",
+      "date": "2025-05-31T00:00:00",
+      "unit": "USD Thousand",
+      "source": "Banco de Mexico"
+    },
+    "Tourist Arrivals": {
+      "ticker": "MEXICOTOUARR",
+      "date": "2025-05-31T00:00:00",
+      "unit": "Thousand",
+      "source": "Banco de Mexico"
+    },
+    "Unemployed Persons": {
+      "ticker": "MEXICOUNEPER",
+      "date": "2025-03-31T00:00:00",
+      "unit": "",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Unemployment Rate": {
+      "ticker": "MXUEUNSA",
+      "date": "2025-05-31T00:00:00",
+      "unit": "percent",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Wages": {
+      "ticker": "MEXICOWAG",
+      "date": "2025-06-30T00:00:00",
+      "unit": "MXN/Day",
+      "source": "Secretariat of Labor & Soc Welf, Mexico"
+    },
+    "Wages in Manufacturing": {
+      "ticker": "MEXICOWAGINMAN",
+      "date": "2025-05-31T00:00:00",
+      "unit": "USD/Hour",
+      "source": "Instituto Nacional de Estad\u00edstica y Geograf\u00eda (INEGI)"
+    },
+    "Withholding Tax Rate": {
+      "ticker": "MEXWTR",
+      "date": "2024-12-31T00:00:00",
+      "unit": "percent",
+      "source": "Servicio de Administraci\u00f3n Tributaria, SHCP"
+    }
+  },
+  "currencies": {
+    "NZDUSD:CUR": {
+      "rate": 0.59581,
+      "daily_change_pct": 0.2524
+    },
+    "USDMXN:CUR": {
+      "rate": 18.7369,
+      "daily_change_pct": -0.0922
+    },
+    "USDSEK:CUR": {
+      "rate": 9.6498,
+      "daily_change_pct": -0.7733
+    },
+    "USDTHB:CUR": {
+      "rate": 32.38,
+      "daily_change_pct": -0.3692
+    }
+  },
+  "commodities": {
+    "": {
+      "price": NaN,
+      "daily_change_pct": NaN
+    }
+  },
+  "market_sentiment": "neutral"
+}

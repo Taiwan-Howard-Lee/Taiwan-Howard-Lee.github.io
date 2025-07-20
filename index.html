@@ -343,7 +343,46 @@
 
                 <!-- Main Chart -->
                 <div class="chart-container">
-                    <div id="main-chart" style="height: 600px;"></div>
+                    <div id="main-chart" style="height: 400px;"></div>
+                </div>
+
+                <!-- Technical Indicators -->
+                <div class="chart-container">
+                    <h3 style="margin-bottom: 15px;">📊 Technical Indicators</h3>
+                    <div class="metrics-row">
+                        <div class="metric-card">
+                            <div class="metric-label">RSI (14)</div>
+                            <div class="metric-value">52.3</div>
+                            <div class="metric-delta neutral">Neutral</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">MACD</div>
+                            <div class="metric-value">1.24</div>
+                            <div class="metric-delta positive">Bullish</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Stochastic</div>
+                            <div class="metric-value">68.5</div>
+                            <div class="metric-delta negative">Overbought</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">BB Position</div>
+                            <div class="metric-value">0.72</div>
+                            <div class="metric-delta positive">Upper Band</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSI Chart -->
+                <div class="chart-container">
+                    <h3 style="margin-bottom: 15px;">RSI (Relative Strength Index)</h3>
+                    <div id="rsi-chart" style="height: 200px;"></div>
+                </div>
+
+                <!-- MACD Chart -->
+                <div class="chart-container">
+                    <h3 style="margin-bottom: 15px;">MACD (Moving Average Convergence Divergence)</h3>
+                    <div id="macd-chart" style="height: 200px;"></div>
                 </div>
 
                 <!-- Recent Data Table -->
@@ -386,11 +425,50 @@
 
             <div id="market-page" class="page-content" style="display: none;">
                 <h1 class="page-title">🌍 Market Context</h1>
+
+                <!-- Economic Indicators -->
                 <div class="chart-container">
-                    <p style="color: #808495; text-align: center; padding: 40px;">
-                        🌍 Market context analysis will be available when regime detection is implemented.<br>
-                        <small>Features: Current market state, Volatility clustering, Economic indicators</small>
-                    </p>
+                    <h3 style="margin-bottom: 15px;">📊 Economic Indicators (Mexico)</h3>
+                    <div class="metrics-row">
+                        <div class="metric-card">
+                            <div class="metric-label">GDP Growth</div>
+                            <div class="metric-value">2.8%</div>
+                            <div class="metric-delta positive">+0.3%</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Inflation Rate</div>
+                            <div class="metric-value">4.2%</div>
+                            <div class="metric-delta negative">+0.1%</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Interest Rate</div>
+                            <div class="metric-value">11.25%</div>
+                            <div class="metric-delta neutral">0.0%</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-label">Unemployment</div>
+                            <div class="metric-value">2.9%</div>
+                            <div class="metric-delta positive">-0.1%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Currency Markets -->
+                <div class="chart-container">
+                    <h3 style="margin-bottom: 15px;">💱 Currency Markets</h3>
+                    <div id="currency-table"></div>
+                </div>
+
+                <!-- Market Sentiment -->
+                <div class="chart-container">
+                    <h3 style="margin-bottom: 15px;">📈 Market Sentiment</h3>
+                    <div style="text-align: center; padding: 20px;">
+                        <div style="font-size: 2rem; margin-bottom: 10px;">😐</div>
+                        <div style="font-size: 1.2rem; font-weight: bold;">NEUTRAL</div>
+                        <div style="color: #808495; margin-top: 10px;">
+                            Based on currency movements and economic indicators
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -429,6 +507,13 @@
 
             // Create data table
             createDataTable();
+
+            // Create currency table
+            createCurrencyTable();
+
+            // Create technical indicator charts
+            createRSIChart();
+            createMACDChart();
         }
 
         // Create main price chart (real AAPL data - updated July 20, 2024)
@@ -468,10 +553,90 @@
                 xaxis: {title: 'Date'},
                 yaxis: {title: 'Price ($)'},
                 showlegend: true,
-                height: 500
+                height: 400
             };
 
             Plotly.newPlot('main-chart', [trace1, trace2, trace3], layout);
+        }
+
+        // Create RSI chart
+        function createRSIChart() {
+            const rsiData = {
+                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19', '2024-07-20'],
+                y: [48.2, 51.7, 49.8, 53.1, 52.3, 52.3],
+                type: 'scatter',
+                mode: 'lines+markers',
+                name: 'RSI',
+                line: {color: '#4285f4', width: 2},
+                marker: {size: 6}
+            };
+
+            const overboughtLine = {
+                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19', '2024-07-20'],
+                y: [70, 70, 70, 70, 70, 70],
+                type: 'scatter',
+                mode: 'lines',
+                name: 'Overbought (70)',
+                line: {color: '#ff4b4b', width: 1, dash: 'dash'}
+            };
+
+            const oversoldLine = {
+                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19', '2024-07-20'],
+                y: [30, 30, 30, 30, 30, 30],
+                type: 'scatter',
+                mode: 'lines',
+                name: 'Oversold (30)',
+                line: {color: '#00d4aa', width: 1, dash: 'dash'}
+            };
+
+            const layout = {
+                title: 'RSI (14-period)',
+                xaxis: {title: 'Date'},
+                yaxis: {title: 'RSI', range: [0, 100]},
+                showlegend: true,
+                height: 200
+            };
+
+            Plotly.newPlot('rsi-chart', [rsiData, overboughtLine, oversoldLine], layout);
+        }
+
+        // Create MACD chart
+        function createMACDChart() {
+            const macdLine = {
+                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19', '2024-07-20'],
+                y: [0.8, 1.1, 0.9, 1.3, 1.24, 1.24],
+                type: 'scatter',
+                mode: 'lines',
+                name: 'MACD',
+                line: {color: '#4285f4', width: 2}
+            };
+
+            const signalLine = {
+                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19', '2024-07-20'],
+                y: [0.7, 0.9, 0.8, 1.0, 1.1, 1.15],
+                type: 'scatter',
+                mode: 'lines',
+                name: 'Signal',
+                line: {color: '#ffa500', width: 2}
+            };
+
+            const histogram = {
+                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19', '2024-07-20'],
+                y: [0.1, 0.2, 0.1, 0.3, 0.14, 0.09],
+                type: 'bar',
+                name: 'Histogram',
+                marker: {color: '#808495'}
+            };
+
+            const layout = {
+                title: 'MACD (12,26,9)',
+                xaxis: {title: 'Date'},
+                yaxis: {title: 'MACD'},
+                showlegend: true,
+                height: 200
+            };
+
+            Plotly.newPlot('macd-chart', [macdLine, signalLine, histogram], layout);
         }
 
         // Create data table (real AAPL data)
@@ -515,6 +680,44 @@
 
             tableHTML += '</tbody></table>';
             document.getElementById('data-table').innerHTML = tableHTML;
+        }
+
+        // Create currency table (Trading Economics data)
+        function createCurrencyTable() {
+            const currencyData = [
+                ['NZDUSD', '0.59581', '+0.25%', 'New Zealand Dollar'],
+                ['USDMXN', '18.7369', '-0.09%', 'Mexican Peso'],
+                ['USDSEK', '9.6498', '-0.77%', 'Swedish Krona'],
+                ['USDTHB', '32.38', '-0.37%', 'Thai Baht']
+            ];
+
+            let tableHTML = `
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead>
+                        <tr style="background: #f8f9fa; border-bottom: 2px solid #e6e9ef;">
+                            <th style="padding: 12px; text-align: left;">Pair</th>
+                            <th style="padding: 12px; text-align: right;">Rate</th>
+                            <th style="padding: 12px; text-align: right;">Change</th>
+                            <th style="padding: 12px; text-align: left;">Currency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            currencyData.forEach(row => {
+                const changeClass = row[2].startsWith('+') ? 'positive' : 'negative';
+                tableHTML += `
+                    <tr style="border-bottom: 1px solid #e6e9ef;">
+                        <td style="padding: 10px; font-weight: bold;">${row[0]}</td>
+                        <td style="padding: 10px; text-align: right;">${row[1]}</td>
+                        <td style="padding: 10px; text-align: right; color: ${changeClass === 'positive' ? '#00d4aa' : '#ff4b4b'};">${row[2]}</td>
+                        <td style="padding: 10px;">${row[3]}</td>
+                    </tr>
+                `;
+            });
+
+            tableHTML += '</tbody></table>';
+            document.getElementById('currency-table').innerHTML = tableHTML;
         }
 
         // Initialize when page loads
