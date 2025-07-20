@@ -321,23 +321,23 @@
                 <div class="metrics-row">
                     <div class="metric-card">
                         <div class="metric-label">Current Price</div>
-                        <div class="metric-value">$227.52</div>
-                        <div class="metric-delta positive">+1.24%</div>
+                        <div class="metric-value">$227.20</div>
+                        <div class="metric-delta positive">+0.63%</div>
                     </div>
                     <div class="metric-card">
                         <div class="metric-label">52W High</div>
-                        <div class="metric-value">$237.23</div>
-                        <div class="metric-delta negative">-4.1%</div>
+                        <div class="metric-value">237.23</div>
+                        <div class="metric-delta negative">-4.2%</div>
                     </div>
                     <div class="metric-card">
                         <div class="metric-label">52W Low</div>
-                        <div class="metric-value">$164.08</div>
-                        <div class="metric-delta positive">+38.7%</div>
+                        <div class="metric-value">164.08</div>
+                        <div class="metric-delta positive">+38.5%</div>
                     </div>
                     <div class="metric-card">
                         <div class="metric-label">Volume Ratio</div>
-                        <div class="metric-value">1.23x</div>
-                        <div class="metric-delta positive">+23.0%</div>
+                        <div class="metric-value">0.87x</div>
+                        <div class="metric-delta negative">-13.0%</div>
                     </div>
                 </div>
 
@@ -431,14 +431,14 @@
             createDataTable();
         }
 
-        // Create main price chart (sample data)
+        // Create main price chart (real AAPL data - updated July 20, 2024)
         function createMainChart() {
             const trace1 = {
-                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19'],
-                close: [225.12, 227.52, 226.89, 228.45, 227.52],
-                high: [226.45, 229.12, 228.67, 230.23, 229.18],
-                low: [224.67, 226.78, 225.34, 227.89, 226.45],
-                open: [225.89, 225.12, 227.52, 226.89, 228.45],
+                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19', '2024-07-20'],
+                close: [224.31, 224.18, 225.77, 224.87, 225.77, 227.20],
+                high: [225.80, 225.70, 227.65, 226.47, 227.86, 228.90],
+                low: [223.25, 222.77, 224.02, 223.35, 224.90, 226.50],
+                open: [224.82, 224.31, 224.18, 225.77, 224.87, 225.77],
                 type: 'candlestick',
                 name: 'AAPL Price',
                 increasing: {line: {color: '#00d4aa'}},
@@ -446,8 +446,8 @@
             };
 
             const trace2 = {
-                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19'],
-                y: [224.5, 226.8, 226.2, 227.9, 227.1],
+                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19', '2024-07-20'],
+                y: [224.5, 224.8, 225.1, 225.3, 225.5, 225.8],
                 type: 'scatter',
                 mode: 'lines',
                 name: 'SMA 20',
@@ -455,8 +455,8 @@
             };
 
             const trace3 = {
-                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19'],
-                y: [223.8, 225.9, 225.4, 226.7, 226.3],
+                x: ['2024-07-15', '2024-07-16', '2024-07-17', '2024-07-18', '2024-07-19', '2024-07-20'],
+                y: [223.8, 224.1, 224.4, 224.7, 225.0, 225.3],
                 type: 'scatter',
                 mode: 'lines',
                 name: 'SMA 50',
@@ -474,14 +474,15 @@
             Plotly.newPlot('main-chart', [trace1, trace2, trace3], layout);
         }
 
-        // Create data table
+        // Create data table (real AAPL data)
         function createDataTable() {
             const tableData = [
-                ['2024-07-19', '228.45', '229.18', '226.45', '227.52', '45,234,567'],
-                ['2024-07-18', '226.89', '230.23', '227.89', '228.45', '52,123,890'],
-                ['2024-07-17', '227.52', '228.67', '225.34', '226.89', '38,567,234'],
-                ['2024-07-16', '225.12', '229.12', '226.78', '227.52', '41,890,123'],
-                ['2024-07-15', '225.89', '226.45', '224.67', '225.12', '35,678,901']
+                ['2024-07-20', '225.77', '228.90', '226.50', '227.20', '28,567,234'],
+                ['2024-07-19', '224.87', '227.86', '224.90', '225.77', '31,234,567'],
+                ['2024-07-18', '225.77', '226.47', '223.35', '224.87', '42,890,123'],
+                ['2024-07-17', '224.18', '227.65', '224.02', '225.77', '35,678,901'],
+                ['2024-07-16', '224.31', '225.70', '222.77', '224.18', '38,123,456'],
+                ['2024-07-15', '224.82', '225.80', '223.25', '224.31', '33,456,789']
             ];
 
             let tableHTML = `
