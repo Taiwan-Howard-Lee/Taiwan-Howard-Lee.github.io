@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-07-20T16:03:59.767653",
+  "symbols_processed": 0,
+  "symbols_failed": 3,
+  "data_files": [],
+  "requests_used": 3,
+  "summary": {
+    "success_rate": 0.0,
+    "requests_remaining": 497
+  }
+}

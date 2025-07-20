@@ -1,0 +1,303 @@
+{
+  "session": {
+    "session_id": "test_session_20250720_160136",
+    "start_time": "2025-07-20 16:01:36.195564",
+    "duration_hours": 0.5,
+    "target_symbols": [
+      "AAPL",
+      "MSFT",
+      "GOOGL"
+    ],
+    "data_sources": [
+      "eodhd",
+      "finnhub",
+      "financial_modeling_prep",
+      "yahoo_finance",
+      "alpha_vantage",
+      "polygon"
+    ],
+    "status": "interrupted",
+    "total_records_collected": 5,
+    "total_api_calls": 59,
+    "errors_encountered": 0,
+    "last_checkpoint": null
+  },
+  "collection_stats": {
+    "sources_stats": {
+      "eodhd": {
+        "total_records": 0,
+        "total_api_calls": 0,
+        "total_errors": 1,
+        "success_rate": 0.0,
+        "avg_duration": 0.0,
+        "cycles_processed": 1
+      },
+      "finnhub": {
+        "total_records": 3,
+        "total_api_calls": 24,
+        "total_errors": 0,
+        "success_rate": 1.0,
+        "avg_duration": 0.0,
+        "cycles_processed": 1
+      },
+      "financial_modeling_prep": {
+        "total_records": 2,
+        "total_api_calls": 16,
+        "total_errors": 0,
+        "success_rate": 1.0,
+        "avg_duration": 0.0,
+        "cycles_processed": 1
+      },
+      "yahoo_finance": {
+        "total_records": 0,
+        "total_api_calls": 19,
+        "total_errors": 0,
+        "success_rate": 1.0,
+        "avg_duration": 0.0,
+        "cycles_processed": 1
+      },
+      "alpha_vantage": {
+        "total_records": 0,
+        "total_api_calls": 0,
+        "total_errors": 1,
+        "success_rate": 0.0,
+        "avg_duration": 0.0,
+        "cycles_processed": 1
+      },
+      "polygon": {
+        "total_records": 0,
+        "total_api_calls": 0,
+        "total_errors": 1,
+        "success_rate": 0.0,
+        "avg_duration": 0.0,
+        "cycles_processed": 1
+      }
+    },
+    "symbol_stats": {},
+    "hourly_progress": [
+      {
+        "hour": 0,
+        "records": 5,
+        "api_calls": 59,
+        "errors": 0
+      }
+    ],
+    "api_usage": {
+      "eodhd": {
+        "available_keys": 1,
+        "requests_made": 0,
+        "errors": 0,
+        "last_used": "2025-07-20T16:04:54.912356"
+      },
+      "finnhub": {
+        "available_keys": 1,
+        "requests_made": 24,
+        "errors": 0,
+        "last_used": "2025-07-20T16:04:54.912374"
+      },
+      "financial_modeling_prep": {
+        "available_keys": 1,
+        "requests_made": 16,
+        "errors": 0,
+        "last_used": "2025-07-20T16:04:54.912386"
+      },
+      "yahoo_finance": {
+        "available_keys": 3,
+        "requests_made": 19,
+        "errors": 0,
+        "last_used": "2025-07-20T16:04:54.912397"
+      },
+      "alpha_vantage": {
+        "available_keys": 1,
+        "requests_made": 0,
+        "errors": 0,
+        "last_used": "2025-07-20T16:04:54.912403"
+      },
+      "polygon": {
+        "available_keys": 0,
+        "requests_made": 0,
+        "errors": 0,
+        "last_used": "2025-07-20T16:04:54.912406"
+      }
+    },
+    "data_quality_metrics": {}
+  },
+  "timestamp": "2025-07-20T16:05:24.918077",
+  "session_summary": {
+    "session_id": "test_session_20250720_160136",
+    "duration_hours": 0.06353355083333334,
+    "status": "interrupted",
+    "total_records_collected": 5,
+    "total_api_calls": 59,
+    "errors_encountered": 0,
+    "records_per_hour": 78.69857633357262,
+    "api_calls_per_hour": 928.6432007361568
+  },
+  "source_performance": {
+    "eodhd": {
+      "total_records": 0,
+      "total_api_calls": 0,
+      "total_errors": 1,
+      "success_rate": 0.0,
+      "avg_duration": 0.0,
+      "cycles_processed": 1
+    },
+    "finnhub": {
+      "total_records": 3,
+      "total_api_calls": 24,
+      "total_errors": 0,
+      "success_rate": 1.0,
+      "avg_duration": 0.0,
+      "cycles_processed": 1
+    },
+    "financial_modeling_prep": {
+      "total_records": 2,
+      "total_api_calls": 16,
+      "total_errors": 0,
+      "success_rate": 1.0,
+      "avg_duration": 0.0,
+      "cycles_processed": 1
+    },
+    "yahoo_finance": {
+      "total_records": 0,
+      "total_api_calls": 19,
+      "total_errors": 0,
+      "success_rate": 1.0,
+      "avg_duration": 0.0,
+      "cycles_processed": 1
+    },
+    "alpha_vantage": {
+      "total_records": 0,
+      "total_api_calls": 0,
+      "total_errors": 1,
+      "success_rate": 0.0,
+      "avg_duration": 0.0,
+      "cycles_processed": 1
+    },
+    "polygon": {
+      "total_records": 0,
+      "total_api_calls": 0,
+      "total_errors": 1,
+      "success_rate": 0.0,
+      "avg_duration": 0.0,
+      "cycles_processed": 1
+    }
+  },
+  "hourly_breakdown": [
+    {
+      "hour": 0,
+      "records": 5,
+      "api_calls": 59,
+      "errors": 0
+    }
+  ],
+  "api_usage_final": {
+    "eodhd": {
+      "total_keys": 1,
+      "active_keys": 1,
+      "key_details": [
+        {
+          "key_preview": "687c985a...",
+          "tier": "free",
+          "usage_count": 0,
+          "error_count": 0,
+          "last_used": 0.0,
+          "status": "healthy"
+        }
+      ]
+    },
+    "yahoo_finance": {
+      "total_keys": 3,
+      "active_keys": 3,
+      "key_details": [
+        {
+          "key_preview": "NO_KEY_R...",
+          "tier": "free",
+          "usage_count": 0,
+          "error_count": 0,
+          "last_used": 0.0,
+          "status": "healthy"
+        },
+        {
+          "key_preview": "NO_KEY_R...",
+          "tier": "free",
+          "usage_count": 0,
+          "error_count": 0,
+          "last_used": 0.0,
+          "status": "healthy"
+        },
+        {
+          "key_preview": "NO_KEY_R...",
+          "tier": "free",
+          "usage_count": 0,
+          "error_count": 0,
+          "last_used": 0.0,
+          "status": "healthy"
+        }
+      ]
+    },
+    "alpha_vantage": {
+      "total_keys": 1,
+      "active_keys": 1,
+      "key_details": [
+        {
+          "key_preview": "4Y8CDGOF...",
+          "tier": "free",
+          "usage_count": 0,
+          "error_count": 0,
+          "last_used": 0.0,
+          "status": "healthy"
+        }
+      ]
+    },
+    "polygon": {
+      "total_keys": 0,
+      "active_keys": 0,
+      "key_details": []
+    },
+    "trading_economics": {
+      "total_keys": 0,
+      "active_keys": 0,
+      "key_details": []
+    },
+    "finnhub": {
+      "total_keys": 1,
+      "active_keys": 1,
+      "key_details": [
+        {
+          "key_preview": "d1u9j09r...",
+          "tier": "free",
+          "usage_count": 0,
+          "error_count": 0,
+          "last_used": 0.0,
+          "status": "healthy"
+        }
+      ]
+    },
+    "financial_modeling_prep": {
+      "total_keys": 1,
+      "active_keys": 1,
+      "key_details": [
+        {
+          "key_preview": "6Ohb7GA5...",
+          "tier": "free",
+          "usage_count": 0,
+          "error_count": 0,
+          "last_used": 0.0,
+          "status": "healthy"
+        }
+      ]
+    },
+    "fred": {
+      "total_keys": 0,
+      "active_keys": 0,
+      "key_details": []
+    }
+  },
+  "data_quality_metrics": {
+    "source_success_rate": 0.5,
+    "overall_error_rate": 0.0,
+    "data_completeness": 0.0005,
+    "api_efficiency": 0.0847457627118644
+  }
+}
