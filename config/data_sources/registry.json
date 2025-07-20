@@ -1,0 +1,109 @@
+{
+  "data_sources": {
+    "yahoo_finance": {
+      "type": "free",
+      "rate_limit": "unlimited",
+      "data_types": [
+        "daily",
+        "intraday",
+        "historical"
+      ],
+      "symbols_supported": "all_major_exchanges",
+      "features": [
+        "ohlcv",
+        "dividends",
+        "splits"
+      ],
+      "collector_class": "YahooFinanceCollector",
+      "enabled": true
+    },
+    "alpha_vantage": {
+      "type": "freemium",
+      "rate_limit": "500_per_day",
+      "data_types": [
+        "daily",
+        "intraday",
+        "fundamental"
+      ],
+      "symbols_supported": "global",
+      "features": [
+        "ohlcv",
+        "technical_indicators",
+        "fundamental"
+      ],
+      "collector_class": "AlphaVantageCollector",
+      "api_key_required": true,
+      "enabled": true
+    },
+    "polygon": {
+      "type": "freemium",
+      "rate_limit": "5_per_minute",
+      "data_types": [
+        "daily",
+        "intraday",
+        "options"
+      ],
+      "symbols_supported": "us_markets",
+      "features": [
+        "ohlcv",
+        "options",
+        "news"
+      ],
+      "collector_class": "PolygonCollector",
+      "api_key_required": true,
+      "enabled": true
+    },
+    "trading_economics": {
+      "type": "premium",
+      "rate_limit": "varies",
+      "data_types": [
+        "economic",
+        "calendar",
+        "indicators"
+      ],
+      "symbols_supported": "global_economics",
+      "features": [
+        "economic_indicators",
+        "calendar_events"
+      ],
+      "collector_class": "TradingEconomicsCollector",
+      "api_key_required": true,
+      "enabled": false
+    },
+    "fred": {
+      "type": "free",
+      "rate_limit": "120_per_minute",
+      "data_types": [
+        "economic",
+        "monetary"
+      ],
+      "symbols_supported": "us_economic_data",
+      "features": [
+        "fed_data",
+        "economic_indicators"
+      ],
+      "collector_class": "FREDCollector",
+      "api_key_required": true,
+      "enabled": false
+    }
+  },
+  "integration_priority": [
+    "yahoo_finance",
+    "alpha_vantage",
+    "polygon",
+    "fred",
+    "trading_economics"
+  ],
+  "data_validation": {
+    "required_fields": [
+      "symbol",
+      "date",
+      "close"
+    ],
+    "quality_thresholds": {
+      "min_records": 50,
+      "max_missing_ratio": 0.05,
+      "price_range_check": true
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# trained
+
+Trained model artifacts

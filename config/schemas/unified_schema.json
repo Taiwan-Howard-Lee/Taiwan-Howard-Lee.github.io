@@ -1,0 +1,79 @@
+{
+  "unified_schema": {
+    "company_level": {
+      "required_fields": [
+        "symbol",
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+      ],
+      "technical_indicators": {
+        "volume": [
+          "volume_sma_20",
+          "volume_ratio",
+          "obv",
+          "vwap"
+        ],
+        "momentum": [
+          "rsi_14",
+          "macd_line",
+          "stochastic_k",
+          "williams_r"
+        ],
+        "trend": [
+          "sma_20",
+          "sma_50",
+          "ema_12",
+          "bb_upper",
+          "bb_lower"
+        ],
+        "volatility": [
+          "atr_14",
+          "historical_vol_20",
+          "bb_width"
+        ],
+        "support_resistance": [
+          "pivot_point",
+          "support_1",
+          "resistance_1"
+        ]
+      },
+      "derived_features": [
+        "daily_return",
+        "forward_return_1d",
+        "price_vs_sma20",
+        "bb_position",
+        "price_change",
+        "gap"
+      ]
+    },
+    "market_level": {
+      "breadth_indicators": [
+        "advance_decline_ratio",
+        "new_highs_lows",
+        "up_down_volume"
+      ],
+      "sector_rotation": [
+        "sector_relative_strength",
+        "sector_momentum",
+        "sector_correlation"
+      ],
+      "economic_context": [
+        "fed_funds_rate",
+        "inflation_rate",
+        "gdp_growth",
+        "unemployment"
+      ]
+    }
+  },
+  "data_types": {
+    "price_data": "float64",
+    "volume_data": "int64",
+    "indicators": "float64",
+    "categorical": "string",
+    "dates": "datetime64[ns]"
+  }
+}
