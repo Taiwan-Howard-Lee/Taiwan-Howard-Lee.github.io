@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-07-20T14:55:49.976195",
+  "days_collected": 100,
+  "symbols_processed": 0,
+  "symbols_failed": 31,
+  "data_files": [],
+  "summary": {
+    "total_symbols": 31,
+    "success_rate": 0.0,
+    "stocks": 19,
+    "etfs": 11,
+    "benchmark": 1
+  }
+}

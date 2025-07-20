@@ -1,0 +1,2616 @@
+{
+  "trades": [
+    {
+      "symbol": "META",
+      "action": "buy",
+      "shares": 7,
+      "price": 586.8584594726562,
+      "cost": 4108.009216308594,
+      "date": "2025-05-06 00:00:00-04:00"
+    },
+    {
+      "symbol": "TSLA",
+      "action": "buy",
+      "shares": 14,
+      "price": 275.3500061035156,
+      "cost": 3854.9000854492188,
+      "date": "2025-05-06 00:00:00-04:00"
+    },
+    {
+      "symbol": "BAC",
+      "action": "buy",
+      "shares": 102,
+      "price": 40.600738525390625,
+      "cost": 4141.275329589844,
+      "date": "2025-05-06 00:00:00-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "buy",
+      "shares": 25,
+      "price": 163.03262329101562,
+      "cost": 4075.8155822753906,
+      "date": "2025-05-06 00:00:00-04:00"
+    },
+    {
+      "symbol": "MSFT",
+      "action": "buy",
+      "shares": 9,
+      "price": 432.5159606933594,
+      "cost": 3892.6436462402344,
+      "date": "2025-05-06 00:00:00-04:00"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "buy",
+      "shares": 28,
+      "price": 113.53211975097656,
+      "cost": 3178.8993530273438,
+      "date": "2025-05-06 00:00:00-04:00"
+    },
+    {
+      "symbol": "WFC",
+      "action": "buy",
+      "shares": 49,
+      "price": 72.78070831298828,
+      "cost": 3566.254707336426,
+      "date": "2025-05-07 00:00:00-04:00"
+    },
+    {
+      "symbol": "BAC",
+      "action": "buy",
+      "shares": 79,
+      "price": 40.69021224975586,
+      "cost": 3214.526767730713,
+      "date": "2025-05-07 00:00:00-04:00"
+    },
+    {
+      "symbol": "META",
+      "action": "buy",
+      "shares": 4,
+      "price": 596.3511352539062,
+      "cost": 2385.404541015625,
+      "date": "2025-05-07 00:00:00-04:00"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "buy",
+      "shares": 21,
+      "price": 117.05187225341795,
+      "cost": 2458.089317321777,
+      "date": "2025-05-07 00:00:00-04:00"
+    },
+    {
+      "symbol": "TSLA",
+      "action": "buy",
+      "shares": 9,
+      "price": 276.2200012207031,
+      "cost": 2485.980010986328,
+      "date": "2025-05-07 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 45,
+      "price": 58.23300552368164,
+      "cost": 2620.485248565674,
+      "date": "2025-05-07 00:00:00-04:00"
+    },
+    {
+      "symbol": "TSLA",
+      "action": "buy",
+      "shares": 8,
+      "price": 284.82000732421875,
+      "cost": 2278.56005859375,
+      "date": "2025-05-08 00:00:00-04:00"
+    },
+    {
+      "symbol": "BAC",
+      "action": "buy",
+      "shares": 68,
+      "price": 41.54517364501953,
+      "cost": 2825.071807861328,
+      "date": "2025-05-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "WFC",
+      "action": "buy",
+      "shares": 35,
+      "price": 72.44999694824219,
+      "cost": 2535.7498931884766,
+      "date": "2025-05-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "buy",
+      "shares": 11,
+      "price": 193.05999755859375,
+      "cost": 2123.6599731445312,
+      "date": "2025-05-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "MSFT",
+      "action": "buy",
+      "shares": 6,
+      "price": 437.9260559082031,
+      "cost": 2627.5563354492188,
+      "date": "2025-05-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "META",
+      "action": "buy",
+      "shares": 3,
+      "price": 592.0344848632812,
+      "cost": 1776.1034545898438,
+      "date": "2025-05-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "buy",
+      "shares": 16,
+      "price": 116.64189910888672,
+      "cost": 1866.2703857421875,
+      "date": "2025-05-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "GS",
+      "action": "buy",
+      "shares": 3,
+      "price": 564.2872314453125,
+      "cost": 1692.8616943359375,
+      "date": "2025-05-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 42,
+      "price": 62.16686248779297,
+      "cost": 2611.0082244873047,
+      "date": "2025-05-12 00:00:00-04:00"
+    },
+    {
+      "symbol": "PFE",
+      "action": "buy",
+      "shares": 85,
+      "price": 23.09000015258789,
+      "cost": 1962.6500129699707,
+      "date": "2025-05-12 00:00:00-04:00"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "buy",
+      "shares": 9,
+      "price": 208.63999938964844,
+      "cost": 1877.759994506836,
+      "date": "2025-05-12 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 28,
+      "price": 61.97811508178711,
+      "cost": 1735.387222290039,
+      "date": "2025-05-13 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 25,
+      "price": 61.322471618652344,
+      "cost": 1533.0617904663086,
+      "date": "2025-05-14 00:00:00-04:00"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "buy",
+      "shares": 7,
+      "price": 205.1699981689453,
+      "cost": 1436.1899871826172,
+      "date": "2025-05-15 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 23,
+      "price": 61.98805236816406,
+      "cost": 1425.7252044677734,
+      "date": "2025-05-15 00:00:00-04:00"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "buy",
+      "shares": 6,
+      "price": 205.58999633789065,
+      "cost": 1233.539978027344,
+      "date": "2025-05-16 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 19,
+      "price": 61.670166015625,
+      "cost": 1171.733154296875,
+      "date": "2025-05-19 00:00:00-04:00"
+    },
+    {
+      "symbol": "META",
+      "action": "buy",
+      "shares": 2,
+      "price": 639.9376220703125,
+      "cost": 1279.875244140625,
+      "date": "2025-05-19 00:00:00-04:00"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "buy",
+      "shares": 5,
+      "price": 206.16000366210935,
+      "cost": 1030.8000183105466,
+      "date": "2025-05-19 00:00:00-04:00"
+    },
+    {
+      "symbol": "GS",
+      "action": "buy",
+      "shares": 1,
+      "price": 603.5117797851562,
+      "cost": 603.5117797851562,
+      "date": "2025-05-20 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 17,
+      "price": 62.146995544433594,
+      "cost": 1056.498924255371,
+      "date": "2025-05-20 00:00:00-04:00"
+    },
+    {
+      "symbol": "MSFT",
+      "action": "buy",
+      "shares": 2,
+      "price": 458.1700134277344,
+      "cost": 916.3400268554688,
+      "date": "2025-05-20 00:00:00-04:00"
+    },
+    {
+      "symbol": "HD",
+      "action": "buy",
+      "shares": 3,
+      "price": 374.72125244140625,
+      "cost": 1124.1637573242188,
+      "date": "2025-05-20 00:00:00-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "buy",
+      "shares": 6,
+      "price": 168.35618591308594,
+      "cost": 1010.1371154785156,
+      "date": "2025-05-21 00:00:00-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "buy",
+      "shares": 6,
+      "price": 170.66339111328125,
+      "cost": 1023.9803466796875,
+      "date": "2025-05-22 00:00:00-04:00"
+    },
+    {
+      "symbol": "META",
+      "action": "buy",
+      "shares": 1,
+      "price": 636.08056640625,
+      "cost": 636.08056640625,
+      "date": "2025-05-22 00:00:00-04:00"
+    },
+    {
+      "symbol": "META",
+      "action": "buy",
+      "shares": 1,
+      "price": 626.577880859375,
+      "cost": 626.577880859375,
+      "date": "2025-05-23 00:00:00-04:00"
+    },
+    {
+      "symbol": "GS",
+      "action": "buy",
+      "shares": 1,
+      "price": 595.5713500976562,
+      "cost": 595.5713500976562,
+      "date": "2025-05-23 00:00:00-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "buy",
+      "shares": 4,
+      "price": 172.69093322753906,
+      "cost": 690.7637329101562,
+      "date": "2025-05-27 00:00:00-04:00"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "buy",
+      "shares": 3,
+      "price": 204.72000122070312,
+      "cost": 614.1600036621094,
+      "date": "2025-05-28 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 12,
+      "price": 61.37214279174805,
+      "cost": 736.4657135009766,
+      "date": "2025-05-28 00:00:00-04:00"
+    },
+    {
+      "symbol": "META",
+      "action": "buy",
+      "shares": 1,
+      "price": 643.085205078125,
+      "cost": 643.085205078125,
+      "date": "2025-05-28 00:00:00-04:00"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "buy",
+      "shares": 5,
+      "price": 139.1803436279297,
+      "cost": 695.9017181396484,
+      "date": "2025-05-29 00:00:00-04:00"
+    },
+    {
+      "symbol": "MSFT",
+      "action": "sell",
+      "shares": 17,
+      "price": 458.6799926757813,
+      "proceeds": 7797.559875488282,
+      "date": "2025-05-29 00:00:00-04:00"
+    },
+    {
+      "symbol": "TSLA",
+      "action": "buy",
+      "shares": 2,
+      "price": 346.4599914550781,
+      "cost": 692.9199829101562,
+      "date": "2025-05-30 00:00:00-04:00"
+    },
+    {
+      "symbol": "JNJ",
+      "action": "buy",
+      "shares": 7,
+      "price": 155.2100067138672,
+      "cost": 1086.4700469970703,
+      "date": "2025-05-30 00:00:00-04:00"
+    },
+    {
+      "symbol": "META",
+      "action": "buy",
+      "shares": 1,
+      "price": 670.3842163085938,
+      "cost": 670.3842163085938,
+      "date": "2025-06-02 00:00:00-04:00"
+    },
+    {
+      "symbol": "PFE",
+      "action": "buy",
+      "shares": 40,
+      "price": 23.459999084472656,
+      "cost": 938.3999633789062,
+      "date": "2025-06-02 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 13,
+      "price": 62.369998931884766,
+      "cost": 810.809986114502,
+      "date": "2025-06-03 00:00:00-04:00"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "buy",
+      "shares": 6,
+      "price": 141.21018981933594,
+      "cost": 847.2611389160156,
+      "date": "2025-06-03 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 12,
+      "price": 62.77000045776367,
+      "cost": 753.2400054931641,
+      "date": "2025-06-04 00:00:00-04:00"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "buy",
+      "shares": 5,
+      "price": 141.91014099121094,
+      "cost": 709.5507049560547,
+      "date": "2025-06-04 00:00:00-04:00"
+    },
+    {
+      "symbol": "META",
+      "action": "buy",
+      "shares": 1,
+      "price": 687.4210815429688,
+      "cost": 687.4210815429688,
+      "date": "2025-06-04 00:00:00-04:00"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "buy",
+      "shares": 4,
+      "price": 139.98028564453125,
+      "cost": 559.921142578125,
+      "date": "2025-06-05 00:00:00-04:00"
+    },
+    {
+      "symbol": "TSLA",
+      "action": "sell",
+      "shares": 33,
+      "price": 284.70001220703125,
+      "proceeds": 9395.100402832031,
+      "date": "2025-06-05 00:00:00-04:00"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "buy",
+      "shares": 8,
+      "price": 141.7101593017578,
+      "cost": 1133.6812744140625,
+      "date": "2025-06-06 00:00:00-04:00"
+    },
+    {
+      "symbol": "JNJ",
+      "action": "buy",
+      "shares": 7,
+      "price": 155.22999572753906,
+      "cost": 1086.6099700927734,
+      "date": "2025-06-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "buy",
+      "shares": 6,
+      "price": 142.62010192871094,
+      "cost": 855.7206115722656,
+      "date": "2025-06-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "buy",
+      "shares": 6,
+      "price": 176.08999633789062,
+      "cost": 1056.5399780273438,
+      "date": "2025-06-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "buy",
+      "shares": 7,
+      "price": 143.95001220703125,
+      "cost": 1007.6500854492188,
+      "date": "2025-06-10 00:00:00-04:00"
+    },
+    {
+      "symbol": "BAC",
+      "action": "sell",
+      "shares": 249,
+      "price": 44.72999954223633,
+      "proceeds": 11137.769886016846,
+      "date": "2025-06-11 00:00:00-04:00"
+    },
+    {
+      "symbol": "UNH",
+      "action": "buy",
+      "shares": 3,
+      "price": 316.2549743652344,
+      "cost": 948.7649230957031,
+      "date": "2025-06-12 00:00:00-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "buy",
+      "shares": 8,
+      "price": 175.6999969482422,
+      "cost": 1405.5999755859375,
+      "date": "2025-06-12 00:00:00-04:00"
+    },
+    {
+      "symbol": "XOM",
+      "action": "buy",
+      "shares": 12,
+      "price": 112.12000274658205,
+      "cost": 1345.4400329589846,
+      "date": "2025-06-13 00:00:00-04:00"
+    },
+    {
+      "symbol": "UNH",
+      "action": "buy",
+      "shares": 3,
+      "price": 311.32000732421875,
+      "cost": 933.9600219726562,
+      "date": "2025-06-13 00:00:00-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "buy",
+      "shares": 7,
+      "price": 174.6699981689453,
+      "cost": 1222.6899871826172,
+      "date": "2025-06-13 00:00:00-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "buy",
+      "shares": 7,
+      "price": 176.77000427246094,
+      "cost": 1237.3900299072266,
+      "date": "2025-06-16 00:00:00-04:00"
+    },
+    {
+      "symbol": "UNH",
+      "action": "buy",
+      "shares": 3,
+      "price": 308.8699951171875,
+      "cost": 926.6099853515625,
+      "date": "2025-06-17 00:00:00-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "buy",
+      "shares": 6,
+      "price": 175.9499969482422,
+      "cost": 1055.6999816894531,
+      "date": "2025-06-17 00:00:00-04:00"
+    },
+    {
+      "symbol": "JNJ",
+      "action": "sell",
+      "shares": 14,
+      "price": 149.7899932861328,
+      "proceeds": 2097.0599060058594,
+      "date": "2025-06-20 00:00:00-04:00"
+    },
+    {
+      "symbol": "HD",
+      "action": "sell",
+      "shares": 3,
+      "price": 349.6199951171875,
+      "proceeds": 1048.8599853515625,
+      "date": "2025-06-20 00:00:00-04:00"
+    },
+    {
+      "symbol": "JPM",
+      "action": "buy",
+      "shares": 4,
+      "price": 273.6814880371094,
+      "cost": 1094.7259521484375,
+      "date": "2025-06-20 00:00:00-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "sell",
+      "shares": 75,
+      "price": 166.63999938964844,
+      "proceeds": 12497.999954223633,
+      "date": "2025-06-20 00:00:00-04:00"
+    },
+    {
+      "symbol": "CVX",
+      "action": "buy",
+      "shares": 11,
+      "price": 149.5500030517578,
+      "cost": 1645.050033569336,
+      "date": "2025-06-20 00:00:00-04:00"
+    },
+    {
+      "symbol": "XOM",
+      "action": "buy",
+      "shares": 15,
+      "price": 114.6999969482422,
+      "cost": 1720.499954223633,
+      "date": "2025-06-20 00:00:00-04:00"
+    },
+    {
+      "symbol": "WFC",
+      "action": "buy",
+      "shares": 18,
+      "price": 79.06999969482422,
+      "cost": 1423.259994506836,
+      "date": "2025-06-25 00:00:00-04:00"
+    },
+    {
+      "symbol": "WFC",
+      "action": "buy",
+      "shares": 18,
+      "price": 79.95999908447266,
+      "cost": 1439.2799835205078,
+      "date": "2025-06-26 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 20,
+      "price": 72.04000091552734,
+      "cost": 1440.8000183105469,
+      "date": "2025-06-27 00:00:00-04:00"
+    },
+    {
+      "symbol": "META",
+      "action": "buy",
+      "shares": 1,
+      "price": 733.6300048828125,
+      "cost": 733.6300048828125,
+      "date": "2025-06-27 00:00:00-04:00"
+    },
+    {
+      "symbol": "JPM",
+      "action": "buy",
+      "shares": 4,
+      "price": 285.7334289550781,
+      "cost": 1142.9337158203125,
+      "date": "2025-06-27 00:00:00-04:00"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "buy",
+      "shares": 6,
+      "price": 223.3000030517578,
+      "cost": 1339.8000183105469,
+      "date": "2025-06-27 00:00:00-04:00"
+    },
+    {
+      "symbol": "GS",
+      "action": "buy",
+      "shares": 2,
+      "price": 690.8099975585938,
+      "cost": 1381.6199951171875,
+      "date": "2025-06-27 00:00:00-04:00"
+    },
+    {
+      "symbol": "META",
+      "action": "buy",
+      "shares": 1,
+      "price": 738.0900268554688,
+      "cost": 738.0900268554688,
+      "date": "2025-06-30 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 15,
+      "price": 71.04000091552734,
+      "cost": 1065.6000137329102,
+      "date": "2025-06-30 00:00:00-04:00"
+    },
+    {
+      "symbol": "GS",
+      "action": "buy",
+      "shares": 1,
+      "price": 707.75,
+      "cost": 707.75,
+      "date": "2025-06-30 00:00:00-04:00"
+    },
+    {
+      "symbol": "WFC",
+      "action": "buy",
+      "shares": 11,
+      "price": 80.12000274658203,
+      "cost": 881.3200302124023,
+      "date": "2025-06-30 00:00:00-04:00"
+    },
+    {
+      "symbol": "AAPL",
+      "action": "buy",
+      "shares": 4,
+      "price": 205.1699981689453,
+      "cost": 820.6799926757812,
+      "date": "2025-06-30 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 10,
+      "price": 73.41000366210938,
+      "cost": 734.1000366210938,
+      "date": "2025-07-01 00:00:00-04:00"
+    },
+    {
+      "symbol": "PFE",
+      "action": "buy",
+      "shares": 40,
+      "price": 25.040000915527344,
+      "cost": 1001.6000366210938,
+      "date": "2025-07-01 00:00:00-04:00"
+    },
+    {
+      "symbol": "UNH",
+      "action": "buy",
+      "shares": 2,
+      "price": 326.1400146484375,
+      "cost": 652.280029296875,
+      "date": "2025-07-01 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 9,
+      "price": 76.38999938964844,
+      "cost": 687.5099945068359,
+      "date": "2025-07-02 00:00:00-04:00"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "buy",
+      "shares": 3,
+      "price": 223.41000366210935,
+      "cost": 670.230010986328,
+      "date": "2025-07-03 00:00:00-04:00"
+    },
+    {
+      "symbol": "CVX",
+      "action": "buy",
+      "shares": 5,
+      "price": 148.3699951171875,
+      "cost": 741.8499755859375,
+      "date": "2025-07-03 00:00:00-04:00"
+    },
+    {
+      "symbol": "BAC",
+      "action": "buy",
+      "shares": 14,
+      "price": 48.93000030517578,
+      "cost": 685.0200042724609,
+      "date": "2025-07-03 00:00:00-04:00"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "buy",
+      "shares": 3,
+      "price": 179.52999877929688,
+      "cost": 538.5899963378906,
+      "date": "2025-07-03 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 7,
+      "price": 76.38999938964844,
+      "cost": 534.7299957275391,
+      "date": "2025-07-03 00:00:00-04:00"
+    },
+    {
+      "symbol": "HD",
+      "action": "buy",
+      "shares": 1,
+      "price": 371.6799926757813,
+      "cost": 371.6799926757813,
+      "date": "2025-07-03 00:00:00-04:00"
+    },
+    {
+      "symbol": "WFC",
+      "action": "buy",
+      "shares": 7,
+      "price": 83.5999984741211,
+      "cost": 585.1999893188477,
+      "date": "2025-07-03 00:00:00-04:00"
+    },
+    {
+      "symbol": "PFE",
+      "action": "buy",
+      "shares": 26,
+      "price": 25.3799991607666,
+      "cost": 659.8799781799316,
+      "date": "2025-07-03 00:00:00-04:00"
+    },
+    {
+      "symbol": "AAPL",
+      "action": "buy",
+      "shares": 2,
+      "price": 213.5500030517578,
+      "cost": 427.1000061035156,
+      "date": "2025-07-03 00:00:00-04:00"
+    },
+    {
+      "symbol": "XOM",
+      "action": "buy",
+      "shares": 4,
+      "price": 113.8000030517578,
+      "cost": 455.2000122070312,
+      "date": "2025-07-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 5,
+      "price": 73.55999755859375,
+      "cost": 367.79998779296875,
+      "date": "2025-07-09 00:00:00-04:00"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "buy",
+      "shares": 2,
+      "price": 222.2599945068359,
+      "cost": 444.5199890136718,
+      "date": "2025-07-10 00:00:00-04:00"
+    },
+    {
+      "symbol": "NKE",
+      "action": "buy",
+      "shares": 5,
+      "price": 74.62000274658203,
+      "cost": 373.10001373291016,
+      "date": "2025-07-10 00:00:00-04:00"
+    }
+  ],
+  "daily_portfolio": [
+    {
+      "date": "2025-05-07 00:00:00-04:00",
+      "portfolio_value": 99890.77600860596,
+      "daily_return": -0.0010922399139404297,
+      "cash": 76748.45678710938,
+      "positions_count": 6
+    },
+    {
+      "date": "2025-05-08 00:00:00-04:00",
+      "portfolio_value": 100372.52640151978,
+      "daily_return": 0.003725264015197754,
+      "cash": 60017.71619415283,
+      "positions_count": 8
+    },
+    {
+      "date": "2025-05-09 00:00:00-04:00",
+      "portfolio_value": 100644.42249298096,
+      "daily_return": 0.006444224929809571,
+      "cash": 57739.15613555908,
+      "positions_count": 8
+    },
+    {
+      "date": "2025-05-12 00:00:00-04:00",
+      "portfolio_value": 103665.58382797241,
+      "daily_return": 0.03665583827972412,
+      "cash": 42291.88259124756,
+      "positions_count": 10
+    },
+    {
+      "date": "2025-05-13 00:00:00-04:00",
+      "portfolio_value": 105237.21585655212,
+      "daily_return": 0.05237215856552124,
+      "cash": 35840.46435928345,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-05-14 00:00:00-04:00",
+      "portfolio_value": 106251.48829269409,
+      "daily_return": 0.06251488292694092,
+      "cash": 34105.07713699341,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-05-15 00:00:00-04:00",
+      "portfolio_value": 105737.86333274841,
+      "daily_return": 0.05737863332748413,
+      "cash": 32572.0153465271,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-05-16 00:00:00-04:00",
+      "portfolio_value": 106301.62889671326,
+      "daily_return": 0.06301628896713257,
+      "cash": 29710.10015487671,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-05-19 00:00:00-04:00",
+      "portfolio_value": 106003.1985244751,
+      "daily_return": 0.06003198524475098,
+      "cash": 28476.560176849365,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-05-20 00:00:00-04:00",
+      "portfolio_value": 105820.96778869629,
+      "daily_return": 0.05820967788696289,
+      "cash": 24994.15176010132,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-05-21 00:00:00-04:00",
+      "portfolio_value": 104076.0544052124,
+      "daily_return": 0.04076054405212402,
+      "cash": 21293.637271881104,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-05-22 00:00:00-04:00",
+      "portfolio_value": 104846.3155708313,
+      "daily_return": 0.048463155708312985,
+      "cash": 20283.500156402588,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-05-23 00:00:00-04:00",
+      "portfolio_value": 103967.11938095093,
+      "daily_return": 0.03967119380950928,
+      "cash": 18623.43924331665,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-05-27 00:00:00-04:00",
+      "portfolio_value": 106817.32278060913,
+      "daily_return": 0.06817322780609131,
+      "cash": 17401.29001235962,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-05-28 00:00:00-04:00",
+      "portfolio_value": 106132.51235580444,
+      "daily_return": 0.06132512355804443,
+      "cash": 16710.526279449463,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-05-29 00:00:00-04:00",
+      "portfolio_value": 106579.31126785278,
+      "daily_return": 0.06579311267852783,
+      "cash": 14716.815357208252,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-05-30 00:00:00-04:00",
+      "portfolio_value": 105750.81555366516,
+      "daily_return": 0.05750815553665161,
+      "cash": 21818.473514556885,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-06-02 00:00:00-04:00",
+      "portfolio_value": 106447.51652526855,
+      "daily_return": 0.06447516525268554,
+      "cash": 20039.08348464966,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-06-03 00:00:00-04:00",
+      "portfolio_value": 106940.47376441956,
+      "daily_return": 0.06940473764419555,
+      "cash": 18430.29930496216,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-06-04 00:00:00-04:00",
+      "portfolio_value": 107117.58772659302,
+      "daily_return": 0.07117587726593018,
+      "cash": 16772.22817993164,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-06-05 00:00:00-04:00",
+      "portfolio_value": 105304.52831077576,
+      "daily_return": 0.053045283107757565,
+      "cash": 14622.016387939453,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-06-06 00:00:00-04:00",
+      "portfolio_value": 106617.84445381165,
+      "daily_return": 0.06617844453811646,
+      "cash": 23457.19564819336,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-06-09 00:00:00-04:00",
+      "portfolio_value": 106719.19687843323,
+      "daily_return": 0.06719196878433227,
+      "cash": 22323.514373779297,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-06-10 00:00:00-04:00",
+      "portfolio_value": 107675.37440490723,
+      "daily_return": 0.07675374404907226,
+      "cash": 19324.643814086914,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-06-11 00:00:00-04:00",
+      "portfolio_value": 106861.07668304443,
+      "daily_return": 0.06861076683044434,
+      "cash": 18316.993728637695,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-06-12 00:00:00-04:00",
+      "portfolio_value": 106925.77869415283,
+      "daily_return": 0.06925778694152832,
+      "cash": 29454.76361465454,
+      "positions_count": 10
+    },
+    {
+      "date": "2025-06-13 00:00:00-04:00",
+      "portfolio_value": 105477.27326583862,
+      "daily_return": 0.05477273265838623,
+      "cash": 27100.3987159729,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-06-16 00:00:00-04:00",
+      "portfolio_value": 106871.53973579407,
+      "daily_return": 0.06871539735794067,
+      "cash": 23598.308673858643,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-06-17 00:00:00-04:00",
+      "portfolio_value": 106001.7179145813,
+      "daily_return": 0.06001717914581299,
+      "cash": 22360.918643951416,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-06-18 00:00:00-04:00",
+      "portfolio_value": 105881.08870506287,
+      "daily_return": 0.05881088705062866,
+      "cash": 20378.6086769104,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-06-20 00:00:00-04:00",
+      "portfolio_value": 104936.04900550842,
+      "daily_return": 0.04936049005508423,
+      "cash": 20378.6086769104,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-06-23 00:00:00-04:00",
+      "portfolio_value": 105558.04622459412,
+      "daily_return": 0.05558046224594116,
+      "cash": 31562.25258255005,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-06-24 00:00:00-04:00",
+      "portfolio_value": 106699.537733078,
+      "daily_return": 0.06699537733078002,
+      "cash": 31562.25258255005,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-06-25 00:00:00-04:00",
+      "portfolio_value": 107223.08497047424,
+      "daily_return": 0.07223084970474243,
+      "cash": 31562.25258255005,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-06-26 00:00:00-04:00",
+      "portfolio_value": 108533.69556999207,
+      "daily_return": 0.08533695569992066,
+      "cash": 30138.992588043213,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-06-27 00:00:00-04:00",
+      "portfolio_value": 111461.85653877258,
+      "daily_return": 0.11461856538772583,
+      "cash": 28699.712604522705,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-06-30 00:00:00-04:00",
+      "portfolio_value": 111343.65080833435,
+      "daily_return": 0.1134365080833435,
+      "cash": 22660.9288520813,
+      "positions_count": 11
+    },
+    {
+      "date": "2025-07-01 00:00:00-04:00",
+      "portfolio_value": 111581.38080978394,
+      "daily_return": 0.11581380809783935,
+      "cash": 18447.488788604736,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-07-02 00:00:00-04:00",
+      "portfolio_value": 112819.87881088257,
+      "daily_return": 0.12819878810882568,
+      "cash": 16059.508686065674,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-07-03 00:00:00-04:00",
+      "portfolio_value": 113659.0978679657,
+      "daily_return": 0.13659097867965697,
+      "cash": 15371.998691558838,
+      "positions_count": 12
+    },
+    {
+      "date": "2025-07-07 00:00:00-04:00",
+      "portfolio_value": 113101.2076625824,
+      "daily_return": 0.13101207662582398,
+      "cash": 10157.718742370605,
+      "positions_count": 15
+    },
+    {
+      "date": "2025-07-08 00:00:00-04:00",
+      "portfolio_value": 112339.09799385071,
+      "daily_return": 0.12339097993850708,
+      "cash": 10157.718742370605,
+      "positions_count": 15
+    },
+    {
+      "date": "2025-07-09 00:00:00-04:00",
+      "portfolio_value": 112934.42909049988,
+      "daily_return": 0.12934429090499877,
+      "cash": 10157.718742370605,
+      "positions_count": 15
+    },
+    {
+      "date": "2025-07-10 00:00:00-04:00",
+      "portfolio_value": 113534.5800151825,
+      "daily_return": 0.13534580015182496,
+      "cash": 9334.718742370605,
+      "positions_count": 15
+    },
+    {
+      "date": "2025-07-11 00:00:00-04:00",
+      "portfolio_value": 112965.53854560852,
+      "daily_return": 0.1296553854560852,
+      "cash": 8517.098739624023,
+      "positions_count": 15
+    }
+  ],
+  "performance_metrics": {
+    "total_return": 0.1296553854560852,
+    "total_return_pct": 12.96553854560852,
+    "final_value": 112965.53854560852,
+    "volatility": 0.1671786228674175,
+    "sharpe_ratio": 4.301041641470885,
+    "max_drawdown": -0.025440593213985247,
+    "max_drawdown_pct": -2.5440593213985245,
+    "total_trades": 106,
+    "win_rate": 0.6666666666666666,
+    "win_rate_pct": 66.66666666666666,
+    "trading_days": 45,
+    "avg_daily_return": 0.002853342136970315,
+    "best_day": 0.030018169513587933,
+    "worst_day": -0.016925879813919242
+  },
+  "decisions_log": [
+    {
+      "date": "2025-05-06 00:00:00-04:00",
+      "symbol": "META",
+      "action": "buy",
+      "confidence": 0.6128291680090655,
+      "position_size": 0.04451775598124148,
+      "reasoning": [
+        "Bullish momentum (RSI: 68.9, MACD: 2.602)",
+        "Bullish trend (Price vs SMA20: 1.084)"
+      ]
+    },
+    {
+      "date": "2025-05-06 00:00:00-04:00",
+      "symbol": "TSLA",
+      "action": "buy",
+      "confidence": 0.5083830274961366,
+      "position_size": 0.040335321099845466,
+      "reasoning": [
+        "Bullish momentum (RSI: 58.8, MACD: 5.093)",
+        "Bullish trend (Price vs SMA20: 1.053)"
+      ]
+    },
+    {
+      "date": "2025-05-06 00:00:00-04:00",
+      "symbol": "BAC",
+      "action": "buy",
+      "confidence": 0.3716075622222439,
+      "position_size": 0.045424225294760825,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.061)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-06 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "buy",
+      "confidence": 0.4641596170636557,
+      "position_size": 0.0476668485715908,
+      "reasoning": [
+        "Bullish momentum (RSI: 60.7, MACD: 0.703)",
+        "Bullish trend (Price vs SMA20: 1.039)"
+      ]
+    },
+    {
+      "date": "2025-05-06 00:00:00-04:00",
+      "symbol": "MSFT",
+      "action": "buy",
+      "confidence": 0.5,
+      "position_size": 0.04743727056242926,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.109)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-06 00:00:00-04:00",
+      "symbol": "NVDA",
+      "action": "buy",
+      "confidence": 0.5139030028984442,
+      "position_size": 0.04055612011593777,
+      "reasoning": [
+        "Bullish momentum (RSI: 51.7, MACD: 0.372)",
+        "Bullish trend (Price vs SMA20: 1.054)"
+      ]
+    },
+    {
+      "date": "2025-05-07 00:00:00-04:00",
+      "symbol": "WFC",
+      "action": "buy",
+      "confidence": 0.4116160854095221,
+      "position_size": 0.04717183398576395,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.073)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-07 00:00:00-04:00",
+      "symbol": "BAC",
+      "action": "buy",
+      "confidence": 0.35242269061792975,
+      "position_size": 0.04438772255772898,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.056)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-07 00:00:00-04:00",
+      "symbol": "META",
+      "action": "buy",
+      "confidence": 0.47557778434408987,
+      "position_size": 0.039136933859363884,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.093)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-07 00:00:00-04:00",
+      "symbol": "NVDA",
+      "action": "buy",
+      "confidence": 0.4215938181967081,
+      "position_size": 0.03686375272786832,
+      "reasoning": [
+        "Bullish momentum (RSI: 68.3, MACD: 0.901)",
+        "Bullish trend (Price vs SMA20: 1.076)"
+      ]
+    },
+    {
+      "date": "2025-05-07 00:00:00-04:00",
+      "symbol": "TSLA",
+      "action": "buy",
+      "confidence": 0.48327874893857414,
+      "position_size": 0.03933114995754297,
+      "reasoning": [
+        "Bullish momentum (RSI: 65.8, MACD: 4.940)",
+        "Bullish trend (Price vs SMA20: 1.045)"
+      ]
+    },
+    {
+      "date": "2025-05-07 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.44639046121807474,
+      "position_size": 0.04204732131131242,
+      "reasoning": [
+        "Bullish momentum (RSI: 69.8, MACD: -1.497)",
+        "Bullish trend (Price vs SMA20: 1.034)"
+      ]
+    },
+    {
+      "date": "2025-05-08 00:00:00-04:00",
+      "symbol": "TSLA",
+      "action": "buy",
+      "confidence": 0.41650900572118826,
+      "position_size": 0.03868025252767311,
+      "reasoning": [
+        "Bullish momentum (RSI: 68.4, MACD: 5.450)",
+        "Bullish trend (Price vs SMA20: 1.075)"
+      ]
+    },
+    {
+      "date": "2025-05-09 00:00:00-04:00",
+      "symbol": "BAC",
+      "action": "buy",
+      "confidence": 0.3788550023191064,
+      "position_size": 0.04944559303085405,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.064)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-09 00:00:00-04:00",
+      "symbol": "WFC",
+      "action": "buy",
+      "confidence": 0.352209832625719,
+      "position_size": 0.04733830336101902,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.056)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-09 00:00:00-04:00",
+      "symbol": "AMZN",
+      "action": "buy",
+      "confidence": 0.3355078742667634,
+      "position_size": 0.04280964909436092,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.051)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-09 00:00:00-04:00",
+      "symbol": "MSFT",
+      "action": "buy",
+      "confidence": 0.488626349110707,
+      "position_size": 0.05258354171546947,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.097)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-09 00:00:00-04:00",
+      "symbol": "META",
+      "action": "buy",
+      "confidence": 0.42997245798714356,
+      "position_size": 0.04781661500345794,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.079)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-09 00:00:00-04:00",
+      "symbol": "NVDA",
+      "action": "buy",
+      "confidence": 0.38920995887632187,
+      "position_size": 0.042942544395171256,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.067)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-09 00:00:00-04:00",
+      "symbol": "GS",
+      "action": "buy",
+      "confidence": 0.3626488877426439,
+      "position_size": 0.04749500481072119,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.059)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-12 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.641696197444364,
+      "position_size": 0.062120846588085685,
+      "reasoning": [
+        "Bullish momentum (RSI: 69.1, MACD: -0.672)",
+        "Bullish trend (Price vs SMA20: 1.093)"
+      ]
+    },
+    {
+      "date": "2025-05-12 00:00:00-04:00",
+      "symbol": "PFE",
+      "action": "buy",
+      "confidence": 0.4137374170000216,
+      "position_size": 0.04967124071492761,
+      "reasoning": [
+        "Bullish momentum (RSI: 58.9, MACD: -0.170)",
+        "Bullish trend (Price vs SMA20: 1.024)"
+      ]
+    },
+    {
+      "date": "2025-05-12 00:00:00-04:00",
+      "symbol": "AMZN",
+      "action": "buy",
+      "confidence": 0.5,
+      "position_size": 0.050303386048525814,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.128)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-13 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "sell",
+      "confidence": 0.5,
+      "position_size": 0.04,
+      "reasoning": [
+        "Bearish trend (Price vs SMA20: 0.738)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-05-13 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.441986136463875,
+      "position_size": 0.04904155829619446,
+      "reasoning": [
+        "Bullish momentum (RSI: 67.5, MACD: -0.318)",
+        "Bullish trend (Price vs SMA20: 1.083)"
+      ]
+    },
+    {
+      "date": "2025-05-14 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.38256420731083435,
+      "position_size": 0.045135129286200226,
+      "reasoning": [
+        "Bullish momentum (RSI: 61.7, MACD: -0.089)",
+        "Bullish trend (Price vs SMA20: 1.065)"
+      ]
+    },
+    {
+      "date": "2025-05-14 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "sell",
+      "confidence": 0.5,
+      "position_size": 0.04,
+      "reasoning": [
+        "Bearish trend (Price vs SMA20: 0.755)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-05-15 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "sell",
+      "confidence": 0.5,
+      "position_size": 0.04,
+      "reasoning": [
+        "Bearish trend (Price vs SMA20: 0.699)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-05-15 00:00:00-04:00",
+      "symbol": "AMZN",
+      "action": "buy",
+      "confidence": 0.442713792480036,
+      "position_size": 0.04743316932320561,
+      "reasoning": [
+        "Bullish momentum (RSI: 66.8, MACD: 4.855)",
+        "Bullish trend (Price vs SMA20: 1.083)"
+      ]
+    },
+    {
+      "date": "2025-05-15 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.3939103193468787,
+      "position_size": 0.04639392376351212,
+      "reasoning": [
+        "Bullish momentum (RSI: 67.4, MACD: 0.145)",
+        "Bullish trend (Price vs SMA20: 1.068)"
+      ]
+    },
+    {
+      "date": "2025-05-16 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "sell",
+      "confidence": 0.5,
+      "position_size": 0.04,
+      "reasoning": [
+        "Bearish trend (Price vs SMA20: 0.760)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-05-16 00:00:00-04:00",
+      "symbol": "AMZN",
+      "action": "buy",
+      "confidence": 0.41889789092668667,
+      "position_size": 0.04611658990361626,
+      "reasoning": [
+        "Bullish momentum (RSI: 68.9, MACD: 5.109)",
+        "Bullish trend (Price vs SMA20: 1.076)"
+      ]
+    },
+    {
+      "date": "2025-05-19 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.33575098072028764,
+      "position_size": 0.04282369412468496,
+      "reasoning": [
+        "Bullish momentum (RSI: 65.2, MACD: 0.483)",
+        "Bullish trend (Price vs SMA20: 1.051)"
+      ]
+    },
+    {
+      "date": "2025-05-19 00:00:00-04:00",
+      "symbol": "META",
+      "action": "buy",
+      "confidence": 0.45872828769080964,
+      "position_size": 0.04938299942841544,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.088)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-19 00:00:00-04:00",
+      "symbol": "AMZN",
+      "action": "buy",
+      "confidence": 0.39267344159079903,
+      "position_size": 0.04529717265144574,
+      "reasoning": [
+        "Bullish momentum (RSI: 69.8, MACD: 5.295)",
+        "Bullish trend (Price vs SMA20: 1.068)"
+      ]
+    },
+    {
+      "date": "2025-05-19 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "sell",
+      "confidence": 0.5,
+      "position_size": 0.04,
+      "reasoning": [
+        "Bearish trend (Price vs SMA20: 0.834)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-05-20 00:00:00-04:00",
+      "symbol": "GS",
+      "action": "buy",
+      "confidence": 0.3689201288172523,
+      "position_size": 0.048198247472766416,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.061)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-20 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "sell",
+      "confidence": 0.5,
+      "position_size": 0.04,
+      "reasoning": [
+        "Bearish trend (Price vs SMA20: 0.861)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-05-20 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.3464796008901267,
+      "position_size": 0.04362121546726509,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.054)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-20 00:00:00-04:00",
+      "symbol": "MSFT",
+      "action": "buy",
+      "confidence": 0.4108865757635736,
+      "position_size": 0.049795406569715366,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.073)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-20 00:00:00-04:00",
+      "symbol": "HD",
+      "action": "buy",
+      "confidence": 0.4324982817263927,
+      "position_size": 0.055275572173188764,
+      "reasoning": [
+        "Bullish momentum (RSI: 66.4, MACD: 5.156)",
+        "Bullish trend (Price vs SMA20: 1.030)"
+      ]
+    },
+    {
+      "date": "2025-05-21 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "sell",
+      "confidence": 0.5,
+      "position_size": 0.04,
+      "reasoning": [
+        "Bearish trend (Price vs SMA20: 0.825)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-05-21 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "buy",
+      "confidence": 0.4848982463224039,
+      "position_size": 0.05169368308895819,
+      "reasoning": [
+        "Bullish momentum (RSI: 58.3, MACD: 1.925)",
+        "Bullish trend (Price vs SMA20: 1.045)"
+      ]
+    },
+    {
+      "date": "2025-05-22 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "buy",
+      "confidence": 0.5200045314496157,
+      "position_size": 0.05424794714823923,
+      "reasoning": [
+        "Bullish momentum (RSI: 57.9, MACD: 2.410)",
+        "Bullish trend (Price vs SMA20: 1.056)"
+      ]
+    },
+    {
+      "date": "2025-05-22 00:00:00-04:00",
+      "symbol": "META",
+      "action": "buy",
+      "confidence": 0.497961125056354,
+      "position_size": 0.052428852758701544,
+      "reasoning": [
+        "Bullish momentum (RSI: 66.2, MACD: 21.645)",
+        "Bullish trend (Price vs SMA20: 1.049)"
+      ]
+    },
+    {
+      "date": "2025-05-23 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "sell",
+      "confidence": 0.5,
+      "position_size": 0.04,
+      "reasoning": [
+        "Bearish trend (Price vs SMA20: 0.833)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-05-23 00:00:00-04:00",
+      "symbol": "META",
+      "action": "buy",
+      "confidence": 0.42319023808377904,
+      "position_size": 0.04744585959696676,
+      "reasoning": [
+        "Bullish momentum (RSI: 60.7, MACD: 20.093)",
+        "Bullish trend (Price vs SMA20: 1.027)"
+      ]
+    },
+    {
+      "date": "2025-05-23 00:00:00-04:00",
+      "symbol": "GS",
+      "action": "buy",
+      "confidence": 0.4377601889687037,
+      "position_size": 0.053413341844821785,
+      "reasoning": [
+        "Bullish momentum (RSI: 67.6, MACD: 17.385)",
+        "Bullish trend (Price vs SMA20: 1.031)"
+      ]
+    },
+    {
+      "date": "2025-05-23 00:00:00-04:00",
+      "symbol": "AAPL",
+      "action": "sell",
+      "confidence": 0.3346330864204348,
+      "position_size": 0.043255204653799825,
+      "reasoning": [
+        "Bearish momentum (RSI: 45.5, MACD: -1.065)",
+        "Bearish trend (Price vs SMA20: 0.950)"
+      ]
+    },
+    {
+      "date": "2025-05-27 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "buy",
+      "confidence": 0.3745844759762413,
+      "position_size": 0.0444061462754098,
+      "reasoning": [
+        "Bullish momentum (RSI: 59.8, MACD: 3.021)",
+        "Bullish trend (Price vs SMA20: 1.062)"
+      ]
+    },
+    {
+      "date": "2025-05-27 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "sell",
+      "confidence": 0.5,
+      "position_size": 0.04,
+      "reasoning": [
+        "Bearish trend (Price vs SMA20: 0.846)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-05-28 00:00:00-04:00",
+      "symbol": "AMZN",
+      "action": "buy",
+      "confidence": 0.4317238447646048,
+      "position_size": 0.04858885619902212,
+      "reasoning": [
+        "Bullish momentum (RSI: 67.7, MACD: 4.285)",
+        "Bullish trend (Price vs SMA20: 1.030)"
+      ]
+    },
+    {
+      "date": "2025-05-28 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.41868983211163363,
+      "position_size": 0.04589054687349302,
+      "reasoning": [
+        "Bullish momentum (RSI: 58.8, MACD: 0.521)",
+        "Bullish trend (Price vs SMA20: 1.026)"
+      ]
+    },
+    {
+      "date": "2025-05-28 00:00:00-04:00",
+      "symbol": "META",
+      "action": "buy",
+      "confidence": 0.4618608531972576,
+      "position_size": 0.04976264892381124,
+      "reasoning": [
+        "Bullish momentum (RSI: 68.7, MACD: 19.560)",
+        "Bullish trend (Price vs SMA20: 1.039)"
+      ]
+    },
+    {
+      "date": "2025-05-28 00:00:00-04:00",
+      "symbol": "JPM",
+      "action": "sell",
+      "confidence": 0.5666666666666667,
+      "position_size": 0.06603449495737479,
+      "reasoning": [
+        "Bearish momentum (RSI: 70.8, MACD: 5.654)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-05-29 00:00:00-04:00",
+      "symbol": "NVDA",
+      "action": "buy",
+      "confidence": 0.48888830894092744,
+      "position_size": 0.05281854299273592,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.097)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-05-29 00:00:00-04:00",
+      "symbol": "MSFT",
+      "action": "sell",
+      "confidence": 0.48051696763030693,
+      "position_size": 0.054431383631395866,
+      "reasoning": [
+        "Bearish momentum (RSI: 71.2, MACD: 15.329)",
+        "Bullish trend (Price vs SMA20: 1.026)"
+      ]
+    },
+    {
+      "date": "2025-05-30 00:00:00-04:00",
+      "symbol": "MSFT",
+      "action": "sell",
+      "confidence": 0.48165429899107387,
+      "position_size": 0.059901075474968965,
+      "reasoning": [
+        "Bearish momentum (RSI: 71.9, MACD: 14.890)",
+        "Bullish trend (Price vs SMA20: 1.026)"
+      ]
+    },
+    {
+      "date": "2025-05-30 00:00:00-04:00",
+      "symbol": "XOM",
+      "action": "sell",
+      "confidence": 0.41749333217718126,
+      "position_size": 0.05376942264020995,
+      "reasoning": [
+        "Bearish momentum (RSI: 34.2, MACD: -1.083)",
+        "Bearish trend (Price vs SMA20: 0.975)"
+      ]
+    },
+    {
+      "date": "2025-05-30 00:00:00-04:00",
+      "symbol": "TSLA",
+      "action": "buy",
+      "confidence": 0.3755213093119731,
+      "position_size": 0.040833112375778496,
+      "reasoning": [
+        "Bullish momentum (RSI: 68.3, MACD: 20.569)",
+        "Bullish trend (Price vs SMA20: 1.063)"
+      ]
+    },
+    {
+      "date": "2025-05-30 00:00:00-04:00",
+      "symbol": "JNJ",
+      "action": "buy",
+      "confidence": 0.4023897832177141,
+      "position_size": 0.05185058547256133,
+      "reasoning": [
+        "Bullish momentum (RSI: 55.3, MACD: -0.167)",
+        "Bullish trend (Price vs SMA20: 1.021)"
+      ]
+    },
+    {
+      "date": "2025-06-02 00:00:00-04:00",
+      "symbol": "META",
+      "action": "buy",
+      "confidence": 0.3721351499056464,
+      "position_size": 0.045012550109707214,
+      "reasoning": [
+        "Bullish momentum (RSI: 66.0, MACD: 20.340)",
+        "Bullish trend (Price vs SMA20: 1.062)"
+      ]
+    },
+    {
+      "date": "2025-06-02 00:00:00-04:00",
+      "symbol": "PFE",
+      "action": "buy",
+      "confidence": 0.4031203005423401,
+      "position_size": 0.04855397136261613,
+      "reasoning": [
+        "Bullish momentum (RSI: 54.2, MACD: 0.125)",
+        "Bullish trend (Price vs SMA20: 1.021)"
+      ]
+    },
+    {
+      "date": "2025-06-03 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.4239880216550926,
+      "position_size": 0.04684819973903199,
+      "reasoning": [
+        "Bullish momentum (RSI: 51.2, MACD: 0.537)",
+        "Bullish trend (Price vs SMA20: 1.027)"
+      ]
+    },
+    {
+      "date": "2025-06-03 00:00:00-04:00",
+      "symbol": "NVDA",
+      "action": "buy",
+      "confidence": 0.4374196311255158,
+      "position_size": 0.048562032968908354,
+      "reasoning": [
+        "Bullish momentum (RSI: 67.4, MACD: 6.335)",
+        "Bullish trend (Price vs SMA20: 1.081)"
+      ]
+    },
+    {
+      "date": "2025-06-04 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.428705811473316,
+      "position_size": 0.04720811400729954,
+      "reasoning": [
+        "Bullish momentum (RSI: 54.6, MACD: 0.631)",
+        "Bullish trend (Price vs SMA20: 1.029)"
+      ]
+    },
+    {
+      "date": "2025-06-04 00:00:00-04:00",
+      "symbol": "NVDA",
+      "action": "buy",
+      "confidence": 0.41635726359527414,
+      "position_size": 0.04727285080012533,
+      "reasoning": [
+        "Bullish momentum (RSI: 61.9, MACD: 6.458)",
+        "Bullish trend (Price vs SMA20: 1.075)"
+      ]
+    },
+    {
+      "date": "2025-06-04 00:00:00-04:00",
+      "symbol": "META",
+      "action": "buy",
+      "confidence": 0.41440589602895966,
+      "position_size": 0.047836043241522894,
+      "reasoning": [
+        "Bullish momentum (RSI: 63.8, MACD: 22.779)",
+        "Bullish trend (Price vs SMA20: 1.074)"
+      ]
+    },
+    {
+      "date": "2025-06-05 00:00:00-04:00",
+      "symbol": "NVDA",
+      "action": "buy",
+      "confidence": 0.33720489263180814,
+      "position_size": 0.04201839404315548,
+      "reasoning": [
+        "Bullish momentum (RSI: 58.9, MACD: 6.327)",
+        "Bullish trend (Price vs SMA20: 1.051)"
+      ]
+    },
+    {
+      "date": "2025-06-05 00:00:00-04:00",
+      "symbol": "TSLA",
+      "action": "sell",
+      "confidence": 0.5,
+      "position_size": 0.04,
+      "reasoning": [
+        "Bearish trend (Price vs SMA20: 0.849)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-06-06 00:00:00-04:00",
+      "symbol": "TSLA",
+      "action": "sell",
+      "confidence": 0.5,
+      "position_size": 0.04,
+      "reasoning": [
+        "Bearish momentum (RSI: 31.1, MACD: 6.462)",
+        "Bearish trend (Price vs SMA20: 0.879)"
+      ]
+    },
+    {
+      "date": "2025-06-06 00:00:00-04:00",
+      "symbol": "NVDA",
+      "action": "buy",
+      "confidence": 0.515037854620513,
+      "position_size": 0.053657945709379984,
+      "reasoning": [
+        "Bullish momentum (RSI: 60.4, MACD: 6.290)",
+        "Bullish trend (Price vs SMA20: 1.055)"
+      ]
+    },
+    {
+      "date": "2025-06-09 00:00:00-04:00",
+      "symbol": "TSLA",
+      "action": "sell",
+      "confidence": 0.44139875148027147,
+      "position_size": 0.03765595005921086,
+      "reasoning": [
+        "Bearish momentum (RSI: 38.9, MACD: 4.568)",
+        "Bearish trend (Price vs SMA20: 0.918)"
+      ]
+    },
+    {
+      "date": "2025-06-09 00:00:00-04:00",
+      "symbol": "JNJ",
+      "action": "buy",
+      "confidence": 0.4004591182516486,
+      "position_size": 0.052244312335274865,
+      "reasoning": [
+        "Bullish momentum (RSI: 66.7, MACD: 0.432)",
+        "Bullish trend (Price vs SMA20: 1.020)"
+      ]
+    },
+    {
+      "date": "2025-06-09 00:00:00-04:00",
+      "symbol": "NVDA",
+      "action": "buy",
+      "confidence": 0.3370759653615165,
+      "position_size": 0.04214491472950321,
+      "reasoning": [
+        "Bullish momentum (RSI: 61.4, MACD: 6.262)",
+        "Bullish trend (Price vs SMA20: 1.051)"
+      ]
+    },
+    {
+      "date": "2025-06-09 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "buy",
+      "confidence": 0.4957450193974167,
+      "position_size": 0.05638109167913745,
+      "reasoning": [
+        "Bullish momentum (RSI: 64.7, MACD: 3.090)",
+        "Bullish trend (Price vs SMA20: 1.049)"
+      ]
+    },
+    {
+      "date": "2025-06-10 00:00:00-04:00",
+      "symbol": "NVDA",
+      "action": "buy",
+      "confidence": 0.509310961611171,
+      "position_size": 0.054993372029249685,
+      "reasoning": [
+        "Bullish momentum (RSI: 65.4, MACD: 6.274)",
+        "Bullish trend (Price vs SMA20: 1.053)"
+      ]
+    },
+    {
+      "date": "2025-06-11 00:00:00-04:00",
+      "symbol": "BAC",
+      "action": "sell",
+      "confidence": 0.39999999999999997,
+      "position_size": 0.05254069509451155,
+      "reasoning": [
+        "Bearish momentum (RSI: 71.2, MACD: 0.910)"
+      ]
+    },
+    {
+      "date": "2025-06-12 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "buy",
+      "confidence": 0.3525382754610664,
+      "position_size": 0.036264927590524396,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.056)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-06-12 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "buy",
+      "confidence": 0.4379670287387028,
+      "position_size": 0.05352958165510538,
+      "reasoning": [
+        "Bullish momentum (RSI: 58.7, MACD: 3.777)",
+        "Bullish trend (Price vs SMA20: 1.031)"
+      ]
+    },
+    {
+      "date": "2025-06-13 00:00:00-04:00",
+      "symbol": "XOM",
+      "action": "buy",
+      "confidence": 0.395259659336892,
+      "position_size": 0.05148397425770429,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.069)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-06-13 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "buy",
+      "confidence": 0.44193903149969227,
+      "position_size": 0.045787262769451095,
+      "reasoning": [
+        "Bullish momentum (RSI: 69.2, MACD: -18.654)",
+        "Bullish trend (Price vs SMA20: 1.033)"
+      ]
+    },
+    {
+      "date": "2025-06-13 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "buy",
+      "confidence": 0.4069050001026187,
+      "position_size": 0.051201246291137065,
+      "reasoning": [
+        "Bullish momentum (RSI: 61.6, MACD: 3.653)",
+        "Bullish trend (Price vs SMA20: 1.022)"
+      ]
+    },
+    {
+      "date": "2025-06-16 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "buy",
+      "confidence": 0.4370241430199007,
+      "position_size": 0.05353964012866741,
+      "reasoning": [
+        "Bullish momentum (RSI: 58.0, MACD: 3.681)",
+        "Bullish trend (Price vs SMA20: 1.031)"
+      ]
+    },
+    {
+      "date": "2025-06-17 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "buy",
+      "confidence": 0.4074975006861467,
+      "position_size": 0.04917878296048099,
+      "reasoning": [
+        "Bullish momentum (RSI: 63.5, MACD: -15.741)",
+        "Bullish trend (Price vs SMA20: 1.022)"
+      ]
+    },
+    {
+      "date": "2025-06-17 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "buy",
+      "confidence": 0.4115172549797479,
+      "position_size": 0.05152895855960131,
+      "reasoning": [
+        "Bullish momentum (RSI: 57.4, MACD: 3.595)",
+        "Bullish trend (Price vs SMA20: 1.023)"
+      ]
+    },
+    {
+      "date": "2025-06-20 00:00:00-04:00",
+      "symbol": "JNJ",
+      "action": "sell",
+      "confidence": 0.4223236454286454,
+      "position_size": 0.05601416412547408,
+      "reasoning": [
+        "Bearish momentum (RSI: 33.0, MACD: -0.140)",
+        "Bearish trend (Price vs SMA20: 0.973)"
+      ]
+    },
+    {
+      "date": "2025-06-20 00:00:00-04:00",
+      "symbol": "MSFT",
+      "action": "sell",
+      "confidence": 0.49751222916438026,
+      "position_size": 0.06282502687315294,
+      "reasoning": [
+        "Bearish momentum (RSI: 73.4, MACD: 11.627)",
+        "Bullish trend (Price vs SMA20: 1.021)"
+      ]
+    },
+    {
+      "date": "2025-06-20 00:00:00-04:00",
+      "symbol": "HD",
+      "action": "sell",
+      "confidence": 0.4490281078956586,
+      "position_size": 0.05695384470824724,
+      "reasoning": [
+        "Bearish momentum (RSI: 30.7, MACD: -3.763)",
+        "Bearish trend (Price vs SMA20: 0.965)"
+      ]
+    },
+    {
+      "date": "2025-06-20 00:00:00-04:00",
+      "symbol": "JPM",
+      "action": "buy",
+      "confidence": 0.44166422702887703,
+      "position_size": 0.05734501959697591,
+      "reasoning": [
+        "Bullish momentum (RSI: 69.1, MACD: 4.315)",
+        "Bullish trend (Price vs SMA20: 1.032)"
+      ]
+    },
+    {
+      "date": "2025-06-20 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "sell",
+      "confidence": 0.44299586483298653,
+      "position_size": 0.05314318772809826,
+      "reasoning": [
+        "Bearish momentum (RSI: 42.9, MACD: 2.458)",
+        "Bearish trend (Price vs SMA20: 0.967)"
+      ]
+    },
+    {
+      "date": "2025-06-20 00:00:00-04:00",
+      "symbol": "MCD",
+      "action": "sell",
+      "confidence": 0.3596139040229172,
+      "position_size": 0.05147269868001132,
+      "reasoning": [
+        "Bearish trend (Price vs SMA20: 0.942)",
+        "High volume confirms bearish signal"
+      ]
+    },
+    {
+      "date": "2025-06-20 00:00:00-04:00",
+      "symbol": "CVX",
+      "action": "buy",
+      "confidence": 0.36309920495130105,
+      "position_size": 0.04993611435776496,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.059)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-06-20 00:00:00-04:00",
+      "symbol": "XOM",
+      "action": "buy",
+      "confidence": 0.42400871882141056,
+      "position_size": 0.05455534888421579,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.077)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-06-23 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "sell",
+      "confidence": 0.46596271054587607,
+      "position_size": 0.055006511550146325,
+      "reasoning": [
+        "Bearish momentum (RSI: 44.5, MACD: 1.673)",
+        "Bearish trend (Price vs SMA20: 0.960)"
+      ]
+    },
+    {
+      "date": "2025-06-25 00:00:00-04:00",
+      "symbol": "WFC",
+      "action": "buy",
+      "confidence": 0.3400977993505063,
+      "position_size": 0.04687796029137344,
+      "reasoning": [
+        "Bullish momentum (RSI: 63.0, MACD: 1.005)",
+        "Bullish trend (Price vs SMA20: 1.052)"
+      ]
+    },
+    {
+      "date": "2025-06-26 00:00:00-04:00",
+      "symbol": "WFC",
+      "action": "buy",
+      "confidence": 0.36493261329126286,
+      "position_size": 0.04883819021769684,
+      "reasoning": [
+        "Bullish momentum (RSI: 67.4, MACD: 1.258)",
+        "Bullish trend (Price vs SMA20: 1.059)"
+      ]
+    },
+    {
+      "date": "2025-06-27 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.6666666666666666,
+      "position_size": 0.05156614592081711,
+      "reasoning": [
+        "Bullish momentum (RSI: 69.5, MACD: 0.950)",
+        "Bullish trend (Price vs SMA20: 1.159)"
+      ]
+    },
+    {
+      "date": "2025-06-27 00:00:00-04:00",
+      "symbol": "META",
+      "action": "buy",
+      "confidence": 0.35874815216666195,
+      "position_size": 0.04679041193172948,
+      "reasoning": [
+        "Bullish momentum (RSI: 64.1, MACD: 22.676)",
+        "Bullish trend (Price vs SMA20: 1.058)"
+      ]
+    },
+    {
+      "date": "2025-06-27 00:00:00-04:00",
+      "symbol": "MCD",
+      "action": "sell",
+      "confidence": 0.4199009017164961,
+      "position_size": 0.0549732417000853,
+      "reasoning": [
+        "Bearish momentum (RSI: 30.9, MACD: -6.088)",
+        "Bearish trend (Price vs SMA20: 0.974)"
+      ]
+    },
+    {
+      "date": "2025-06-27 00:00:00-04:00",
+      "symbol": "JPM",
+      "action": "buy",
+      "confidence": 0.35714975795365705,
+      "position_size": 0.05008847423331071,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.057)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-06-27 00:00:00-04:00",
+      "symbol": "AMZN",
+      "action": "buy",
+      "confidence": 0.5060531804977427,
+      "position_size": 0.05948976859640412,
+      "reasoning": [
+        "Bullish momentum (RSI: 62.9, MACD: 3.857)",
+        "Bullish trend (Price vs SMA20: 1.052)"
+      ]
+    },
+    {
+      "date": "2025-06-27 00:00:00-04:00",
+      "symbol": "GS",
+      "action": "buy",
+      "confidence": 0.4888014671285914,
+      "position_size": 0.05985439624387538,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.097)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-06-30 00:00:00-04:00",
+      "symbol": "META",
+      "action": "buy",
+      "confidence": 0.35704216365479624,
+      "position_size": 0.04666873582127509,
+      "reasoning": [
+        "Bullish momentum (RSI: 67.1, MACD: 23.682)",
+        "Bullish trend (Price vs SMA20: 1.057)"
+      ]
+    },
+    {
+      "date": "2025-06-30 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.6666666666666666,
+      "position_size": 0.05156490935410245,
+      "reasoning": [
+        "Bullish momentum (RSI: 69.2, MACD: 1.524)",
+        "Bullish trend (Price vs SMA20: 1.133)"
+      ]
+    },
+    {
+      "date": "2025-06-30 00:00:00-04:00",
+      "symbol": "GS",
+      "action": "buy",
+      "confidence": 0.5,
+      "position_size": 0.06050114675576611,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.114)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-06-30 00:00:00-04:00",
+      "symbol": "WFC",
+      "action": "buy",
+      "confidence": 0.34794658526584277,
+      "position_size": 0.0474419097999489,
+      "reasoning": [
+        "Bullish momentum (RSI: 63.0, MACD: 1.553)",
+        "Bullish trend (Price vs SMA20: 1.054)"
+      ]
+    },
+    {
+      "date": "2025-06-30 00:00:00-04:00",
+      "symbol": "AAPL",
+      "action": "buy",
+      "confidence": 0.40830369237304254,
+      "position_size": 0.05322708713655633,
+      "reasoning": [
+        "Bullish momentum (RSI: 57.1, MACD: -0.296)",
+        "Bullish trend (Price vs SMA20: 1.022)"
+      ]
+    },
+    {
+      "date": "2025-07-01 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.5,
+      "position_size": 0.04350214788724607,
+      "reasoning": [
+        "Bullish momentum (RSI: 69.7, MACD: 2.146)",
+        "Bullish trend (Price vs SMA20: 1.160)"
+      ]
+    },
+    {
+      "date": "2025-07-01 00:00:00-04:00",
+      "symbol": "PFE",
+      "action": "buy",
+      "confidence": 0.4640659798504377,
+      "position_size": 0.05723026110310592,
+      "reasoning": [
+        "Bullish momentum (RSI: 62.8, MACD: 0.300)",
+        "Bullish trend (Price vs SMA20: 1.039)"
+      ]
+    },
+    {
+      "date": "2025-07-01 00:00:00-04:00",
+      "symbol": "TSLA",
+      "action": "sell",
+      "confidence": 0.38505280036342815,
+      "position_size": 0.03540211201453713,
+      "reasoning": [
+        "Bearish momentum (RSI: 38.5, MACD: -0.100)",
+        "Bearish trend (Price vs SMA20: 0.934)"
+      ]
+    },
+    {
+      "date": "2025-07-01 00:00:00-04:00",
+      "symbol": "UNH",
+      "action": "buy",
+      "confidence": 0.38911043686263697,
+      "position_size": 0.04887583881452336,
+      "reasoning": [
+        "Bullish momentum (RSI: 68.8, MACD: -6.339)",
+        "Bullish trend (Price vs SMA20: 1.067)"
+      ]
+    },
+    {
+      "date": "2025-07-02 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.5,
+      "position_size": 0.04310818996368423,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.193)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-07-03 00:00:00-04:00",
+      "symbol": "AMZN",
+      "action": "buy",
+      "confidence": 0.4600436420851051,
+      "position_size": 0.05538114261510699,
+      "reasoning": [
+        "Bullish momentum (RSI: 63.3, MACD: 4.415)",
+        "Bullish trend (Price vs SMA20: 1.038)"
+      ]
+    },
+    {
+      "date": "2025-07-03 00:00:00-04:00",
+      "symbol": "CVX",
+      "action": "buy",
+      "confidence": 0.41494951468497804,
+      "position_size": 0.05347781209670069,
+      "reasoning": [
+        "Bullish momentum (RSI: 58.6, MACD: 1.690)",
+        "Bullish trend (Price vs SMA20: 1.024)"
+      ]
+    },
+    {
+      "date": "2025-07-03 00:00:00-04:00",
+      "symbol": "BAC",
+      "action": "buy",
+      "confidence": 0.38211000107183724,
+      "position_size": 0.052140371793462495,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.065)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-07-03 00:00:00-04:00",
+      "symbol": "GOOGL",
+      "action": "buy",
+      "confidence": 0.4377738080912601,
+      "position_size": 0.05251420494462314,
+      "reasoning": [
+        "Bullish momentum (RSI: 55.6, MACD: 2.500)",
+        "Bullish trend (Price vs SMA20: 1.031)"
+      ]
+    },
+    {
+      "date": "2025-07-03 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.5,
+      "position_size": 0.043067181112447145,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.181)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-07-03 00:00:00-04:00",
+      "symbol": "HD",
+      "action": "buy",
+      "confidence": 0.42161703169836295,
+      "position_size": 0.054275371540091155,
+      "reasoning": [
+        "Bullish momentum (RSI: 58.9, MACD: 1.733)",
+        "Bullish trend (Price vs SMA20: 1.026)"
+      ]
+    },
+    {
+      "date": "2025-07-03 00:00:00-04:00",
+      "symbol": "WFC",
+      "action": "buy",
+      "confidence": 0.44897653619879874,
+      "position_size": 0.0552359433971614,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.085)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-07-03 00:00:00-04:00",
+      "symbol": "GS",
+      "action": "buy",
+      "confidence": 0.5,
+      "position_size": 0.060901916069905665,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.109)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-07-03 00:00:00-04:00",
+      "symbol": "PFE",
+      "action": "buy",
+      "confidence": 0.48248456050689326,
+      "position_size": 0.058731607284100595,
+      "reasoning": [
+        "Bullish momentum (RSI: 60.0, MACD: 0.409)",
+        "Bullish trend (Price vs SMA20: 1.045)"
+      ]
+    },
+    {
+      "date": "2025-07-03 00:00:00-04:00",
+      "symbol": "AAPL",
+      "action": "buy",
+      "confidence": 0.3579936233959941,
+      "position_size": 0.048647056705199504,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.057)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-07-07 00:00:00-04:00",
+      "symbol": "TSLA",
+      "action": "sell",
+      "confidence": 0.4380149146227506,
+      "position_size": 0.04050797149285319,
+      "reasoning": [
+        "Bearish momentum (RSI: 38.3, MACD: -3.058)",
+        "Bearish trend (Price vs SMA20: 0.919)"
+      ]
+    },
+    {
+      "date": "2025-07-08 00:00:00-04:00",
+      "symbol": "TSLA",
+      "action": "sell",
+      "confidence": 0.3989947552903093,
+      "position_size": 0.03906021776968873,
+      "reasoning": [
+        "Bearish momentum (RSI: 38.3, MACD: -4.301)",
+        "Bearish trend (Price vs SMA20: 0.930)"
+      ]
+    },
+    {
+      "date": "2025-07-09 00:00:00-04:00",
+      "symbol": "XOM",
+      "action": "buy",
+      "confidence": 0.4174790749259835,
+      "position_size": 0.051570912903421376,
+      "reasoning": [
+        "Bullish momentum (RSI: 49.5, MACD: 1.526)",
+        "Bullish trend (Price vs SMA20: 1.025)"
+      ]
+    },
+    {
+      "date": "2025-07-09 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.5,
+      "position_size": 0.04245758736715534,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.106)",
+        "High volume confirms bullish signal"
+      ]
+    },
+    {
+      "date": "2025-07-09 00:00:00-04:00",
+      "symbol": "TSLA",
+      "action": "sell",
+      "confidence": 0.5796343643805454,
+      "position_size": 0.04875509311020475,
+      "reasoning": [
+        "Bearish momentum (RSI: 41.7, MACD: -5.379)",
+        "Bearish trend (Price vs SMA20: 0.926)"
+      ]
+    },
+    {
+      "date": "2025-07-10 00:00:00-04:00",
+      "symbol": "AMZN",
+      "action": "buy",
+      "confidence": 0.4171791081339631,
+      "position_size": 0.052264709639290655,
+      "reasoning": [
+        "Bullish momentum (RSI: 63.1, MACD: 4.231)",
+        "Bullish trend (Price vs SMA20: 1.025)"
+      ]
+    },
+    {
+      "date": "2025-07-10 00:00:00-04:00",
+      "symbol": "NKE",
+      "action": "buy",
+      "confidence": 0.5,
+      "position_size": 0.042660242336804224,
+      "reasoning": [
+        "Bullish trend (Price vs SMA20: 1.113)",
+        "High volume confirms bullish signal"
+      ]
+    }
+  ]
+}
