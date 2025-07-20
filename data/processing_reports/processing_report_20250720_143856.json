@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-07-20T14:38:56.220122",
+  "status": "completed",
+  "sources_processed": {
+    "polygon": {
+      "source": "polygon",
+      "files_processed": 1,
+      "records_processed": 0,
+      "records_cleaned": 0,
+      "output_files": []
+    },
+    "sessions": {
+      "source": "sessions",
+      "files_processed": 0,
+      "records_processed": 0,
+      "records_cleaned": 0,
+      "output_files": []
+    },
+    "trading_economics": {
+      "source": "trading_economics",
+      "files_processed": 0,
+      "records_processed": 0,
+      "records_cleaned": 0,
+      "output_files": []
+    }
+  },
+  "summary": {
+    "files_processed": 1,
+    "records_processed": 0,
+    "records_cleaned": 0,
+    "processing_time": 0.001383
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "reorganization_date": "/Users/howard/Desktop/VS code file/Quant_finance",
+  "directories_created": 27,
+  "files_moved": 0,
+  "new_structure": {
+    "src/": "Core application code",
+    "data/": "Organized data storage",
+    "config/": "Configuration files",
+    "scripts/": "Automation scripts",
+    "tests/": "Test suite",
+    "docs/": "Documentation",
+    "logs/": "Application logs",
+    "notebooks/": "Jupyter notebooks"
+  }
+}

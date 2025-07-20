@@ -1,0 +1,566 @@
+[
+  {
+    "id": "7a4dbde13926f969e7a4ad60083be7eb5dfbef144cc8a2603fcda1f99a01de43",
+    "publisher": {
+      "name": "The Motley Fool",
+      "homepage_url": "https://www.fool.com/",
+      "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+      "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+    },
+    "title": "MP Materials Stock: Bull vs. Bear",
+    "author": "Lee Samaha And Scott Levine",
+    "published_utc": "2025-07-20T05:32:00Z",
+    "article_url": "https://www.fool.com/investing/2025/07/20/mp-materials-stock-bull-vs-bear/?source=iedfolrf0000001",
+    "tickers": [
+      "MP",
+      "AAPL"
+    ],
+    "image_url": "https://g.foolcdn.com/editorial/images/825461/invesor-stares-at-screen-with-dollar-bags-and-questinon-marks.jpg",
+    "description": "MP Materials has seen a significant stock rise of over 270% in 2025, driven by a Department of Defense deal and an agreement with Apple in the rare earth materials sector. Analysts suggest potential execution risks but also highlight the company's competitive advantages in domestic rare earth production.",
+    "keywords": [
+      "rare earth metals",
+      "Department of Defense",
+      "Apple",
+      "investment",
+      "stock performance"
+    ],
+    "insights": [
+      {
+        "ticker": "MP",
+        "sentiment": "positive",
+        "sentiment_reasoning": "Strong year-to-date performance, strategic government and corporate partnerships, unique position as fully integrated US rare earth materials producer"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Mentioned as a strategic partner in rare earth materials supply chain, no specific performance details provided"
+      }
+    ],
+    "published_date": "2025-07-20",
+    "title_short": "MP Materials Stock: Bull vs. Bear"
+  },
+  {
+    "id": "ccbfbf72bf3a49069426deac9d032aec9aacf022cee4144d444641cc5da1e02f",
+    "publisher": {
+      "name": "The Motley Fool",
+      "homepage_url": "https://www.fool.com/",
+      "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+      "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+    },
+    "title": "Could Apple Soon Lose Its Top Position in Warren Buffett's Portfolio?",
+    "author": "Ryan Vanzo",
+    "published_utc": "2025-07-20T05:23:00Z",
+    "article_url": "https://www.fool.com/investing/2025/07/20/apple-warren-buffett-berkshire-aapl-brk-buy/?source=iedfolrf0000001",
+    "tickers": [
+      "AAPL",
+      "BRK.A",
+      "BRK.B"
+    ],
+    "image_url": "https://g.foolcdn.com/editorial/images/825336/gettyimages-2045262936-1201x633-65d4be6.jpg",
+    "description": "As Warren Buffett prepares to step down as Berkshire Hathaway's CEO by 2025, the company's significant Apple investment, initially driven by Ted Weschler and Todd Combs, may see strategic adjustments based on valuation rather than leadership change.",
+    "keywords": [
+      "Berkshire Hathaway",
+      "Apple",
+      "Warren Buffett",
+      "investment strategy",
+      "tech stocks"
+    ],
+    "insights": [
+      {
+        "ticker": "AAPL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "While Apple remains Berkshire's largest portfolio position, the company has been gradually reducing its stake due to valuation concerns and slower expected earnings growth"
+      },
+      {
+        "ticker": "BRK.A",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Preparing for leadership transition with a strategic approach to portfolio management, maintaining investment continuity through existing team members"
+      },
+      {
+        "ticker": "BRK.B",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Preparing for leadership transition with a strategic approach to portfolio management, maintaining investment continuity through existing team members"
+      }
+    ],
+    "published_date": "2025-07-20",
+    "title_short": "Could Apple Soon Lose Its Top Position in Warren Buffett's Portfolio?"
+  },
+  {
+    "id": "097fa074574dbef57b6b0de4c97e3d7685464250c70d9e4207b671deb7c1140b",
+    "publisher": {
+      "name": "The Motley Fool",
+      "homepage_url": "https://www.fool.com/",
+      "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+      "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+    },
+    "title": "Think It's Too Late to Buy This Leading Tech Stock? Here's the Biggest Reason Why There's Still Time",
+    "author": "Will Healy",
+    "published_utc": "2025-07-19T16:20:03Z",
+    "article_url": "https://www.fool.com/investing/2025/07/19/think-its-too-late-to-buy-this-leading-tech-stock/?source=iedfolrf0000001",
+    "tickers": [
+      "META",
+      "GOOG",
+      "GOOGL",
+      "AAPL"
+    ],
+    "image_url": "https://g.foolcdn.com/editorial/images/825533/meta.jpg",
+    "description": "Despite Meta's massive user base and significant stock price increase, the company remains well-positioned for growth through its AI potential and competitive data advantages, with reasonable valuation and strong financial metrics.",
+    "keywords": [
+      "Meta",
+      "social media",
+      "artificial intelligence",
+      "advertising",
+      "stock valuation"
+    ],
+    "insights": [
+      {
+        "ticker": "META",
+        "sentiment": "positive",
+        "sentiment_reasoning": "Strong user growth (6% increase), expanding AI capabilities, substantial free cash flow ($50B), reasonable P/E ratio, and strategic capital expenditure plans for AI development"
+      },
+      {
+        "ticker": "GOOG",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Mentioned as having a lower P/E ratio, but no specific growth or performance details provided"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Mentioned as having a lower P/E ratio, but no specific growth or performance details provided"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Briefly mentioned in context of data collection capabilities, with no specific performance analysis"
+      }
+    ],
+    "published_date": "2025-07-19",
+    "title_short": "Think It's Too Late to Buy This Leading Tech Stock? Here's the Biggest Reason Why There's Still Time"
+  },
+  {
+    "id": "7d17f38d6fb540511c12150c89168a1a17d9c10623e924386f874b493f1eb9de",
+    "publisher": {
+      "name": "The Motley Fool",
+      "homepage_url": "https://www.fool.com/",
+      "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+      "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+    },
+    "title": "Forget About Share Buybacks and Dividends: Here Is How Apple Can Win Growth Investors Back",
+    "author": "Adam Spatacco",
+    "published_utc": "2025-07-19T12:15:00Z",
+    "article_url": "https://www.fool.com/investing/2025/07/19/forget-about-share-buybacks-and-dividends-here-is/?source=iedfolrf0000001",
+    "tickers": [
+      "AAPL"
+    ],
+    "image_url": "https://g.foolcdn.com/editorial/images/824990/mergers-and-acquisitions-graphic-calculator-9.jpg",
+    "description": "Apple is struggling to maintain investor excitement in the AI era, relying on share buybacks and dividends. The article suggests potential AI acquisitions like Perplexity or exploring robotics to reignite growth and innovation.",
+    "keywords": [
+      "Apple",
+      "AI",
+      "innovation",
+      "investment",
+      "technology"
+    ],
+    "insights": [
+      {
+        "ticker": "AAPL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stagnating innovation, late to AI market, but potential for strategic acquisitions and growth"
+      }
+    ],
+    "published_date": "2025-07-19",
+    "title_short": "Forget About Share Buybacks and Dividends: Here Is How Apple Can Win Growth Investors Back"
+  },
+  {
+    "id": "dff08d88ff291262e96bb8b3c7324475025f328ddc43bf785ea13e59349db5f1",
+    "publisher": {
+      "name": "The Motley Fool",
+      "homepage_url": "https://www.fool.com/",
+      "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+      "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+    },
+    "title": "Meta CEO Mark Zuckerberg Just Assembled a \"Super Intelligence Avengers\" Team That Could Totally Change the Game in Artificial Intelligence (AI). Here's Why That Makes Meta a \"Must-Own\" AI Stock.",
+    "author": "Billy Duberstein",
+    "published_utc": "2025-07-19T10:17:00Z",
+    "article_url": "https://www.fool.com/investing/2025/07/19/meta-ceo-mark-zuckerberg-just-assembled-a-super-in/?source=iedfolrf0000001",
+    "tickers": [
+      "META",
+      "MSFT",
+      "AAPL"
+    ],
+    "image_url": "https://g.foolcdn.com/editorial/images/825560/gettyimages-2084953049.jpg",
+    "description": "Meta CEO Mark Zuckerberg is investing heavily in AI talent and infrastructure, assembling a 'Super Intelligence Team' of about 50 researchers and planning massive AI superclusters to pursue 'super intelligence' within the next few years.",
+    "keywords": [
+      "AI",
+      "artificial intelligence",
+      "super intelligence",
+      "tech talent",
+      "investment"
+    ],
+    "insights": [
+      {
+        "ticker": "META",
+        "sentiment": "positive",
+        "sentiment_reasoning": "Aggressive investment in AI talent, infrastructure, and ambitious goal of achieving 'super intelligence' with a strategic approach to recruiting top researchers"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Part of the competitive AI landscape, but not the primary focus of this article's developments"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Lost an AI talent (Ruoming Pang) to Meta, but no significant strategic implications discussed"
+      }
+    ],
+    "published_date": "2025-07-19",
+    "title_short": "Meta CEO Mark Zuckerberg Just Assembled a \"Super Intelligence Avengers\" Team That Could Totally C..."
+  },
+  {
+    "id": "f9f7faae5379d544b3a035470295afc82a8609778f3db6b0aaab5d702913d96d",
+    "publisher": {
+      "name": "The Motley Fool",
+      "homepage_url": "https://www.fool.com/",
+      "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+      "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+    },
+    "title": "Will Nvidia Reach a $5 Trillion Market Cap in 2025?",
+    "author": "Adria Cimino",
+    "published_utc": "2025-07-19T08:10:00Z",
+    "article_url": "https://www.fool.com/investing/2025/07/19/will-nvidia-reach-5-trillion-in-2025/?source=iedfolrf0000001",
+    "tickers": [
+      "NVDA",
+      "AAPL",
+      "MSFT"
+    ],
+    "image_url": "https://g.foolcdn.com/editorial/images/825599/gettyimages-two-people_smile_computer.jpg",
+    "description": "Nvidia has become the world's most valuable company by reaching a $4 trillion market capitalization, driven by its dominance in AI chip technology. The company's rapid growth and strong AI product offerings suggest potential to reach $5 trillion in market value in 2025.",
+    "keywords": [
+      "Nvidia",
+      "AI",
+      "market capitalization",
+      "technology",
+      "GPUs"
+    ],
+    "insights": [
+      {
+        "ticker": "NVDA",
+        "sentiment": "positive",
+        "sentiment_reasoning": "Achieved unprecedented $4 trillion market cap, experiencing triple-digit revenue growth, leading in AI chip technology, and showing strong potential for continued expansion"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Mentioned as previously leading in market cap, now surpassed by Nvidia in the AI technology race"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Also mentioned as previously leading in market cap, now surpassed by Nvidia in the AI technology race"
+      }
+    ],
+    "published_date": "2025-07-19",
+    "title_short": "Will Nvidia Reach a $5 Trillion Market Cap in 2025?"
+  },
+  {
+    "id": "895288999c5ceb8f35ff0417432f82ec0477940ab7e0212c7f6eddb325875bbc",
+    "publisher": {
+      "name": "The Motley Fool",
+      "homepage_url": "https://www.fool.com/",
+      "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+      "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+    },
+    "title": "Warren Buffett Sold Apple and Bank of America in Favor of This Boring Investment Offering a 4.3% Yield",
+    "author": "Not Specified",
+    "published_utc": "2025-07-19T08:05:00Z",
+    "article_url": "https://www.fool.com/investing/2025/07/19/warren-buffett-sold-apple-and-bank-of-america-in-f/?source=iedfolrf0000001",
+    "tickers": [
+      "AAPL",
+      "BAC",
+      "BACpB",
+      "BACpE",
+      "BACpK",
+      "BACpL",
+      "BACpM",
+      "BACpN",
+      "BACpO",
+      "BACpP",
+      "BACpQ",
+      "BACpS",
+      "BMLpG",
+      "BMLpH",
+      "BMLpJ",
+      "BMLpL",
+      "MERpK"
+    ],
+    "image_url": "https://g.foolcdn.com/editorial/images/824986/buffett17-tmf.jpg",
+    "description": "Warren Buffett's Berkshire Hathaway has sold significant stakes in Apple and Bank of America, reducing holdings by 67% and 39% respectively, and redirecting funds into U.S. Treasury bills offering a 4.3% yield due to high stock market valuations.",
+    "keywords": [
+      "Warren Buffett",
+      "Berkshire Hathaway",
+      "stock sales",
+      "Treasury bills",
+      "investment strategy"
+    ],
+    "insights": [
+      {
+        "ticker": "AAPL",
+        "sentiment": "negative",
+        "sentiment_reasoning": "Buffett reduced stake by 67% due to high P/E ratio (over 30) and slow earnings growth, indicating overvaluation"
+      },
+      {
+        "ticker": "BAC",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BACpB",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BACpE",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BACpK",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BACpL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BACpM",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BACpN",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BACpO",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BACpP",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BACpQ",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BACpS",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BMLpG",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BMLpH",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BMLpJ",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "BMLpL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      },
+      {
+        "ticker": "MERpK",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Stake reduced by 39% due to high price to tangible book value, but still remains a significant holding"
+      }
+    ],
+    "published_date": "2025-07-19",
+    "title_short": "Warren Buffett Sold Apple and Bank of America in Favor of This Boring Investment Offering a 4.3% ..."
+  },
+  {
+    "id": "f34782a8b99bcd971320e3c3b99b88d4c45b86a95bde0dcf28f64caf943cf20a",
+    "publisher": {
+      "name": "The Motley Fool",
+      "homepage_url": "https://www.fool.com/",
+      "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+      "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+    },
+    "title": "1 Unstoppable Stock Has Quietly Outperformed Every Single Member of the \"Magnificent Seven,\" and It's Still a Buy Right Now, According to Wall Street.",
+    "author": "Not Specified",
+    "published_utc": "2025-07-19T08:04:00Z",
+    "article_url": "https://www.fool.com/investing/2025/07/19/1-unstoppable-stock-has-quietly-outperformed-every/?source=iedfolrf0000001",
+    "tickers": [
+      "NFLX",
+      "META",
+      "AAPL",
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "MSFT",
+      "NVDA",
+      "TSLA"
+    ],
+    "image_url": "https://g.foolcdn.com/editorial/images/825707/a-couple-sitting-on-a-loveseat-laughing-while-watching-television.jpg",
+    "description": "Netflix has outperformed the 'Magnificent Seven' tech stocks, delivering a 94% return over the past year. The company reported strong Q2 results, beating expectations with 13% revenue growth and 47% earnings per share increase, driven by subscriber gains and digital ad revenue.",
+    "keywords": [
+      "Netflix",
+      "streaming",
+      "AI",
+      "tech stocks",
+      "earnings",
+      "subscriber growth"
+    ],
+    "insights": [
+      {
+        "ticker": "NFLX",
+        "sentiment": "positive",
+        "sentiment_reasoning": "Exceeded financial expectations, strong subscriber growth, expanding ad revenue, increased guidance, and positive analyst ratings"
+      },
+      {
+        "ticker": "META",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+      },
+      {
+        "ticker": "GOOG",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+      },
+      {
+        "ticker": "TSLA",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Part of 'Magnificent Seven' experiencing slowing growth"
+      }
+    ],
+    "published_date": "2025-07-19",
+    "title_short": "1 Unstoppable Stock Has Quietly Outperformed Every Single Member of the \"Magnificent Seven,\" and ..."
+  },
+  {
+    "id": "376f20e6fa356aa9d6a2d0b21a50572371cb8d8def851bd80b69a4ed2e7863a7",
+    "publisher": {
+      "name": "Investing.com",
+      "homepage_url": "https://www.investing.com/",
+      "logo_url": "https://s3.polygon.io/public/assets/news/logos/investing.png",
+      "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/investing.ico"
+    },
+    "title": "Investing.com Shows You How to Spot High-Conviction Setups During Earnings Season",
+    "author": "Investing.Com",
+    "published_utc": "2025-07-19T05:42:00Z",
+    "article_url": "https://www.investing.com/analysis/investingcom-shows-you-how-to-spot-highconviction-setups-during-earnings-season-200663949",
+    "tickers": [
+      "AAPL",
+      "TSLA",
+      "NFLX",
+      "NVDA"
+    ],
+    "amp_url": "https://m.investing.com/analysis/investingcom-shows-you-how-to-spot-highconviction-setups-during-earnings-season-200663949?ampMode=1",
+    "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+    "description": "Investing.com provides guidance on identifying promising investment opportunities during the current earnings season, highlighting tools and strategies for investors to analyze potential stock performance.",
+    "keywords": [
+      "earnings season",
+      "investment strategy",
+      "stock analysis",
+      "market opportunities"
+    ],
+    "insights": [
+      {
+        "ticker": "AAPL",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Mentioned in market movers list with a slight positive price movement (+0.55%)"
+      },
+      {
+        "ticker": "TSLA",
+        "sentiment": "positive",
+        "sentiment_reasoning": "Showed significant price gain of 3.21% and high trading volume"
+      },
+      {
+        "ticker": "NFLX",
+        "sentiment": "negative",
+        "sentiment_reasoning": "Experienced a notable price drop of 5.10%"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": "neutral",
+        "sentiment_reasoning": "Slight price decrease of 0.34% with high trading volume"
+      }
+    ],
+    "published_date": "2025-07-19",
+    "title_short": "Investing.com Shows You How to Spot High-Conviction Setups During Earnings Season"
+  },
+  {
+    "id": "2f6ef458803652a368d84f14b9800a930dce170f97afeb12a9175fb5d5920e60",
+    "publisher": {
+      "name": "The Motley Fool",
+      "homepage_url": "https://www.fool.com/",
+      "logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+      "favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+    },
+    "title": "Should You Sell Apple's Stock Before July 31?",
+    "author": "Keithen Drury",
+    "published_utc": "2025-07-18T21:18:00Z",
+    "article_url": "https://www.fool.com/investing/2025/07/18/should-you-sell-apples-stock-before-july-31/?source=iedfolrf0000001",
+    "tickers": [
+      "AAPL"
+    ],
+    "image_url": "https://g.foolcdn.com/editorial/images/824849/person-in-a-white-shirt-wondering-about-a-question.jpg",
+    "description": "Apple's stock appears stagnant with limited innovation, slow growth, and potential challenges in its upcoming earnings report, suggesting investors might want to reconsider their position.",
+    "keywords": [
+      "Apple",
+      "earnings",
+      "technology",
+      "stock performance",
+      "AI",
+      "innovation"
+    ],
+    "insights": [
+      {
+        "ticker": "AAPL",
+        "sentiment": "negative",
+        "sentiment_reasoning": "Stock is down 15% year-to-date, lacks significant innovation, shows slow earnings growth, trades at a premium valuation, and faces potential margin pressures from tariffs. Limited product innovation and AI development further contribute to negative outlook."
+      }
+    ],
+    "published_date": "2025-07-18",
+    "title_short": "Should You Sell Apple's Stock Before July 31?"
+  }
+]

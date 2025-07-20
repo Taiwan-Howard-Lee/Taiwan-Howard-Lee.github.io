@@ -1,0 +1,209 @@
+{
+  "pipeline": {
+    "name": "apple_ml_trading_pipeline",
+    "version": "2.0.0",
+    "description": "Complete data pipeline for Apple ML trading system",
+    "stages": [
+      "data_collection",
+      "data_validation",
+      "data_processing",
+      "feature_engineering",
+      "data_export"
+    ],
+    "stop_on_error": false,
+    "parallel_execution": false
+  },
+  "data_collection": {
+    "sources": [
+      "polygon",
+      "trading_economics"
+    ],
+    "frequency": "hourly",
+    "batch_size": 100,
+    "retry_attempts": 3,
+    "timeout_seconds": 30,
+    "rate_limiting": {
+      "polygon": {
+        "requests_per_minute": 5,
+        "burst_limit": 10
+      },
+      "trading_economics": {
+        "requests_per_minute": 60,
+        "burst_limit": 100
+      }
+    }
+  },
+  "data_validation": {
+    "enabled": true,
+    "price_validation": {
+      "min_price": 1.0,
+      "max_price": 1000.0,
+      "max_daily_change": 0.25
+    },
+    "volume_validation": {
+      "min_volume": 100,
+      "max_volume": 2000000000
+    },
+    "completeness": {
+      "required_fields": ["Open", "High", "Low", "Close", "Volume"],
+      "max_missing_ratio": 0.05
+    },
+    "consistency": {
+      "check_ohlc_logic": true,
+      "check_volume_positive": true,
+      "check_date_sequence": true
+    },
+    "quality_thresholds": {
+      "min_pass_rate": 0.90,
+      "max_error_rate": 0.05
+    }
+  },
+  "data_processing": {
+    "cleaning": {
+      "remove_duplicates": true,
+      "handle_missing": "interpolate",
+      "outlier_detection": true,
+      "outlier_method": "iqr",
+      "outlier_threshold": 3.0
+    },
+    "transformation": {
+      "normalize_prices": false,
+      "calculate_returns": true,
+      "calculate_log_returns": true,
+      "resample_frequency": null,
+      "timezone": "US/Eastern"
+    },
+    "output_format": {
+      "file_format": "csv",
+      "compression": null,
+      "include_metadata": true
+    }
+  },
+  "feature_engineering": {
+    "technical_indicators": {
+      "enabled": true,
+      "momentum": {
+        "rsi": {"period": 14},
+        "macd": {"fast": 12, "slow": 26, "signal": 9},
+        "stochastic": {"k_period": 14, "d_period": 3},
+        "williams_r": {"period": 14},
+        "cci": {"period": 20}
+      },
+      "trend": {
+        "sma": {"periods": [5, 10, 20, 50, 200]},
+        "ema": {"periods": [5, 10, 20, 50, 200]},
+        "bollinger_bands": {"period": 20, "std_dev": 2},
+        "supertrend": {"period": 10, "multiplier": 3}
+      },
+      "volatility": {
+        "atr": {"period": 14},
+        "historical_volatility": {"period": 20},
+        "keltner_channels": {"period": 20, "multiplier": 2}
+      },
+      "volume": {
+        "obv": {"enabled": true},
+        "vwap": {"enabled": true},
+        "volume_sma": {"period": 20},
+        "volume_ratio": {"enabled": true}
+      }
+    },
+    "economic_indicators": {
+      "enabled": true,
+      "sources": ["trading_economics"],
+      "indicators": [
+        "gdp_growth",
+        "inflation_rate",
+        "unemployment_rate",
+        "interest_rate",
+        "currency_rates"
+      ]
+    },
+    "sentiment_analysis": {
+      "enabled": false,
+      "sources": ["news"],
+      "methods": ["vader", "textblob"]
+    }
+  },
+  "data_export": {
+    "formats": ["csv", "json"],
+    "destinations": ["local", "cloud"],
+    "versioning": {
+      "enabled": true,
+      "retention_days": 90
+    },
+    "metadata": {
+      "include_pipeline_info": true,
+      "include_data_lineage": true,
+      "include_quality_metrics": true
+    }
+  },
+  "monitoring": {
+    "enabled": true,
+    "metrics": {
+      "pipeline_duration": true,
+      "data_quality_score": true,
+      "error_rate": true,
+      "throughput": true
+    },
+    "alerts": {
+      "email_notifications": false,
+      "slack_notifications": false,
+      "log_level": "INFO"
+    },
+    "health_checks": {
+      "data_freshness": {
+        "max_age_hours": 24
+      },
+      "data_completeness": {
+        "min_records": 10
+      },
+      "pipeline_status": {
+        "check_interval_minutes": 30
+      }
+    }
+  },
+  "storage": {
+    "raw_data": {
+      "path": "data/raw",
+      "retention_days": 365,
+      "compression": "gzip"
+    },
+    "processed_data": {
+      "path": "data/processed", 
+      "retention_days": 180,
+      "backup_enabled": true
+    },
+    "features": {
+      "path": "data/features",
+      "retention_days": 90,
+      "versioning": true
+    },
+    "models": {
+      "path": "data/models",
+      "retention_days": 365,
+      "versioning": true
+    },
+    "exports": {
+      "path": "data/exports",
+      "retention_days": 30,
+      "auto_cleanup": true
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "handlers": {
+      "console": {
+        "enabled": true,
+        "level": "INFO"
+      },
+      "file": {
+        "enabled": true,
+        "level": "DEBUG",
+        "path": "logs/pipeline.log",
+        "max_size_mb": 100,
+        "backup_count": 5
+      }
+    }
+  }
+}

@@ -7,13 +7,22 @@
 https://taiwan-howard-lee.github.io
 ```
 
-### **📊 Start Continuous Data Collection**
+### **📊 Start Enhanced Data Collection (RECOMMENDED)**
 ```bash
-# 8-hour collection session (recommended)
-python3 run_continuous_collection.py --hours 8
+# 8-hour ENHANCED collection (maximum diversity)
+python3 run_enhanced_collection.py --hours 8
 
-# Overnight collection (12 hours)
-python3 run_continuous_collection.py --hours 12
+# Test enhanced strategy (5 minutes)
+python3 run_enhanced_collection.py --test
+
+# Compare basic vs enhanced strategies
+python3 compare_collection_strategies.py
+```
+
+### **📊 Basic Data Collection (Legacy)**
+```bash
+# 8-hour basic collection session
+python3 run_continuous_collection.py --hours 8
 
 # Quick test (2 minutes)
 python3 test_continuous_collector.py
@@ -30,12 +39,17 @@ python3 test_polygon_collector.py
 
 ## 📈 **Expected Results**
 
-### **8-Hour Collection Session:**
+### **8-Hour Enhanced Collection Session:**
 - **2,400 API calls** to Polygon.io (5 per minute × 480 minutes)
-- **~500 AAPL data points** (current prices + historical)
-- **~200 news articles** about Apple and market
-- **~50 dividend records** 
-- **~100 related ticker data** (SPY, QQQ, MSFT, GOOGL, TSLA, NVDA)
+- **31 unique tickers** (vs 7 basic) - 343% more coverage
+- **16 time periods** (1d to 365d) - 220% more diversity
+- **90%+ fresh data** (vs 60% basic) - smart deduplication
+- **~800 AAPL data points** (comprehensive historical coverage)
+- **~400 news articles** (varied limits: 3-25 articles)
+- **~100 dividend records** across all tickers
+- **Tech sector coverage**: MSFT, GOOGL, AMZN, META, TSLA, NVDA, NFLX, ADBE
+- **Market ETFs**: SPY, QQQ, IWM, VTI, VOO, GLD, TLT
+- **Sector ETFs**: XLK, XLF, XLE, XLV, XLI, XLY, XLP
 - **135 economic indicators** from Trading Economics
 - **4 currency pairs** (USD/MXN, USD/SEK, etc.)
 

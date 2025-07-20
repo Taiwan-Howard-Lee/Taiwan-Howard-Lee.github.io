@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-07-20T14:38:45.907902",
+  "overall_status": "failed",
+  "sources": {
+    "polygon": {
+      "source": "polygon",
+      "total_files": 2,
+      "valid_files": 1,
+      "invalid_files": 1,
+      "warnings": [],
+      "errors": [
+        "Missing required key: metadata",
+        "Missing required key: data",
+        "Missing required key: metrics"
+      ],
+      "file_results": {
+        "AAPL_news_20250720_143837.json": {
+          "file": "AAPL_news_20250720_143837.json",
+          "valid": false,
+          "warnings": [],
+          "errors": [
+            "Missing required key: metadata",
+            "Missing required key: data",
+            "Missing required key: metrics"
+          ],
+          "checks_performed": [
+            "polygon_structure"
+          ]
+        },
+        "AAPL_batch_20250720_143837.json": {
+          "file": "AAPL_batch_20250720_143837.json",
+          "valid": true,
+          "warnings": [],
+          "errors": [],
+          "checks_performed": [
+            "polygon_structure"
+          ]
+        }
+      }
+    },
+    "sessions": {
+      "source": "sessions",
+      "total_files": 0,
+      "valid_files": 0,
+      "invalid_files": 0,
+      "warnings": [],
+      "errors": [],
+      "file_results": {}
+    },
+    "trading_economics": {
+      "source": "trading_economics",
+      "total_files": 0,
+      "valid_files": 0,
+      "invalid_files": 0,
+      "warnings": [],
+      "errors": [],
+      "file_results": {}
+    }
+  },
+  "summary": {
+    "total_files": 2,
+    "valid_files": 1,
+    "invalid_files": 1,
+    "warnings": 0,
+    "errors": 3
+  }
+}
