@@ -1,5 +1,36 @@
 {
   "data_sources": {
+    "eodhd": {
+      "type": "freemium",
+      "rate_limit": "1_per_second",
+      "data_types": [
+        "eod",
+        "fundamentals",
+        "news",
+        "sentiment",
+        "intraday",
+        "technical",
+        "options",
+        "dividends",
+        "splits"
+      ],
+      "symbols_supported": "global_150k_tickers",
+      "features": [
+        "comprehensive_fundamentals",
+        "news_sentiment_analysis",
+        "30_years_historical",
+        "technical_indicators",
+        "options_data",
+        "insider_transactions",
+        "earnings_calendar"
+      ],
+      "collector_class": "EODHDCollector",
+      "api_key": "687c985a3deee0.98552733",
+      "api_key_required": true,
+      "enabled": true,
+      "priority": 1,
+      "description": "EODHD - Most comprehensive financial data API with news and sentiment"
+    },
     "yahoo_finance": {
       "type": "free",
       "rate_limit": "unlimited",
@@ -88,6 +119,7 @@
     }
   },
   "integration_priority": [
+    "eodhd",
     "yahoo_finance",
     "alpha_vantage",
     "polygon",

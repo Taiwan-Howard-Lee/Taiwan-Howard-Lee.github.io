@@ -1,0 +1,10 @@
+{
+  "collection_date": "2025-07-20T15:34:38.442078",
+  "symbols_processed": 2,
+  "symbols_failed": 0,
+  "total_requests": 30,
+  "symbols": [
+    "AAPL.US",
+    "MSFT.US"
+  ]
+}
