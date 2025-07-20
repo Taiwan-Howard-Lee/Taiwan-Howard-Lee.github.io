@@ -1,0 +1,72 @@
+name: Test Apple ML Trading System
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, '3.10', '3.11']
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    - name: Cache pip packages
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run setup tests
+      run: |
+        python scripts/test_setup.py
+    
+    - name: Test data collection
+      run: |
+        python -c "
+        from src.data_collection.apple_collector import AppleDataCollector
+        collector = AppleDataCollector()
+        data = collector.fetch_daily_data(period='5d')
+        assert data is not None and not data.empty
+        print('✅ Data collection test passed')
+        "
+    
+    - name: Test technical indicators
+      run: |
+        python -c "
+        from src.data_collection.apple_collector import AppleDataCollector
+        from src.feature_engineering.technical_indicators import TechnicalIndicators
+        collector = AppleDataCollector()
+        data = collector.fetch_daily_data(period='1mo')
+        indicators = TechnicalIndicators(data)
+        ma_data = indicators.moving_averages([20, 50])
+        assert not ma_data.empty
+        print('✅ Technical indicators test passed')
+        "
+    
+    - name: Test dashboard imports
+      run: |
+        python -c "
+        import sys
+        import os
+        sys.path.append('.')
+        from dashboard.app import setup_page_config, load_apple_data
+        print('✅ Dashboard imports test passed')
+        "
